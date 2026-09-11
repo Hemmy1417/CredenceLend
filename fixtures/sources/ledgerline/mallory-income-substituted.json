@@ -1,0 +1,23 @@
+{
+  "document_type": "INCOME_STATEMENT",
+  "issuer": "Ledgerline",
+  "wallet": "0xbdc52549285a5fd6ba4354f1e9d9301721f592c0",
+  "as_of": "2026-08-31",
+  "currency": "USD",
+  "period_months": 3,
+  "total_minor": 900000,
+  "lines": [
+    {
+      "description": "June 2026 consulting retainer",
+      "amount_minor": 300000
+    },
+    {
+      "description": "July 2026 consulting retainer",
+      "amount_minor": 300000
+    },
+    {
+      "description": "August 2026 consulting retainer",
+      "amount_minor": 300000
+    }
+  ]
+}

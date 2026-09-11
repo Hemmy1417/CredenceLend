@@ -1,0 +1,4 @@
+[Screenshot: LendHub dashboard, captured 2026-08-30]
+Wallet 0xbdc52549285a5fd6ba4354f1e9d9301721f592c1
+Loans repaid: 12    Defaults: 0    Liquidations: 0
+Credit tier: Platinum

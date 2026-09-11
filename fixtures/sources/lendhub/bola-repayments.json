@@ -1,0 +1,42 @@
+{
+  "document_type": "REPAYMENT_HISTORY",
+  "issuer": "LendHub",
+  "wallet": "0x04ccde179d9b2a799bc1850a20745f33049ebbaa",
+  "as_of": "2026-08-31",
+  "currency": "USD",
+  "total_loans": 4,
+  "loans": [
+    {
+      "loan_id": "L-2001",
+      "principal_minor": 300000,
+      "currency": "USD",
+      "opened": "2025-01-06",
+      "closed": "2025-04-07",
+      "status": "REPAID"
+    },
+    {
+      "loan_id": "L-2002",
+      "principal_minor": 300000,
+      "currency": "USD",
+      "opened": "2025-05-05",
+      "closed": "2025-08-04",
+      "status": "REPAID"
+    },
+    {
+      "loan_id": "L-2003",
+      "principal_minor": 500000,
+      "currency": "USD",
+      "opened": "2025-09-01",
+      "closed": "2026-02-02",
+      "status": "REPAID"
+    },
+    {
+      "loan_id": "L-2004",
+      "principal_minor": 700000,
+      "currency": "USD",
+      "opened": "2026-03-02",
+      "closed": "2026-05-12",
+      "status": "LIQUIDATED"
+    }
+  ]
+}

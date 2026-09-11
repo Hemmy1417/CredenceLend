@@ -1,0 +1,58 @@
+{
+  "document_type": "REPAYMENT_HISTORY",
+  "issuer": "LendHub",
+  "wallet": "0x8b458c4d99b7f13268e24e372fbd1a2e7f62ec8e",
+  "as_of": "2026-08-31",
+  "currency": "USD",
+  "total_loans": 6,
+  "loans": [
+    {
+      "loan_id": "L-3001",
+      "principal_minor": 200000,
+      "currency": "USD",
+      "opened": "2023-07-03",
+      "closed": "2023-10-02",
+      "status": "REPAID"
+    },
+    {
+      "loan_id": "L-3002",
+      "principal_minor": 250000,
+      "currency": "USD",
+      "opened": "2023-11-06",
+      "closed": "2024-02-05",
+      "status": "REPAID"
+    },
+    {
+      "loan_id": "L-3003",
+      "principal_minor": 300000,
+      "currency": "USD",
+      "opened": "2024-03-04",
+      "closed": "2024-06-03",
+      "status": "REPAID"
+    },
+    {
+      "loan_id": "L-3004",
+      "principal_minor": 300000,
+      "currency": "USD",
+      "opened": "2024-08-05",
+      "closed": "2024-11-04",
+      "status": "REPAID"
+    },
+    {
+      "loan_id": "L-3005",
+      "principal_minor": 400000,
+      "currency": "USD",
+      "opened": "2025-01-06",
+      "closed": "2025-06-02",
+      "status": "REPAID"
+    },
+    {
+      "loan_id": "L-3006",
+      "principal_minor": 400000,
+      "currency": "USD",
+      "opened": "2025-08-04",
+      "closed": "2026-01-05",
+      "status": "REPAID"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "document_type": "LENDING_POSITIONS",
+  "issuer": "LendHub",
+  "wallet": "0x8733914652b61ad1ddc5b227942f6a906722a70f",
+  "as_of": "2026-08-31",
+  "currency": "USD",
+  "positions": [
+    {
+      "protocol": "LendHub ETH market",
+      "collateral_minor": 5000000,
+      "debt_minor": 1000000,
+      "currency": "USD"
+    }
+  ]
+}

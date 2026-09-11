@@ -1,0 +1,23 @@
+{
+  "document_type": "INCOME_STATEMENT",
+  "issuer": "Ledgerline",
+  "wallet": "0x4237f72c6cf82a564d2ccd28844267d82943673f",
+  "as_of": "2026-08-31",
+  "currency": "USD",
+  "period_months": 3,
+  "total_minor": 1500000,
+  "lines": [
+    {
+      "description": "June 2026 salary - Northwind Logistics Ltd",
+      "amount_minor": 500000
+    },
+    {
+      "description": "July 2026 salary - Northwind Logistics Ltd",
+      "amount_minor": 500000
+    },
+    {
+      "description": "August 2026 salary - Northwind Logistics Ltd",
+      "amount_minor": 500000
+    }
+  ]
+}

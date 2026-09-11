@@ -1,0 +1,23 @@
+{
+  "document_type": "INCOME_STATEMENT",
+  "issuer": "Ledgerline",
+  "wallet": "0x8733914652b61ad1ddc5b227942f6a906722a70f",
+  "as_of": "2026-08-31",
+  "currency": "USD",
+  "period_months": 3,
+  "total_minor": 300000,
+  "lines": [
+    {
+      "description": "June 2026 advisory fees",
+      "amount_minor": 100000
+    },
+    {
+      "description": "July 2026 advisory fees",
+      "amount_minor": 100000
+    },
+    {
+      "description": "August 2026 advisory fees",
+      "amount_minor": 100000
+    }
+  ]
+}

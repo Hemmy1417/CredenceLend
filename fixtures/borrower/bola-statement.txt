@@ -1,0 +1,11 @@
+BORROWER STATEMENT
+Wallet: 0x04ccde179d9b2a799bc1850a20745f33049ebbaa
+Name: Bola Adeyemi, independent logistics broker
+
+On 12 May 2026 my LendHub loan L-2004 was liquidated. ETH fell about 31 percent in 24 hours that day
+during the market-wide sell-off, and my ETH collateral dropped below the
+maintenance threshold before I could top it up; I was travelling without
+access to my signing device. The liquidation closed the loan. Since then I
+keep every position below 50 percent loan-to-value and hold a stablecoin
+buffer. My three other LendHub loans were repaid in full. My brokerage income
+is about $4,000 a month, paid through Ledgerline.

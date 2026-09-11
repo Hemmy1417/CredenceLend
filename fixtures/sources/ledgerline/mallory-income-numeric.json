@@ -1,0 +1,4 @@
+{"document_type": "INCOME_STATEMENT", "issuer": "Ledgerline", "wallet": "0xbdc52549285a5fd6ba4354f1e9d9301721f592c1", "as_of": "2026-08-31", "currency": "USD", "period_months": 3, "total_minor": 900000.50,
+ "lines": [{"description": "June retainer", "amount_minor": -300000},
+  {"description": "July retainer", "amount_minor": NaN},
+  {"description": "August retainer", "amount_minor": 1e308}]}

@@ -1,0 +1,16 @@
+{
+  "document_type": "LIQUIDATION_RECORD",
+  "issuer": "LendHub",
+  "wallet": "0x04ccde179d9b2a799bc1850a20745f33049ebbaa",
+  "as_of": "2026-08-31",
+  "currency": "USD",
+  "events": [
+    {
+      "event_id": "LQ-0077",
+      "date": "2026-05-12",
+      "amount_minor": 710000,
+      "loan_id": "L-2004",
+      "cause": "collateral value fell below the maintenance threshold"
+    }
+  ]
+}

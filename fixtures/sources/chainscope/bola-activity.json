@@ -1,0 +1,11 @@
+{
+  "document_type": "ONCHAIN_ACTIVITY",
+  "issuer": "Chainscope",
+  "wallet": "0x04ccde179d9b2a799bc1850a20745f33049ebbaa",
+  "as_of": "2026-08-31",
+  "first_activity": "2024-12-20",
+  "months_active": 20,
+  "transaction_count": 610,
+  "volume_minor": 9100000,
+  "currency": "USD"
+}

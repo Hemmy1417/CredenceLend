@@ -1,0 +1,35 @@
+{
+  "document_type": "INCOME_STATEMENT",
+  "issuer": "Ledgerline",
+  "wallet": "0x04ccde179d9b2a799bc1850a20745f33049ebbaa",
+  "as_of": "2026-08-31",
+  "currency": "USD",
+  "period_months": 6,
+  "total_minor": 2400000,
+  "lines": [
+    {
+      "description": "March 2026 brokerage fees",
+      "amount_minor": 400000
+    },
+    {
+      "description": "April 2026 brokerage fees",
+      "amount_minor": 400000
+    },
+    {
+      "description": "May 2026 brokerage fees",
+      "amount_minor": 400000
+    },
+    {
+      "description": "June 2026 brokerage fees",
+      "amount_minor": 400000
+    },
+    {
+      "description": "July 2026 brokerage fees",
+      "amount_minor": 400000
+    },
+    {
+      "description": "August 2026 brokerage fees",
+      "amount_minor": 400000
+    }
+  ]
+}

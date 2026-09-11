@@ -1,0 +1,5 @@
+Image: lendhub-dashboard.png
+EXIF Software: Adobe Photoshop 25.0
+EXIF DateTimeOriginal: 2026:08:30 10:14:02
+EXIF ModifyDate: 2026:09:02 22:41:17
+Caption: LendHub dashboard for wallet 0xbdc52549285a5fd6ba4354f1e9d9301721f592c1 showing 12 loans repaid and no defaults.

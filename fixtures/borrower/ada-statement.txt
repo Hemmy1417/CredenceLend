@@ -1,0 +1,10 @@
+BORROWER STATEMENT
+Wallet: 0xeab69186bdc375034f57875b5c03f0ab77680568
+Name: Ada Mensah, founder of Mensah Studio (brand and packaging design)
+
+I am applying for a USDC working-capital line to cover supplier deposits for
+a packaging order. The studio has invoiced about $4,500 a month over the last
+quarter, paid through Ledgerline. I have borrowed from LendHub four times
+since 2024 and repaid each loan in full; I have no defaults and no
+liquidations. My only open position is a LendHub USDC market deposit that
+secures an $8,000 balance.

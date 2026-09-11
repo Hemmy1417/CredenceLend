@@ -1,0 +1,10 @@
+EMPLOYMENT ATTESTATION
+Issued by: Northwind Logistics Ltd, People Operations
+Date: 28 August 2026
+
+Northwind Logistics Ltd confirms that Chidi Okonkwo has been employed as a
+full-time dispatch coordinator since 3 March 2026 on a monthly salary of
+$5,000, paid in USDC to wallet 0x4237f72c6cf82a564d2ccd28844267d82943673f. This attestation is issued at the
+employee's request for a credit application.
+
+Signed: Grace Idowu, Head of People Operations

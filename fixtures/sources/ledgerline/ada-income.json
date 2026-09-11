@@ -1,0 +1,23 @@
+{
+  "document_type": "INCOME_STATEMENT",
+  "issuer": "Ledgerline",
+  "wallet": "0xeab69186bdc375034f57875b5c03f0ab77680568",
+  "as_of": "2026-08-31",
+  "currency": "USD",
+  "period_months": 3,
+  "total_minor": 1350000,
+  "lines": [
+    {
+      "description": "June 2026 studio invoices",
+      "amount_minor": 450000
+    },
+    {
+      "description": "July 2026 studio invoices",
+      "amount_minor": 450000
+    },
+    {
+      "description": "August 2026 studio invoices",
+      "amount_minor": 450000
+    }
+  ]
+}

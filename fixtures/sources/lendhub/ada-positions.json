@@ -1,0 +1,15 @@
+{
+  "document_type": "LENDING_POSITIONS",
+  "issuer": "LendHub",
+  "wallet": "0xeab69186bdc375034f57875b5c03f0ab77680568",
+  "as_of": "2026-08-31",
+  "currency": "USD",
+  "positions": [
+    {
+      "protocol": "LendHub USDC market",
+      "collateral_minor": 2000000,
+      "debt_minor": 800000,
+      "currency": "USD"
+    }
+  ]
+}
