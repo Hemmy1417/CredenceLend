@@ -119,7 +119,24 @@ verdict depends on them.
 ## Model diversity
 
 StudioNet validators run different model families. The prompt partitions the
-indicator questions so each inconsistency has exactly one home, grounding is
-word-level (a quote joining two lines or dropping punctuation still grounds),
-and every quote shape a model returns is accepted and then grounded. Findings
-are still compared strictly.
+questions so each problem has exactly one home - a document's own
+authenticity, a contradiction involving the borrower's statement, a conflict
+between issuers, an injected instruction - grounding is word-level (a quote
+joining two lines or dropping punctuation still grounds), and every quote
+shape a model returns is accepted and then grounded. Findings are still
+compared strictly.
+
+Two of these rules came from disposable diagnostic deployments before the
+canonical one (`deploy/diagnostics/`):
+
+- Models read `"amount_minor": 450000` as 450,000 USD rather than 4,500.00
+  USD, and judged an accurate borrower statement a hundredfold
+  understatement - all validators agreeing in one round, splitting in
+  another. Facts shown to the panel now carry every money value converted by
+  code (`_fact_for_panel`, `amounts_in_currency`), and the prompt defines
+  `_minor`. The model is never asked to do the arithmetic.
+- A credit page carrying an injected instruction was also called
+  "manipulated" by one model family and not by others. The prompt now says an
+  injected instruction belongs to `INSTRUCTION_INJECTION` and a disagreement
+  with other documents to the contradiction questions; neither, by itself,
+  makes a document `MANIPULATION_INDICATED`.

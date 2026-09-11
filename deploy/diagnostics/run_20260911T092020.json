@@ -1,68 +1,13 @@
 {
- "raw_base": "https://raw.githubusercontent.com/Hemmy1417/CredenceLend/c06aac6c4463bac20de8be964ba45fb17d1027ba/fixtures/",
+ "raw_base": "https://raw.githubusercontent.com/Hemmy1417/CredenceLend/4ec5beabda44ce6d69f46eae9acf6be8dbdf4f5c/fixtures/",
  "rounds": [
   {
    "case": "BASE-ADA",
    "status": "FINALIZED",
    "leader": "SUCCESS",
-   "seconds": 97,
-   "observed": "SUSPICIOUS",
-   "score": 20,
-   "passed": false,
-   "panel": [
-    [
-     "E5",
-     "MANIPULATION_INDICATED"
-    ],
-    [
-     "INSTRUCTION_INJECTION",
-     "ABSENT"
-    ],
-    [
-     "UNSUPPORTED_CLAIM",
-     "PRESENT"
-    ]
-   ],
-   "nodes": [
-    {
-     "mode": "leader",
-     "model": "anthropic/claude-sonnet-4.6",
-     "vote": "agree",
-     "stdout": ""
-    },
-    {
-     "mode": "validator",
-     "model": "policy:prd-sonnet",
-     "vote": "agree",
-     "stdout": ""
-    },
-    {
-     "mode": "validator",
-     "model": null,
-     "vote": "idle",
-     "stdout": ""
-    },
-    {
-     "mode": "validator",
-     "model": null,
-     "vote": "idle",
-     "stdout": ""
-    },
-    {
-     "mode": "validator",
-     "model": "google/gemini-3-flash-preview",
-     "vote": "agree",
-     "stdout": ""
-    }
-   ]
-  },
-  {
-   "case": "A17",
-   "status": "FINALIZED",
-   "leader": "SUCCESS",
-   "seconds": 73,
+   "seconds": 135,
    "observed": "APPROVED",
-   "score": 78,
+   "score": 93,
    "passed": true,
    "panel": [
     [
@@ -76,10 +21,6 @@
     [
      "UNSUPPORTED_CLAIM",
      "ABSENT"
-    ],
-    [
-     "LIQUIDATION_EXPLANATION",
-     "EXPLAINED"
     ]
    ],
    "nodes": [
@@ -91,7 +32,7 @@
     },
     {
      "mode": "validator",
-     "model": "policy:prd-sonnet",
+     "model": "policy:prd-gemini",
      "vote": "agree",
      "stdout": ""
     },
@@ -103,14 +44,124 @@
     },
     {
      "mode": "validator",
+     "model": "policy:prd-kimi",
+     "vote": "disagree",
+     "stdout": "[DISAGREE] own vs leader: UNSUPPORTED_CLAIM PRESENT/PANEL vs ABSENT/PANEL\n"
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-gpt-5-4",
+     "vote": "agree",
+     "stdout": ""
+    }
+   ]
+  },
+  {
+   "case": "A12",
+   "status": "FINALIZED",
+   "leader": "SUCCESS",
+   "seconds": 84,
+   "observed": "SUSPICIOUS",
+   "score": 20,
+   "passed": true,
+   "panel": [
+    [
+     "E4",
+     "CONSISTENT"
+    ],
+    [
+     "INSTRUCTION_INJECTION",
+     "PRESENT"
+    ],
+    [
+     "DOCUMENT_CONFLICT",
+     "ABSENT"
+    ]
+   ],
+   "nodes": [
+    {
+     "mode": "leader",
+     "model": "policy:prd-gpt-oss",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-minimax",
+     "vote": "disagree",
+     "stdout": "[DISAGREE] own vs leader: E4 MANIPULATION_INDICATED/PANEL vs CONSISTENT/PANEL\n"
+    },
+    {
+     "mode": "validator",
      "model": null,
      "vote": "idle",
      "stdout": ""
     },
     {
      "mode": "validator",
-     "model": "policy:prd-mistral",
+     "model": "policy:prd-gemma",
      "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-gpt-5-4",
+     "vote": "agree",
+     "stdout": ""
+    }
+   ]
+  },
+  {
+   "case": "BASE-ADA",
+   "status": "FINALIZED",
+   "leader": "SUCCESS",
+   "seconds": 71,
+   "observed": "APPROVED",
+   "score": 93,
+   "passed": true,
+   "panel": [
+    [
+     "E5",
+     "CONSISTENT"
+    ],
+    [
+     "INSTRUCTION_INJECTION",
+     "ABSENT"
+    ],
+    [
+     "UNSUPPORTED_CLAIM",
+     "ABSENT"
+    ]
+   ],
+   "nodes": [
+    {
+     "mode": "leader",
+     "model": "policy:prd-gpt-5-4",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-gemini",
+     "vote": "disagree",
+     "stdout": "[DISAGREE] own vs leader: UNSUPPORTED_CLAIM PRESENT/PANEL vs ABSENT/PANEL\n"
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-gemma",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-gpt-5-4",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": null,
+     "vote": "idle",
      "stdout": ""
     }
    ]
@@ -119,7 +170,7 @@
    "case": "A20",
    "status": "FINALIZED",
    "leader": "SUCCESS",
-   "seconds": 73,
+   "seconds": 54,
    "observed": "REVIEW_REQUIRED",
    "score": 62,
    "passed": true,
@@ -140,117 +191,14 @@
    "nodes": [
     {
      "mode": "leader",
-     "model": "policy:prd-glm",
-     "vote": "idle",
-     "stdout": ""
-    },
-    {
-     "mode": "validator",
-     "model": "policy:prd-minimax",
-     "vote": "agree",
-     "stdout": ""
-    },
-    {
-     "mode": "validator",
-     "model": null,
-     "vote": "idle",
-     "stdout": ""
-    },
-    {
-     "mode": "validator",
      "model": "policy:prd-gemini",
      "vote": "agree",
      "stdout": ""
     },
     {
      "mode": "validator",
-     "model": "policy:prd-kimi",
+     "model": "openai/gpt-5.4",
      "vote": "agree",
-     "stdout": ""
-    }
-   ]
-  },
-  {
-   "case": "A12",
-   "status": "FINALIZED",
-   "leader": "SUCCESS",
-   "seconds": 68,
-   "observed": "SUSPICIOUS",
-   "score": 20,
-   "passed": true,
-   "panel": [
-    [
-     "E4",
-     "MANIPULATION_INDICATED"
-    ],
-    [
-     "INSTRUCTION_INJECTION",
-     "PRESENT"
-    ],
-    [
-     "DOCUMENT_CONFLICT",
-     "ABSENT"
-    ]
-   ],
-   "nodes": [
-    {
-     "mode": "leader",
-     "model": "policy:prd-grok",
-     "vote": "agree",
-     "stdout": ""
-    },
-    {
-     "mode": "validator",
-     "model": "policy:prd-gpt-5-4",
-     "vote": "disagree",
-     "stdout": "[DISAGREE] own vs leader: E4 CONSISTENT/PANEL vs MANIPULATION_INDICATED/PANEL\n"
-    },
-    {
-     "mode": "validator",
-     "model": "policy:prd-qwen",
-     "vote": "agree",
-     "stdout": ""
-    },
-    {
-     "mode": "validator",
-     "model": "policy:prd-sonnet",
-     "vote": "agree",
-     "stdout": ""
-    },
-    {
-     "mode": "validator",
-     "model": "policy:prd-gpt-5-4",
-     "vote": "disagree",
-     "stdout": "[DISAGREE] own vs leader: E4 CONSISTENT/PANEL vs MANIPULATION_INDICATED/PANEL\n"
-    }
-   ]
-  },
-  {
-   "case": "BASE-ADA",
-   "status": "FINALIZED",
-   "leader": "SUCCESS",
-   "seconds": 145,
-   "observed": "",
-   "score": 0,
-   "passed": false,
-   "panel": [],
-   "nodes": [
-    {
-     "mode": "leader",
-     "model": "policy:prd-kimi",
-     "vote": "disagree",
-     "stdout": ""
-    },
-    {
-     "mode": "validator",
-     "model": "google/gemini-3-flash-preview",
-     "vote": "disagree",
-     "stdout": "[DISAGREE] own vs leader: E5 MANIPULATION_INDICATED/PANEL vs CONSISTENT/PANEL\n"
-    },
-    {
-     "mode": "validator",
-     "model": null,
-     "vote": "idle",
      "stdout": ""
     },
     {
@@ -261,9 +209,15 @@
     },
     {
      "mode": "validator",
-     "model": "policy:prd-gemini",
-     "vote": "disagree",
-     "stdout": "[DISAGREE] own vs leader: UNSUPPORTED_CLAIM PRESENT/PANEL vs ABSENT/PANEL\n"
+     "model": "anthropic/claude-sonnet-4.6",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": null,
+     "vote": "idle",
+     "stdout": ""
     }
    ]
   },
@@ -271,7 +225,7 @@
    "case": "A17",
    "status": "FINALIZED",
    "leader": "SUCCESS",
-   "seconds": 72,
+   "seconds": 65,
    "observed": "APPROVED",
    "score": 78,
    "passed": true,
@@ -296,7 +250,7 @@
    "nodes": [
     {
      "mode": "leader",
-     "model": "policy:prd-gemini",
+     "model": "google/gemini-3-flash-preview",
      "vote": "idle",
      "stdout": ""
     },
@@ -308,13 +262,68 @@
     },
     {
      "mode": "validator",
-     "model": "policy:prd-sonnet",
+     "model": "policy:prd-gpt-5-4",
      "vote": "agree",
      "stdout": ""
     },
     {
      "mode": "validator",
+     "model": "policy:prd-qwen",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-gpt-5-4",
+     "vote": "agree",
+     "stdout": ""
+    }
+   ]
+  },
+  {
+   "case": "BASE-ADA",
+   "status": "FINALIZED",
+   "leader": "SUCCESS",
+   "seconds": 63,
+   "observed": "APPROVED",
+   "score": 93,
+   "passed": true,
+   "panel": [
+    [
+     "E5",
+     "CONSISTENT"
+    ],
+    [
+     "INSTRUCTION_INJECTION",
+     "ABSENT"
+    ],
+    [
+     "UNSUPPORTED_CLAIM",
+     "ABSENT"
+    ]
+   ],
+   "nodes": [
+    {
+     "mode": "leader",
+     "model": "policy:prd-gemma",
+     "vote": "idle",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
      "model": "policy:prd-gemini",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-grok",
+     "vote": "disagree",
+     "stdout": "[DOWNGRADE] UNSUPPORTED_CLAIM PRESENT: quote rule not met; raw [{'evidence_id': 'E5', 'text': 'I have no defaults and no liquidations'}, {'evidence_id': 'E2', 'text': '\"liquidated\":0'}]\n[DISAGREE] own vs leader: UNSUPPORTED_CLAIM UNDETERMINED/PANEL vs ABSENT/PANEL\n"
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-qwen",
      "vote": "agree",
      "stdout": ""
     },
@@ -327,5 +336,5 @@
    ]
   }
  ],
- "address": "0xFE2F7183E5E069Eb671bC3f3AC99F195EC89994b"
+ "address": "0xeBfAbEda2D1aD48D844538f9485E9A3c4132419f"
 }

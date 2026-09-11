@@ -143,7 +143,10 @@ INDICATOR_QUESTIONS = {
     "UNSUPPORTED_CLAIM":
         "Does the borrower's own statement assert a financial fact - "
         "repayments, defaults, income, balances, liquidations - that the "
-        "other documents or the facts verified by code contradict? Every "
+        "other documents or the facts verified by code CONTRADICT? Only a "
+        "contradiction counts: a claim the records do not mention or cannot "
+        "confirm is ABSENT here, and figures that agree once minor units are "
+        "converted (amounts_in_currency) do not contradict. Every "
         "contradiction that involves the borrower's statement belongs here "
         "and nowhere else.",
     "DOCUMENT_CONFLICT":
@@ -1779,8 +1782,12 @@ def _first_difference(own: dict, theirs: dict) -> str:
             a = own[section][i]
             b = theirs[section][i]
             if a["id"] != b["id"] or a["state"] != b["state"] or a["by"] != b["by"]:
+                # the validator's own quotes and note name the cause of a
+                # split in its stdout; they are printed, never compared
                 return (a["id"] + " " + a["state"] + "/" + a["by"] + " vs "
-                        + b["state"] + "/" + b["by"])
+                        + b["state"] + "/" + b["by"] + "; own quotes "
+                        + repr([q["text"] for q in a["quotes"]])[:300]
+                        + "; own note " + a["note"][:160])
     return ""
 
 
