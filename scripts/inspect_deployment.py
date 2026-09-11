@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Inspect a CredenceLend deployment on StudioNet - read-only, no key.
+"""Inspect a CredenceLend deployment on StudioNet - read-only, no stored key.
 
     python scripts/inspect_deployment.py                    # deploy/deployment.json
     python scripts/inspect_deployment.py 0xADDRESS
@@ -22,7 +22,7 @@ import time
 
 import studionet_transport  # noqa: F401 - retries RPC transport failures
 from deploy_studionet import deployed_source, rpc
-from genlayer_py import create_client
+from genlayer_py import create_account, create_client
 from genlayer_py.chains import studionet
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -34,7 +34,8 @@ def main() -> int:
     args = sys.argv[1:]
     address = args[0] if args else json.loads(RECORD.read_text(encoding="utf-8"))[
         "contract_address"]
-    client = create_client(chain=studionet)
+    # genlayer-py reads need an account object; an ephemeral one signs nothing
+    client = create_client(chain=studionet, account=create_account())
     read = lambda fn, a: client.read_contract(address=address, function_name=fn, args=a)  # noqa: E731
 
     deployed = deployed_source(address)

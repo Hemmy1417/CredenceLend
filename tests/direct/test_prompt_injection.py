@@ -257,3 +257,28 @@ def test_a_manipulated_document_alone_makes_it_suspicious(lend, direct_vm, polic
     record = assess(lend, direct_vm, "ada", policy_id, answer)
     assert present(record) == []
     assert record["verdict"] == "SUSPICIOUS" and record["score"] == 20
+
+
+def test_the_panel_sees_money_in_currency_units(lend, direct_vm, policy_id):
+    """Found live: a model read "amount_minor": 450000 as 450,000 USD and
+    called an accurate statement ("about $4,500 a month") a hundredfold
+    understatement. The prompt now carries every money fact converted by
+    code, and says what _minor means; only such a prompt is answered here."""
+    submit(lend, direct_vm, "ada", BUNDLES["ada"])
+    direct_vm.clear_mocks()
+    serve_all(direct_vm)
+    direct_vm.mock_llm(
+        r"(?s)hundredths of the currency.*\"debt\":\"8,000\.00 USD\".*"
+        r"\"monthly\":\"4,500\.00 USD\"", json.dumps(answer_for("BASE-ADA")))
+    as_sender(direct_vm, "ada")
+    record = lend.get_assessment(lend.request_credit_assessment(wallet("ada"), policy_id))
+    assert record["verdict"] == "APPROVED"
+    assert "verified monthly income 4,500.00 USD" in record["reasoning_summary"]
+    assert "exposure up to 27,000.00 USD" in record["reasoning_summary"]
+
+
+def test_money_text(mod):
+    assert mod._money_text(450000, "USD") == "4,500.00 USD"
+    assert mod._money_text(5, "EUR") == "0.05 EUR"
+    assert mod._money_text(0, "USD") == "0.00 USD"
+    assert mod._money_text(10 ** 15, "USD") == "10,000,000,000,000.00 USD"

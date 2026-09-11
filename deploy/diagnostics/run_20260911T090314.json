@@ -55,6 +55,217 @@
      "stdout": ""
     }
    ]
+  },
+  {
+   "case": "A17",
+   "status": "FINALIZED",
+   "leader": "SUCCESS",
+   "seconds": 73,
+   "observed": "APPROVED",
+   "score": 78,
+   "passed": true,
+   "panel": [
+    [
+     "E5",
+     "CONSISTENT"
+    ],
+    [
+     "INSTRUCTION_INJECTION",
+     "ABSENT"
+    ],
+    [
+     "UNSUPPORTED_CLAIM",
+     "ABSENT"
+    ],
+    [
+     "LIQUIDATION_EXPLANATION",
+     "EXPLAINED"
+    ]
+   ],
+   "nodes": [
+    {
+     "mode": "leader",
+     "model": "policy:prd-deepseek",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-sonnet",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": null,
+     "vote": "idle",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": null,
+     "vote": "idle",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-mistral",
+     "vote": "agree",
+     "stdout": ""
+    }
+   ]
+  },
+  {
+   "case": "A20",
+   "status": "FINALIZED",
+   "leader": "SUCCESS",
+   "seconds": 73,
+   "observed": "REVIEW_REQUIRED",
+   "score": 62,
+   "passed": true,
+   "panel": [
+    [
+     "E3",
+     "CONSISTENT"
+    ],
+    [
+     "INSTRUCTION_INJECTION",
+     "ABSENT"
+    ],
+    [
+     "DOCUMENT_CONFLICT",
+     "ABSENT"
+    ]
+   ],
+   "nodes": [
+    {
+     "mode": "leader",
+     "model": "policy:prd-glm",
+     "vote": "idle",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-minimax",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": null,
+     "vote": "idle",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-gemini",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-kimi",
+     "vote": "agree",
+     "stdout": ""
+    }
+   ]
+  },
+  {
+   "case": "A12",
+   "status": "FINALIZED",
+   "leader": "SUCCESS",
+   "seconds": 68,
+   "observed": "SUSPICIOUS",
+   "score": 20,
+   "passed": true,
+   "panel": [
+    [
+     "E4",
+     "MANIPULATION_INDICATED"
+    ],
+    [
+     "INSTRUCTION_INJECTION",
+     "PRESENT"
+    ],
+    [
+     "DOCUMENT_CONFLICT",
+     "ABSENT"
+    ]
+   ],
+   "nodes": [
+    {
+     "mode": "leader",
+     "model": "policy:prd-grok",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-gpt-5-4",
+     "vote": "disagree",
+     "stdout": "[DISAGREE] own vs leader: E4 CONSISTENT/PANEL vs MANIPULATION_INDICATED/PANEL\n"
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-qwen",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-sonnet",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-gpt-5-4",
+     "vote": "disagree",
+     "stdout": "[DISAGREE] own vs leader: E4 CONSISTENT/PANEL vs MANIPULATION_INDICATED/PANEL\n"
+    }
+   ]
+  },
+  {
+   "case": "BASE-ADA",
+   "status": "FINALIZED",
+   "leader": "SUCCESS",
+   "seconds": 145,
+   "observed": "",
+   "score": 0,
+   "passed": false,
+   "panel": [],
+   "nodes": [
+    {
+     "mode": "leader",
+     "model": "policy:prd-kimi",
+     "vote": "disagree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "google/gemini-3-flash-preview",
+     "vote": "disagree",
+     "stdout": "[DISAGREE] own vs leader: E5 MANIPULATION_INDICATED/PANEL vs CONSISTENT/PANEL\n"
+    },
+    {
+     "mode": "validator",
+     "model": null,
+     "vote": "idle",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": null,
+     "vote": "idle",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-gemini",
+     "vote": "disagree",
+     "stdout": "[DISAGREE] own vs leader: UNSUPPORTED_CLAIM PRESENT/PANEL vs ABSENT/PANEL\n"
+    }
+   ]
   }
  ],
  "address": "0xFE2F7183E5E069Eb671bC3f3AC99F195EC89994b"

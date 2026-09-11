@@ -58,9 +58,9 @@ def deployment():
 @pytest.fixture(scope="module")
 def client():
     import studionet_transport  # noqa: F401
-    from genlayer_py import create_client
+    from genlayer_py import create_account, create_client
     from genlayer_py.chains import studionet
-    return create_client(chain=studionet)
+    return create_client(chain=studionet, account=create_account())
 
 
 def test_deployed_source_is_the_committed_file(deployment):

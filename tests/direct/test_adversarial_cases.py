@@ -9,7 +9,7 @@ import pytest
 
 from tests.direct.support import (
     BUNDLES, CASES, CATALOGUE, assert_bounds, as_sender, assess, bundle_json, finding,
-    present, register_case, run_case, stage, submit, wallet)
+    present, register_case, run_case, stage, submit, wallet, warp)
 
 ONCHAIN = [c["case_id"] for c in CATALOGUE["cases"] if c["onchain"]]
 
@@ -253,3 +253,31 @@ def test_an_impostor_cannot_preregister_someone_elses_loans(lend, direct_vm, pol
     record = assess(lend, direct_vm, "ada", policy_id, CASES["BASE-ADA"]["panel_answer"])
     assert "CROSS_BORROWER_REUSE" not in present(record)
     assert record["verdict"] == "APPROVED"
+
+
+def test_loan_registry_follows_commitment_not_assessment_order(lend, direct_vm, policy_id):
+    """Ada commits her history first; Mallory later commits her own document
+    naming Ada's loans and is assessed first, registering them. Ada's later
+    assessment is not flagged: she committed those loans earlier."""
+    submit(lend, direct_vm, "ada", BUNDLES["ada"])
+    submit(lend, direct_vm, "mallory", CASES["A28"]["evidence"])
+    assess(lend, direct_vm, "mallory", policy_id)
+    record = assess(lend, direct_vm, "ada", policy_id, CASES["BASE-ADA"]["panel_answer"])
+    assert "CROSS_BORROWER_REUSE" not in present(record)
+    assert record["verdict"] == "APPROVED"
+    warp(direct_vm, "2026-09-11T13:00:00Z")
+    again = assess(lend, direct_vm, "mallory", policy_id)       # and Mallory now is
+    assert "CROSS_BORROWER_REUSE" in present(again)
+
+def test_a_borrowers_own_later_export_is_not_reuse(lend, direct_vm, policy_id):
+    """Ada's loans are registered to her at her first assessment; a later
+    export of the same loans, committed by Ada, is her own record."""
+    submit(lend, direct_vm, "ada", BUNDLES["ada"])
+    assess(lend, direct_vm, "ada", policy_id, CASES["BASE-ADA"]["panel_answer"])
+    submit(lend, direct_vm, "ada", [dict(BUNDLES["ada"][1],
+                                         path="sources/lendhub/ada-repayments-reexport.json",
+                                         description="LendHub history, second export")])
+    warp(direct_vm, "2026-09-11T13:00:00Z")
+    record = assess(lend, direct_vm, "ada", policy_id, CASES["BASE-ADA"]["panel_answer"])
+    assert "CROSS_BORROWER_REUSE" not in present(record)
+    assert record["verdict"] == "APPROVED" and record["score_inputs"]["repaid_loans"] == 4
