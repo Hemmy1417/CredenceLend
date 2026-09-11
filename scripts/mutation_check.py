@@ -141,7 +141,7 @@ MUTATIONS = [
      "    score = max(0, min(100, total))\n",
      "    score = min(100, total)\n"),
     ("a liquidation in two records counted twice",
-     "                if status == \"LIQUIDATED\" and loan_id not in loans:\n",
+     "                if status == \"LIQUIDATED\" and ref not in loans:\n",
      "                if status == \"LIQUIDATED\":\n"),
     ("stale documents counted",
      "        if f[\"wallet\"] == ctx[\"wallet\"] and _freshness_of(f, ctx) == \"FRESH\" \\\n",

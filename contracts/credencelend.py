@@ -1227,21 +1227,26 @@ def _code_indicators(ctx: dict, rows: list, facts: list, markers: list,
 
 
 def _liquidations(facts: list, counted: list) -> int:
-    """Distinct liquidated loans across counted repayment histories and
-    liquidation records - one liquidation reported by both counts once."""
+    """Distinct liquidated loans, keyed issuer|loan_id like repaid loans,
+    across counted repayment histories and liquidation records - one
+    liquidation reported twice (two exports, or an export and a record)
+    counts once."""
     loans = []
     for f in facts:
         if f["evidence_id"] not in counted:
             continue
+        issuer = _norm_key(f["issuer"])
         if f["category"] == "REPAYMENT_HISTORY":
             for key in f["keys"]:
                 loan_id, status, _principal = key.split(":")
-                if status == "LIQUIDATED" and loan_id not in loans:
-                    loans.append(loan_id)
+                ref = issuer + "|" + loan_id
+                if status == "LIQUIDATED" and ref not in loans:
+                    loans.append(ref)
         elif f["category"] == "LIQUIDATION_RECORD":
             for loan_id in f["keys"]:
-                if loan_id not in loans:
-                    loans.append(loan_id)
+                ref = issuer + "|" + loan_id
+                if ref not in loans:
+                    loans.append(ref)
     return len(loans)
 
 

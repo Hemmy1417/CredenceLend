@@ -1,0 +1,61 @@
+{
+ "raw_base": "https://raw.githubusercontent.com/Hemmy1417/CredenceLend/c06aac6c4463bac20de8be964ba45fb17d1027ba/fixtures/",
+ "rounds": [
+  {
+   "case": "BASE-ADA",
+   "status": "FINALIZED",
+   "leader": "SUCCESS",
+   "seconds": 97,
+   "observed": "SUSPICIOUS",
+   "score": 20,
+   "passed": false,
+   "panel": [
+    [
+     "E5",
+     "MANIPULATION_INDICATED"
+    ],
+    [
+     "INSTRUCTION_INJECTION",
+     "ABSENT"
+    ],
+    [
+     "UNSUPPORTED_CLAIM",
+     "PRESENT"
+    ]
+   ],
+   "nodes": [
+    {
+     "mode": "leader",
+     "model": "anthropic/claude-sonnet-4.6",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-sonnet",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": null,
+     "vote": "idle",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": null,
+     "vote": "idle",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "google/gemini-3-flash-preview",
+     "vote": "agree",
+     "stdout": ""
+    }
+   ]
+  }
+ ],
+ "address": "0xFE2F7183E5E069Eb671bC3f3AC99F195EC89994b"
+}

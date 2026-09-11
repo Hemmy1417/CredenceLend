@@ -1,4 +1,4 @@
-""Prompt injection: evidence is data, never instructions. Code catches the
+"""Prompt injection: evidence is data, never instructions. Code catches the
 explicit phrasing and hidden text before any model is consulted; the panel
 is asked to name what code cannot see, and must quote it; nothing a model
 says can produce a number."""

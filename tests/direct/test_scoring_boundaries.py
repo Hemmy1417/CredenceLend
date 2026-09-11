@@ -1,4 +1,4 @@
-""The score, the band, exposure and LTV: integer arithmetic owned by code.
+"""The score, the band, exposure and LTV: integer arithmetic owned by code.
 Boundaries are driven through the real contract with policy overrides, and
 the pure scoring helpers are exercised directly for the edges a fixture
 cannot reach cheaply."""
@@ -229,3 +229,16 @@ def test_repaid_loans_are_capped(lend, direct_vm):
     record = run_case(lend, direct_vm, policy_id, "BASE-ADA")
     assert record["score_inputs"]["repaid_loans"] == 4
     assert "SCORE:REPAID_LOANS:+15" in record["reason_codes"]
+
+
+def test_a_liquidation_in_two_exports_counts_once(lend, direct_vm, policy_id):
+    """The liquidated loan appears in two repayment exports and in the
+    liquidation record: one liquidation, keyed by issuer and loan id."""
+    items = list(BUNDLES["bola"][:4]) + [dict(
+        BUNDLES["bola"][1], path="sources/lendhub/bola-repayments-reexport.json",
+        description="LendHub repayment history, second export")]
+    submit(lend, direct_vm, "bola", items)
+    record = assess(lend, direct_vm, "bola", policy_id)
+    assert record["score_inputs"]["liquidations"] == 1
+    assert record["score_inputs"]["repaid_loans"] == 3
+    assert record["score"] == 68 and record["verdict"] == "REVIEW_REQUIRED"

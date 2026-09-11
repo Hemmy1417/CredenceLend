@@ -1,4 +1,4 @@
-""Consensus: the validator reproduces the round from its own fetch and its
+"""Consensus: the validator reproduces the round from its own fetch and its
 own model call, gates the leader's payload against its own verified bytes,
 and compares every decision field. These tests hand the captured validator
 forged leader results (direct_vm.run_validator) and change the validator's

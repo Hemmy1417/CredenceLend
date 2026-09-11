@@ -1,4 +1,4 @@
-""The threat model, executed. Every case in fixtures/cases.json runs twice:
+"""The threat model, executed. Every case in fixtures/cases.json runs twice:
 through the real borrower path (register, commit, request an assessment) and
 through the on-chain adversarial-test engine (register, run, replay). Both
 must give the catalogue's verdict and land inside its score bounds."""

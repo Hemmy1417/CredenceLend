@@ -162,6 +162,11 @@ secures an $8,000 balance.
         ("L-2002", 300000, "2025-05-05", "2025-08-04", "REPAID"),
         ("L-2003", 500000, "2025-09-01", "2026-02-02", "REPAID"),
         ("L-2004", 700000, "2026-03-02", "2026-05-12", "LIQUIDATED")])
+    docs["sources/lendhub/bola-repayments-reexport.json"] = repayments(bola, [
+        ("L-2004", 700000, "2026-03-02", "2026-05-12", "LIQUIDATED"),
+        ("L-2003", 500000, "2025-09-01", "2026-02-02", "REPAID"),
+        ("L-2002", 300000, "2025-05-05", "2025-08-04", "REPAID"),
+        ("L-2001", 300000, "2025-01-06", "2025-04-07", "REPAID")], as_of="2026-08-25")
     docs["sources/lendhub/bola-liquidations.json"] = liquidations(bola, [
         ("LQ-0077", "2026-05-12", 710000, "L-2004", LIQUIDATION_CAUSE)])
     docs["sources/ledgerline/bola-income.json"] = income(
