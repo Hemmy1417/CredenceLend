@@ -1,0 +1,226 @@
+{
+ "raw_base": "https://raw.githubusercontent.com/Hemmy1417/CredenceLend/a261d286dab42db94ab60d708f9eb3761182d969/fixtures/",
+ "rounds": [
+  {
+   "case": "BASE-ADA",
+   "status": "FINALIZED",
+   "leader": "SUCCESS",
+   "seconds": 55,
+   "observed": "APPROVED",
+   "score": 93,
+   "passed": true,
+   "panel": [
+    [
+     "E5",
+     "CONSISTENT"
+    ],
+    [
+     "INSTRUCTION_INJECTION",
+     "ABSENT"
+    ],
+    [
+     "UNSUPPORTED_CLAIM",
+     "ABSENT"
+    ]
+   ],
+   "nodes": [
+    {
+     "mode": "leader",
+     "model": "policy:prd-gpt-5-4",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-grok",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": null,
+     "vote": "idle",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-gemini",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": null,
+     "vote": "idle",
+     "stdout": ""
+    }
+   ]
+  },
+  {
+   "case": "A12",
+   "status": "FINALIZED",
+   "leader": "SUCCESS",
+   "seconds": 78,
+   "observed": "SUSPICIOUS",
+   "score": 20,
+   "passed": true,
+   "panel": [
+    [
+     "E4",
+     "MANIPULATION_INDICATED"
+    ],
+    [
+     "INSTRUCTION_INJECTION",
+     "PRESENT"
+    ],
+    [
+     "DOCUMENT_CONFLICT",
+     "ABSENT"
+    ]
+   ],
+   "nodes": [
+    {
+     "mode": "leader",
+     "model": "policy:prd-grok",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": null,
+     "vote": "idle",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-sonnet",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": null,
+     "vote": "idle",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "anthropic/claude-sonnet-4.6",
+     "vote": "agree",
+     "stdout": ""
+    }
+   ]
+  },
+  {
+   "case": "BASE-ADA",
+   "status": "FINALIZED",
+   "leader": "SUCCESS",
+   "seconds": 55,
+   "observed": "APPROVED",
+   "score": 93,
+   "passed": true,
+   "panel": [
+    [
+     "E5",
+     "CONSISTENT"
+    ],
+    [
+     "INSTRUCTION_INJECTION",
+     "ABSENT"
+    ],
+    [
+     "UNSUPPORTED_CLAIM",
+     "ABSENT"
+    ]
+   ],
+   "nodes": [
+    {
+     "mode": "leader",
+     "model": "policy:prd-grok",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-glm",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-gemini",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": null,
+     "vote": "idle",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": null,
+     "vote": "idle",
+     "stdout": ""
+    }
+   ]
+  },
+  {
+   "case": "BASE-ADA",
+   "status": "FINALIZED",
+   "leader": "SUCCESS",
+   "seconds": 66,
+   "observed": "APPROVED",
+   "score": 93,
+   "passed": true,
+   "panel": [
+    [
+     "E5",
+     "CONSISTENT"
+    ],
+    [
+     "INSTRUCTION_INJECTION",
+     "ABSENT"
+    ],
+    [
+     "UNSUPPORTED_CLAIM",
+     "ABSENT"
+    ]
+   ],
+   "nodes": [
+    {
+     "mode": "leader",
+     "model": "policy:prd-gpt-oss",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "policy:prd-mistral",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": "openai/gpt-5.4",
+     "vote": "agree",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": null,
+     "vote": "idle",
+     "stdout": ""
+    },
+    {
+     "mode": "validator",
+     "model": null,
+     "vote": "idle",
+     "stdout": ""
+    }
+   ]
+  }
+ ],
+ "address": "0xfA6c9c40f54653CF76907f97ff09e0131cE2857E"
+}
