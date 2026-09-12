@@ -296,3 +296,28 @@ def test_the_gate_alone_refuses_panel_forgeries(lend, direct_vm, mod, policy_id)
         state="PRESENT", evidence_ids=["E5"],
         quotes=[{"evidence_id": "E5", "text": "repaid each loan in full"}])
     assert mod._parse_payload(mod._canonical(forged), ctx, texts) is None   # one side only
+
+
+def test_the_gate_alone_refuses_forgeries_on_an_answered_round(lend, direct_vm, mod, policy_id):
+    """When the panel ANSWERED, the recomputed code indicators and the
+    recomputed panel decision are the only things standing between a leader
+    and a rewritten record: a skipped round is caught by its own equality
+    check, so it cannot stand in for this one."""
+    ada_round(lend, direct_vm, policy_id)
+    ctx = captured_ctx(direct_vm)
+    honest = captured_payload(direct_vm)
+    texts = mod._node_round(ctx)[1]
+    assert mod._parse_payload(mod._canonical(honest), ctx, texts) is not None
+    assert honest["panel_state"] == "ASSESSED" and honest["panel_reason"] == ""
+
+    forged = copy.deepcopy(honest)
+    subject(forged, "WALLET_MISMATCH").update(state="PRESENT", evidence_ids=["E1"])
+    assert mod._parse_payload(mod._canonical(forged), ctx, texts) is None
+
+    forged = copy.deepcopy(honest)
+    subject(forged, "CLAIM_OVERSTATED")["state"] = "UNDETERMINED"
+    assert mod._parse_payload(mod._canonical(forged), ctx, texts) is None
+
+    forged = copy.deepcopy(honest)
+    forged["panel_reason"] = "HARD_FACT_PRESENT"
+    assert mod._parse_payload(mod._canonical(forged), ctx, texts) is None

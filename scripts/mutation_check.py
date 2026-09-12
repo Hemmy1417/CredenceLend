@@ -14,8 +14,10 @@ deleted, which is its own finding. Equivalent mutants (a guard that a second
 guard makes unobservable) are not listed; the ones considered and excluded
 are named at the bottom of this file with the reason.
 
-Run:  python scripts/mutation_check.py            (full sweep)
-      python scripts/mutation_check.py --anchors  (anchor check only)
+Run:  python scripts/mutation_check.py             (full sweep)
+      python scripts/mutation_check.py --anchors   (anchor check only)
+      python scripts/mutation_check.py --only gate (only mutations whose name
+                                                    contains "gate")
 """
 
 from __future__ import annotations
@@ -405,9 +407,13 @@ def main() -> None:
         sys.exit(1)
     print("control green\n", flush=True)
 
+    only = ""
+    if "--only" in sys.argv:
+        only = sys.argv[sys.argv.index("--only") + 1].casefold()
+
     killed = survived = 0
     for name, old, new in MUTATIONS:
-        if source.count(old) != 1:
+        if source.count(old) != 1 or (only and only not in name.casefold()):
             continue
         target.write_text(source.replace(old, new), encoding="utf-8", newline="\n")
         passed = run_suite(work)
