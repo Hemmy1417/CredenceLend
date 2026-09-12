@@ -469,10 +469,10 @@
           "method": "run_adversarial_case",
           "status": "FINALIZED",
           "step": "B:A01:run",
-          "tx": "0xd031c84eff8a713fbd1b6a064cd38eb48fcbc2ad8b9ea23fab69d7edd89dfc63",
+          "tx": "0xc0e3a15ed003330ca0003de2597d2a86ca68c8451b3e268ddca6e3f668f43976",
           "votes": [
-            "AGREE",
             "IDLE",
+            "AGREE",
             "IDLE",
             "AGREE",
             "AGREE"
@@ -547,11 +547,11 @@
           "method": "run_adversarial_case",
           "status": "FINALIZED",
           "step": "B:A02:run",
-          "tx": "0xac2669c491c03e0fb547bcbf4ffc77a7ae44fef20d29672825c46dd9e332d784",
+          "tx": "0x8a27dd7b4f462baffc757f0179604f981c3f9ceb57efe66cfa79add87615f13f",
           "votes": [
             "IDLE",
-            "AGREE",
             "IDLE",
+            "AGREE",
             "AGREE",
             "AGREE"
           ]
@@ -623,13 +623,13 @@
           "method": "run_adversarial_case",
           "status": "FINALIZED",
           "step": "B:A03:run",
-          "tx": "0x9909d4c3bb5e31d2b697583988d41b03ee96fe6d73a76d44549a829c75a1b21a",
+          "tx": "0xc3067a14a670332bf39aa5e850c22988ec8ea6a53735dd91bdf61e39696231e9",
           "votes": [
             "AGREE",
-            "AGREE",
-            "AGREE",
             "IDLE",
-            "IDLE"
+            "IDLE",
+            "AGREE",
+            "AGREE"
           ]
         }
       },
@@ -699,13 +699,13 @@
           "method": "run_adversarial_case",
           "status": "FINALIZED",
           "step": "B:A04:run",
-          "tx": "0x260b32cf67d111fd392d0f68d0da9a03019a9252fb761c6bc27f96f2508221d3",
+          "tx": "0xa5dd2fe05d4355bb98486776acf99d66c7ccfa13d720feda20ac8746cffe1a56",
           "votes": [
-            "IDLE",
+            "AGREE",
+            "AGREE",
             "AGREE",
             "IDLE",
-            "AGREE",
-            "AGREE"
+            "IDLE"
           ]
         }
       },
@@ -778,12 +778,12 @@
           "method": "run_adversarial_case",
           "status": "FINALIZED",
           "step": "B:A05:run",
-          "tx": "0xd5cc811ad31defbeb36aed5208ab9fc5f0e393c3e4dfb732fd9571ee162bc357",
+          "tx": "0x0ae80ac749aad721b1c818d6924997de1257d463f39fa06365dea6c906e514a9",
           "votes": [
-            "AGREE",
             "IDLE",
             "AGREE",
             "IDLE",
+            "AGREE",
             "AGREE"
           ]
         }
@@ -856,13 +856,13 @@
           "method": "run_adversarial_case",
           "status": "FINALIZED",
           "step": "B:A06:run",
-          "tx": "0x2599f1d7b5b9679ff98c5350eb694d4ef55fd238c75496546b7bdc0518b0c068",
+          "tx": "0xe2d3b75b9906c97383f5ad66d290e36ace61069a10baba2f0385f66ad3d24dd7",
           "votes": [
-            "AGREE",
-            "IDLE",
             "IDLE",
             "AGREE",
-            "AGREE"
+            "AGREE",
+            "AGREE",
+            "IDLE"
           ]
         }
       },
@@ -940,10 +940,10 @@
           "method": "run_adversarial_case",
           "status": "FINALIZED",
           "step": "B:A07:run",
-          "tx": "0xc006c015384f93f807501384938f7160125cbb5006a8bd38620a2e442a80a1c0",
+          "tx": "0xd4fb5504297655cee9991f09e699c31a2f1f8f0ae2908d2b9b509642365f74d9",
           "votes": [
-            "AGREE",
             "IDLE",
+            "AGREE",
             "AGREE",
             "IDLE",
             "AGREE"
@@ -1024,13 +1024,13 @@
           "method": "run_adversarial_case",
           "status": "FINALIZED",
           "step": "B:A08:run",
-          "tx": "0x4130ee88e2a237f2060930d73e6de10b1d40f372073037c29651d23d58825dd8",
+          "tx": "0xea6a8e76f3843d95f9725113ce8fb8fcf39d281416889a9fb7c3999d518d5c3c",
           "votes": [
             "IDLE",
             "AGREE",
             "AGREE",
-            "AGREE",
-            "IDLE"
+            "IDLE",
+            "AGREE"
           ]
         }
       },
@@ -1100,11 +1100,11 @@
           "method": "run_adversarial_case",
           "status": "FINALIZED",
           "step": "B:A09:run",
-          "tx": "0xedbc8be20ca28c15bcf603ec5a669e96c250610b8ac9efc9530978b7322aefea",
+          "tx": "0xa7ad0afad31684a9e1b48c75dfc0254598984a71f7048eb9235bfee46c8c313d",
           "votes": [
             "IDLE",
-            "IDLE",
             "AGREE",
+            "IDLE",
             "AGREE",
             "AGREE"
           ]
@@ -1177,13 +1177,13 @@
           "method": "run_adversarial_case",
           "status": "FINALIZED",
           "step": "B:A10:run",
-          "tx": "0x9604b17289352465ac292456936d55ae817c500057e9837f58be693bceb28640",
+          "tx": "0x4942ff4a78c1b5cc6b47c81c7d6cc023a32b84e83d4c9d16b08fb52d7cad132c",
           "votes": [
-            "AGREE",
-            "AGREE",
-            "AGREE",
             "IDLE",
-            "IDLE"
+            "IDLE",
+            "AGREE",
+            "AGREE",
+            "AGREE"
           ]
         }
       },
@@ -1266,10 +1266,10 @@
           "method": "run_adversarial_case",
           "status": "FINALIZED",
           "step": "B:A11:run",
-          "tx": "0x9c05d9f3d871e3e97ad5b36244a1704d66a90bdc8a6317213affc3ef8d2f564f",
+          "tx": "0xa157e6004b774fa380bddb8e798d3883b9c978fa6bc87d05322c492cc053880b",
           "votes": [
-            "AGREE",
             "IDLE",
+            "AGREE",
             "IDLE",
             "AGREE",
             "AGREE"
@@ -1352,12 +1352,12 @@
           "method": "run_adversarial_case",
           "status": "FINALIZED",
           "step": "B:A12:run",
-          "tx": "0x875cf337d033994cab6437bfca50157fd0ae28ce30a24309ed1b87d901f00c88",
+          "tx": "0xbb52061fcdb4bc34b6d868129dc0c52cb4ad53168421dd307ec7d6bae6c9bfe2",
           "votes": [
+            "DISAGREE",
             "AGREE",
             "AGREE",
-            "IDLE",
-            "IDLE",
+            "DISAGREE",
             "AGREE"
           ]
         }
@@ -1441,13 +1441,13 @@
           "method": "run_adversarial_case",
           "status": "FINALIZED",
           "step": "B:A13:run",
-          "tx": "0xeb98fe8482cb27b96f487e0b72a624fa9745571c1373fef6975c3e6c7254671a",
+          "tx": "0xd6344b89b299afab1806c2e8a12f7ba0edfb811db460602171d051a2395bf5be",
           "votes": [
             "IDLE",
             "AGREE",
-            "IDLE",
             "AGREE",
-            "AGREE"
+            "AGREE",
+            "IDLE"
           ]
         }
       },
@@ -1529,13 +1529,13 @@
           "method": "run_adversarial_case",
           "status": "FINALIZED",
           "step": "B:A14:run",
-          "tx": "0xa22bfbac095509429b44af242996d228bad65fbbe64b54f0c451669544b2feb9",
+          "tx": "0xb19f556237c6b505951662da7f56b5150d79faff63a4ff1525f4ab0e7d8b8364",
           "votes": [
-            "IDLE",
-            "IDLE",
             "AGREE",
             "AGREE",
-            "AGREE"
+            "IDLE",
+            "AGREE",
+            "IDLE"
           ]
         }
       },
@@ -1611,10 +1611,10 @@
           "method": "run_adversarial_case",
           "status": "FINALIZED",
           "step": "B:A15:run",
-          "tx": "0xac8a75ac9c45a48b1ca82ab44cbf26ccf6e88890c01ccc8f561fb90bb8a80c31",
+          "tx": "0x02ce0cdbb70089e20e4f164221fd7908b47f43a5868c4500e64f2c6bf4b9a1d2",
           "votes": [
-            "IDLE",
             "AGREE",
+            "IDLE",
             "AGREE",
             "AGREE",
             "IDLE"
@@ -1693,12 +1693,12 @@
           "method": "run_adversarial_case",
           "status": "FINALIZED",
           "step": "B:A16:run",
-          "tx": "0xea7df3a54f87bd28fd8d274b94d7763516b7f53e821d712797731e2536412f4f",
+          "tx": "0xf253ce72c490ffae6c5dfbd073598741946716678c4c145c20b2a57401f118f2",
           "votes": [
             "IDLE",
             "AGREE",
-            "AGREE",
             "IDLE",
+            "AGREE",
             "AGREE"
           ]
         }
@@ -1787,12 +1787,12 @@
           "method": "run_adversarial_case",
           "status": "FINALIZED",
           "step": "B:A17:run",
-          "tx": "0x9af75984fb21ccded788ed59a0bbf9074fa8b3ae864571c17ae1a9ac1deec9f8",
+          "tx": "0x38db9eaed6d79dd170b85a4364c967df1a557670637dd974056bb2a96eca38be",
           "votes": [
             "AGREE",
+            "IDLE",
+            "IDLE",
             "AGREE",
-            "IDLE",
-            "IDLE",
             "AGREE"
           ]
         }
@@ -1824,15 +1824,248 @@
           "kind": "TEST",
           "panel_reason": "NOTHING_TO_ASSESS",
           "panel_state": "SKIPPED",
-          "present": [
-            "CROSS_BORROWER_REUSE"
-          ],
+          "present": [],
           "reason_codes": [
-            "INDICATOR:CROSS_BORROWER_REUSE",
             "PANEL:SKIPPED:NOTHING_TO_ASSESS",
             "SCORE:BASE:+30",
             "SCORE:INCOME:+4",
             "SCORE:HISTORY:+15",
+            "SCORE:COVERAGE:+10",
+            "VERDICT:REVIEW_REQUIRED"
+          ],
+          "recommended_exposure": 600000,
+          "recommended_ltv_bps": 4000,
+          "risk_band": "MODERATE",
+          "rows": [
+            [
+              "E1",
+              "EXAMINED"
+            ],
+            [
+              "E2",
+              "EXAMINED"
+            ],
+            [
+              "E3",
+              "EXAMINED"
+            ]
+          ],
+          "score": 59,
+          "verdict": "REVIEW_REQUIRED"
+        },
+        "onchain_id": "AC-000020",
+        "passed": true,
+        "run": {
+          "actor": "stranger",
+          "leader_execution": "SUCCESS",
+          "method": "run_adversarial_case",
+          "status": "FINALIZED",
+          "step": "B:A18:run",
+          "tx": "0x1393a172cd6cdb5fd36a6e64376860b235b2a6d6372dec518122af925e8f1f78",
+          "votes": [
+            "IDLE",
+            "AGREE",
+            "AGREE",
+            "AGREE",
+            "IDLE"
+          ]
+        }
+      },
+      "A19": {
+        "case_id": "A19",
+        "decided_by": "CODE",
+        "observed": {
+          "assessment_id": "AC-000021-R1",
+          "confidence": "HIGH",
+          "documents": [
+            [
+              "E1",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E2",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E3",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E4",
+              "CONSISTENT",
+              "CODE"
+            ]
+          ],
+          "eligible": true,
+          "kind": "TEST",
+          "panel_reason": "NOTHING_TO_ASSESS",
+          "panel_state": "SKIPPED",
+          "present": [],
+          "reason_codes": [
+            "PANEL:SKIPPED:NOTHING_TO_ASSESS",
+            "SCORE:BASE:+30",
+            "SCORE:REPAID_LOANS:+30",
+            "SCORE:INCOME:+2",
+            "SCORE:HISTORY:+15",
+            "SCORE:COVERAGE:+10",
+            "SCORE:LEVERAGE:-15",
+            "VERDICT:APPROVED"
+          ],
+          "recommended_exposure": 300000,
+          "recommended_ltv_bps": 6000,
+          "risk_band": "LOW",
+          "rows": [
+            [
+              "E1",
+              "EXAMINED"
+            ],
+            [
+              "E2",
+              "EXAMINED"
+            ],
+            [
+              "E3",
+              "EXAMINED"
+            ],
+            [
+              "E4",
+              "EXAMINED"
+            ]
+          ],
+          "score": 72,
+          "verdict": "APPROVED"
+        },
+        "onchain_id": "AC-000021",
+        "passed": true,
+        "run": {
+          "actor": "stranger",
+          "leader_execution": "SUCCESS",
+          "method": "run_adversarial_case",
+          "status": "FINALIZED",
+          "step": "B:A19:run",
+          "tx": "0x987c2503e1648bf1faa9daa53e30a076f5fe8cfb881b33f05b66c0c9229e30ca",
+          "votes": [
+            "AGREE",
+            "IDLE",
+            "AGREE",
+            "AGREE",
+            "IDLE"
+          ]
+        }
+      },
+      "A20": {
+        "case_id": "A20",
+        "decided_by": "PANEL",
+        "observed": {
+          "assessment_id": "AC-000022-R1",
+          "confidence": "HIGH",
+          "documents": [
+            [
+              "E1",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E2",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E3",
+              "CONSISTENT",
+              "PANEL"
+            ]
+          ],
+          "eligible": false,
+          "kind": "TEST",
+          "panel_reason": "",
+          "panel_state": "ASSESSED",
+          "present": [],
+          "reason_codes": [
+            "SCORE:BASE:+30",
+            "SCORE:INCOME:+20",
+            "SCORE:HISTORY:+2",
+            "SCORE:COVERAGE:+10",
+            "VERDICT:REVIEW_REQUIRED"
+          ],
+          "recommended_exposure": 1500000,
+          "recommended_ltv_bps": 4000,
+          "risk_band": "MODERATE",
+          "rows": [
+            [
+              "E1",
+              "EXAMINED"
+            ],
+            [
+              "E2",
+              "EXAMINED"
+            ],
+            [
+              "E3",
+              "EXAMINED"
+            ]
+          ],
+          "score": 62,
+          "verdict": "REVIEW_REQUIRED"
+        },
+        "onchain_id": "AC-000022",
+        "passed": true,
+        "run": {
+          "actor": "stranger",
+          "leader_execution": "SUCCESS",
+          "method": "run_adversarial_case",
+          "status": "FINALIZED",
+          "step": "B:A20:run",
+          "tx": "0xa17ad39325d72f7dbbb7e40c1dee94e8cddb4c8e2125cc6c82ef148c8c0e6914",
+          "votes": [
+            "AGREE",
+            "IDLE",
+            "AGREE",
+            "AGREE",
+            "IDLE"
+          ]
+        }
+      },
+      "A21": {
+        "case_id": "A21",
+        "decided_by": "CODE",
+        "observed": {
+          "assessment_id": "AC-000023-R1",
+          "confidence": "HIGH",
+          "documents": [
+            [
+              "E1",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E2",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E3",
+              "CONSISTENT",
+              "CODE"
+            ]
+          ],
+          "eligible": false,
+          "kind": "TEST",
+          "panel_reason": "HARD_FACT_PRESENT",
+          "panel_state": "SKIPPED",
+          "present": [
+            "CLAIM_OVERSTATED"
+          ],
+          "reason_codes": [
+            "INDICATOR:CLAIM_OVERSTATED",
+            "PANEL:SKIPPED:HARD_FACT_PRESENT",
+            "SCORE:BASE:+30",
+            "SCORE:REPAID_LOANS:+10",
+            "SCORE:INCOME:+12",
+            "SCORE:HISTORY:+8",
             "SCORE:COVERAGE:+10",
             "VERDICT:SUSPICIOUS"
           ],
@@ -1856,20 +2089,427 @@
           "score": 20,
           "verdict": "SUSPICIOUS"
         },
-        "onchain_id": "AC-000020",
-        "passed": false,
+        "onchain_id": "AC-000023",
+        "passed": true,
         "run": {
           "actor": "stranger",
           "leader_execution": "SUCCESS",
           "method": "run_adversarial_case",
           "status": "FINALIZED",
-          "step": "B:A18:run",
-          "tx": "0x75e7f072dc0f3c71ec24711b7890bba12610eb35472719b5b7fa96360532281d",
+          "step": "B:A21:run",
+          "tx": "0xe7a87de428f7e342e65a3cc83c2f2ca48b8b270e9455f509e643010912bd66f9",
+          "votes": [
+            "AGREE",
+            "AGREE",
+            "IDLE",
+            "AGREE",
+            "IDLE"
+          ]
+        }
+      },
+      "A24": {
+        "case_id": "A24",
+        "decided_by": "CODE",
+        "observed": {
+          "assessment_id": "AC-000024-R1",
+          "confidence": "LOW",
+          "documents": [
+            [
+              "E1",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E2",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E3",
+              "NOT_ASSESSED",
+              "CODE"
+            ]
+          ],
+          "eligible": false,
+          "kind": "TEST",
+          "panel_reason": "EVIDENCE_NOT_EXAMINED",
+          "panel_state": "SKIPPED",
+          "present": [],
+          "reason_codes": [
+            "UNDETERMINED:WALLET_MISMATCH",
+            "UNDETERMINED:DOCUMENT_ALTERED",
+            "UNDETERMINED:FUTURE_DATED",
+            "UNDETERMINED:HIDDEN_TEXT",
+            "UNDETERMINED:INJECTION_MARKER",
+            "UNDETERMINED:CROSS_BORROWER_REUSE",
+            "ROW:E3:UNPARSEABLE",
+            "MISSING:INCOME_STATEMENT",
+            "PANEL:SKIPPED:EVIDENCE_NOT_EXAMINED",
+            "SCORE:BASE:+30",
+            "SCORE:REPAID_LOANS:+10",
+            "SCORE:HISTORY:+8",
+            "SCORE:COVERAGE:+5",
+            "VERDICT:INCONCLUSIVE"
+          ],
+          "recommended_exposure": 0,
+          "recommended_ltv_bps": 0,
+          "risk_band": "MODERATE",
+          "rows": [
+            [
+              "E1",
+              "EXAMINED"
+            ],
+            [
+              "E2",
+              "EXAMINED"
+            ],
+            [
+              "E3",
+              "UNPARSEABLE"
+            ]
+          ],
+          "score": 53,
+          "verdict": "INCONCLUSIVE"
+        },
+        "onchain_id": "AC-000024",
+        "passed": true,
+        "run": {
+          "actor": "stranger",
+          "leader_execution": "SUCCESS",
+          "method": "run_adversarial_case",
+          "status": "FINALIZED",
+          "step": "B:A24:run",
+          "tx": "0xccd4524ea605e1f4024d14ca9b4355c459dde0ff22704f537e078161712bb5ab",
+          "votes": [
+            "AGREE",
+            "IDLE",
+            "AGREE",
+            "IDLE",
+            "AGREE"
+          ]
+        }
+      },
+      "A25": {
+        "case_id": "A25",
+        "decided_by": "CODE",
+        "observed": {
+          "assessment_id": "AC-000025-R1",
+          "confidence": "LOW",
+          "documents": [
+            [
+              "E1",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E2",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E3",
+              "NOT_ASSESSED",
+              "CODE"
+            ]
+          ],
+          "eligible": false,
+          "kind": "TEST",
+          "panel_reason": "EVIDENCE_NOT_EXAMINED",
+          "panel_state": "SKIPPED",
+          "present": [],
+          "reason_codes": [
+            "UNDETERMINED:WALLET_MISMATCH",
+            "UNDETERMINED:DOCUMENT_ALTERED",
+            "UNDETERMINED:FUTURE_DATED",
+            "UNDETERMINED:HIDDEN_TEXT",
+            "UNDETERMINED:INJECTION_MARKER",
+            "UNDETERMINED:CROSS_BORROWER_REUSE",
+            "ROW:E3:UNPARSEABLE",
+            "MISSING:INCOME_STATEMENT",
+            "PANEL:SKIPPED:EVIDENCE_NOT_EXAMINED",
+            "SCORE:BASE:+30",
+            "SCORE:REPAID_LOANS:+10",
+            "SCORE:HISTORY:+8",
+            "SCORE:COVERAGE:+5",
+            "VERDICT:INCONCLUSIVE"
+          ],
+          "recommended_exposure": 0,
+          "recommended_ltv_bps": 0,
+          "risk_band": "MODERATE",
+          "rows": [
+            [
+              "E1",
+              "EXAMINED"
+            ],
+            [
+              "E2",
+              "EXAMINED"
+            ],
+            [
+              "E3",
+              "UNPARSEABLE"
+            ]
+          ],
+          "score": 53,
+          "verdict": "INCONCLUSIVE"
+        },
+        "onchain_id": "AC-000025",
+        "passed": true,
+        "run": {
+          "actor": "stranger",
+          "leader_execution": "SUCCESS",
+          "method": "run_adversarial_case",
+          "status": "FINALIZED",
+          "step": "B:A25:run",
+          "tx": "0xecbfad011a0ed02083a5dec7955cd7f1082a19d5183dcbe429b10202dd007ec4",
+          "votes": [
+            "IDLE",
+            "IDLE",
+            "AGREE",
+            "AGREE",
+            "AGREE"
+          ]
+        }
+      },
+      "A28": {
+        "case_id": "A28",
+        "decided_by": "REGISTRY",
+        "observed": {
+          "assessment_id": "AC-000026-R1",
+          "confidence": "HIGH",
+          "documents": [
+            [
+              "E1",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E2",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E3",
+              "CONSISTENT",
+              "CODE"
+            ]
+          ],
+          "eligible": false,
+          "kind": "TEST",
+          "panel_reason": "NOTHING_TO_ASSESS",
+          "panel_state": "SKIPPED",
+          "present": [
+            "CROSS_BORROWER_REUSE"
+          ],
+          "reason_codes": [
+            "INDICATOR:CROSS_BORROWER_REUSE",
+            "PANEL:SKIPPED:NOTHING_TO_ASSESS",
+            "SCORE:BASE:+30",
+            "SCORE:REPAID_LOANS:+10",
+            "SCORE:INCOME:+12",
+            "SCORE:HISTORY:+8",
+            "SCORE:COVERAGE:+10",
+            "VERDICT:SUSPICIOUS"
+          ],
+          "recommended_exposure": 0,
+          "recommended_ltv_bps": 0,
+          "risk_band": "VERY_HIGH",
+          "rows": [
+            [
+              "E1",
+              "EXAMINED"
+            ],
+            [
+              "E2",
+              "EXAMINED"
+            ],
+            [
+              "E3",
+              "EXAMINED"
+            ]
+          ],
+          "score": 20,
+          "verdict": "SUSPICIOUS"
+        },
+        "onchain_id": "AC-000026",
+        "passed": true,
+        "run": {
+          "actor": "stranger",
+          "leader_execution": "SUCCESS",
+          "method": "run_adversarial_case",
+          "status": "FINALIZED",
+          "step": "B:A28:run",
+          "tx": "0xdeb5d991c2c958958621ad9be188e74871e6fbea7b441e5145f1eea6ca18c441",
           "votes": [
             "AGREE",
             "AGREE",
             "AGREE",
             "IDLE",
+            "IDLE"
+          ]
+        }
+      },
+      "A29": {
+        "case_id": "A29",
+        "decided_by": "CODE",
+        "observed": {
+          "assessment_id": "AC-000027-R1",
+          "confidence": "HIGH",
+          "documents": [
+            [
+              "E1",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E2",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E3",
+              "NOT_ASSESSED",
+              "CODE"
+            ]
+          ],
+          "eligible": false,
+          "kind": "TEST",
+          "panel_reason": "NOTHING_TO_ASSESS",
+          "panel_state": "SKIPPED",
+          "present": [],
+          "reason_codes": [
+            "ROW:E3:NOT_ALLOWED",
+            "PANEL:SKIPPED:NOTHING_TO_ASSESS",
+            "BELOW_MINIMUM_EVIDENCE",
+            "SCORE:BASE:+30",
+            "SCORE:INCOME:+12",
+            "SCORE:HISTORY:+8",
+            "SCORE:COVERAGE:+10",
+            "VERDICT:INSUFFICIENT_EVIDENCE"
+          ],
+          "recommended_exposure": 0,
+          "recommended_ltv_bps": 0,
+          "risk_band": "MODERATE",
+          "rows": [
+            [
+              "E1",
+              "EXAMINED"
+            ],
+            [
+              "E2",
+              "EXAMINED"
+            ],
+            [
+              "E3",
+              "NOT_ALLOWED"
+            ]
+          ],
+          "score": 60,
+          "verdict": "INSUFFICIENT_EVIDENCE"
+        },
+        "onchain_id": "AC-000027",
+        "passed": true,
+        "run": {
+          "actor": "stranger",
+          "leader_execution": "SUCCESS",
+          "method": "run_adversarial_case",
+          "status": "FINALIZED",
+          "step": "B:A29:run",
+          "tx": "0x173e950c421b91a246312be1279d5a8821ee3686c6bdf72d9bfd53a807caa5a8",
+          "votes": [
+            "IDLE",
+            "AGREE",
+            "IDLE",
+            "AGREE",
+            "AGREE"
+          ]
+        }
+      },
+      "A30": {
+        "case_id": "A30",
+        "decided_by": "CODE",
+        "observed": {
+          "assessment_id": "AC-000028-R1",
+          "confidence": "MEDIUM",
+          "documents": [
+            [
+              "E1",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E2",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E3",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E4",
+              "NOT_ASSESSED",
+              "CODE"
+            ]
+          ],
+          "eligible": false,
+          "kind": "TEST",
+          "panel_reason": "HARD_FACT_PRESENT",
+          "panel_state": "SKIPPED",
+          "present": [
+            "HIDDEN_TEXT"
+          ],
+          "reason_codes": [
+            "INDICATOR:HIDDEN_TEXT",
+            "UNDETERMINED:INSTRUCTION_INJECTION",
+            "UNDETERMINED:UNSUPPORTED_CLAIM",
+            "PANEL:SKIPPED:HARD_FACT_PRESENT",
+            "SCORE:BASE:+30",
+            "SCORE:REPAID_LOANS:+10",
+            "SCORE:INCOME:+12",
+            "SCORE:HISTORY:+8",
+            "SCORE:COVERAGE:+10",
+            "VERDICT:SUSPICIOUS"
+          ],
+          "recommended_exposure": 0,
+          "recommended_ltv_bps": 0,
+          "risk_band": "VERY_HIGH",
+          "rows": [
+            [
+              "E1",
+              "EXAMINED"
+            ],
+            [
+              "E2",
+              "EXAMINED"
+            ],
+            [
+              "E3",
+              "EXAMINED"
+            ],
+            [
+              "E4",
+              "EXAMINED"
+            ]
+          ],
+          "score": 20,
+          "verdict": "SUSPICIOUS"
+        },
+        "onchain_id": "AC-000028",
+        "passed": true,
+        "run": {
+          "actor": "stranger",
+          "leader_execution": "SUCCESS",
+          "method": "run_adversarial_case",
+          "status": "FINALIZED",
+          "step": "B:A30:run",
+          "tx": "0x48afdc7e1d9446658ca56cb683368605fe0d816b4764ba768723b49a49be4f22",
+          "votes": [
+            "AGREE",
+            "IDLE",
+            "AGREE",
+            "AGREE",
             "IDLE"
           ]
         }
@@ -1956,12 +2596,12 @@
           "method": "run_adversarial_case",
           "status": "FINALIZED",
           "step": "B:BASE-ADA:run",
-          "tx": "0xd15392fb544b3ab66ec27dd0352b1172bb8add6ddcc800b555e3dd1d046c373c",
+          "tx": "0x043071b1385fee99f78e001a8413e3c980c1c28dbcdd2783adbcfb41dfae3e41",
           "votes": [
             "AGREE",
+            "AGREE",
+            "AGREE",
             "IDLE",
-            "AGREE",
-            "AGREE",
             "IDLE"
           ]
         }
@@ -2031,19 +2671,244 @@
           "method": "run_adversarial_case",
           "status": "FINALIZED",
           "step": "B:BASE-MALLORY:run",
-          "tx": "0xab285c9268ff00e2fb195f4782c4cf7d828827628b304a9001434fb7cb873d5e",
+          "tx": "0xaa9cff41b9480cea8c1510349aa50c6f5bc174f150d052f3a330d452d943a85f",
           "votes": [
-            "AGREE",
-            "IDLE",
             "IDLE",
             "AGREE",
+            "AGREE",
+            "IDLE",
             "AGREE"
           ]
         }
       }
     }
   },
-  "address": "0x25FEDE0811b95697A333633b611B67f8A250eE66",
+  "C": {
+    "ada_after_v2": {
+      "assessment_id": "CA-000001",
+      "consumable": false,
+      "freshness": "STALE",
+      "verdict": "APPROVED"
+    },
+    "ada_eligible_after_v2": false,
+    "baseline_on_v2": {
+      "case_id": "BASE-MALLORY",
+      "decided_by": "CODE",
+      "observed": {
+        "assessment_id": "AC-000029-R1",
+        "confidence": "HIGH",
+        "documents": [
+          [
+            "E1",
+            "CONSISTENT",
+            "CODE"
+          ],
+          [
+            "E2",
+            "CONSISTENT",
+            "CODE"
+          ],
+          [
+            "E3",
+            "CONSISTENT",
+            "CODE"
+          ]
+        ],
+        "eligible": false,
+        "kind": "TEST",
+        "panel_reason": "NOTHING_TO_ASSESS",
+        "panel_state": "SKIPPED",
+        "present": [],
+        "reason_codes": [
+          "PANEL:SKIPPED:NOTHING_TO_ASSESS",
+          "SCORE:BASE:+30",
+          "SCORE:REPAID_LOANS:+10",
+          "SCORE:INCOME:+12",
+          "SCORE:HISTORY:+8",
+          "SCORE:COVERAGE:+10",
+          "VERDICT:REVIEW_REQUIRED"
+        ],
+        "recommended_exposure": 1800000,
+        "recommended_ltv_bps": 6000,
+        "risk_band": "LOW",
+        "rows": [
+          [
+            "E1",
+            "EXAMINED"
+          ],
+          [
+            "E2",
+            "EXAMINED"
+          ],
+          [
+            "E3",
+            "EXAMINED"
+          ]
+        ],
+        "score": 70,
+        "verdict": "REVIEW_REQUIRED"
+      },
+      "onchain_id": "AC-000029",
+      "passed": false,
+      "run": {
+        "actor": "stranger",
+        "leader_execution": "SUCCESS",
+        "method": "run_adversarial_case",
+        "status": "FINALIZED",
+        "step": "C:baseline_v2:run",
+        "tx": "0x593308b4cad601dc9bd6a83d58ec9a89b747fabef7e91fe837a9b505f7fc1df6",
+        "votes": [
+          "AGREE",
+          "IDLE",
+          "AGREE",
+          "AGREE",
+          "IDLE"
+        ]
+      }
+    },
+    "copied_on_v2": {
+      "case_id": "A05",
+      "decided_by": "CODE",
+      "observed": {
+        "assessment_id": "AC-000030-R1",
+        "confidence": "HIGH",
+        "documents": [
+          [
+            "E1",
+            "CONSISTENT",
+            "CODE"
+          ],
+          [
+            "E2",
+            "CONSISTENT",
+            "CODE"
+          ],
+          [
+            "E3",
+            "CONSISTENT",
+            "CODE"
+          ]
+        ],
+        "eligible": false,
+        "kind": "TEST",
+        "panel_reason": "HARD_FACT_PRESENT",
+        "panel_state": "SKIPPED",
+        "present": [
+          "WALLET_MISMATCH",
+          "CROSS_BORROWER_REUSE"
+        ],
+        "reason_codes": [
+          "INDICATOR:WALLET_MISMATCH",
+          "INDICATOR:CROSS_BORROWER_REUSE",
+          "PANEL:SKIPPED:HARD_FACT_PRESENT",
+          "SCORE:BASE:+30",
+          "SCORE:INCOME:+12",
+          "SCORE:HISTORY:+8",
+          "SCORE:COVERAGE:+10",
+          "VERDICT:SUSPICIOUS"
+        ],
+        "recommended_exposure": 0,
+        "recommended_ltv_bps": 0,
+        "risk_band": "VERY_HIGH",
+        "rows": [
+          [
+            "E1",
+            "EXAMINED"
+          ],
+          [
+            "E2",
+            "EXAMINED"
+          ],
+          [
+            "E3",
+            "EXAMINED"
+          ]
+        ],
+        "score": 20,
+        "verdict": "SUSPICIOUS"
+      },
+      "onchain_id": "AC-000030",
+      "passed": true,
+      "run": {
+        "actor": "stranger",
+        "leader_execution": "SUCCESS",
+        "method": "run_adversarial_case",
+        "status": "FINALIZED",
+        "step": "C:copied_v2:run",
+        "tx": "0x1cd30bd52306d07b919f84d67a0d1d0dda29d463282c91e75c29003f2383190a",
+        "votes": [
+          "AGREE",
+          "AGREE",
+          "IDLE",
+          "IDLE",
+          "AGREE"
+        ]
+      }
+    },
+    "dayo_high_volume": {
+      "decided_by": "CODE",
+      "expected_score": [
+        59,
+        59
+      ],
+      "expected_verdict": "REVIEW_REQUIRED",
+      "held": true,
+      "observed": {
+        "assessment_id": "CA-000006",
+        "confidence": "HIGH",
+        "documents": [
+          [
+            "E1",
+            "CONSISTENT",
+            "CODE"
+          ],
+          [
+            "E2",
+            "CONSISTENT",
+            "CODE"
+          ],
+          [
+            "E3",
+            "CONSISTENT",
+            "CODE"
+          ]
+        ],
+        "eligible": false,
+        "kind": "ASSESSMENT",
+        "panel_reason": "NOTHING_TO_ASSESS",
+        "panel_state": "SKIPPED",
+        "present": [],
+        "reason_codes": [
+          "PANEL:SKIPPED:NOTHING_TO_ASSESS",
+          "SCORE:BASE:+30",
+          "SCORE:INCOME:+4",
+          "SCORE:HISTORY:+15",
+          "SCORE:COVERAGE:+10",
+          "VERDICT:REVIEW_REQUIRED"
+        ],
+        "recommended_exposure": 600000,
+        "recommended_ltv_bps": 4000,
+        "risk_band": "MODERATE",
+        "rows": [
+          [
+            "E1",
+            "EXAMINED"
+          ],
+          [
+            "E2",
+            "EXAMINED"
+          ],
+          [
+            "E3",
+            "EXAMINED"
+          ]
+        ],
+        "score": 59,
+        "verdict": "REVIEW_REQUIRED"
+      }
+    }
+  },
+  "address": "0x583ae5d8c2b09A1EE7eafb993dea72546372bc99",
   "case_ids": {
     "B:A01": "AC-000003",
     "B:A02": "AC-000004",
@@ -2063,13 +2928,24 @@
     "B:A16": "AC-000018",
     "B:A17": "AC-000019",
     "B:A18": "AC-000020",
+    "B:A19": "AC-000021",
+    "B:A20": "AC-000022",
+    "B:A21": "AC-000023",
+    "B:A24": "AC-000024",
+    "B:A25": "AC-000025",
+    "B:A28": "AC-000026",
+    "B:A29": "AC-000027",
+    "B:A30": "AC-000028",
     "B:BASE-ADA": "AC-000001",
-    "B:BASE-MALLORY": "AC-000002"
+    "B:BASE-MALLORY": "AC-000002",
+    "C:baseline_v2": "AC-000029",
+    "C:copied_v2": "AC-000030"
   },
-  "fatal": "A18 did not hold",
+  "dayo_assessed_at": 1789207720.946656,
+  "finished_at": "2026-09-12T10:10:35Z",
   "network": "studionet",
   "pending": {},
-  "raw_base": "https://raw.githubusercontent.com/Hemmy1417/CredenceLend/baea205816ef5340aae909c91b0eb6a391f84878/fixtures/",
+  "raw_base": "https://raw.githubusercontent.com/Hemmy1417/CredenceLend/e5080ebaa464e377a94428d6e6e84719626d3620/fixtures/",
   "steps": {
     "A:ada:assess": {
       "actor": "ada",
@@ -2077,13 +2953,13 @@
       "method": "request_credit_assessment",
       "status": "FINALIZED",
       "step": "A:ada:assess",
-      "tx": "0x59e8f52becc38a8991dc9df22019ede855a166324ba831e647f0e0713c7f9422",
+      "tx": "0x08da2d5216a16bd2c3ffd8ecf1e7f415bb01e823be2962482640bb378d520d0c",
       "votes": [
         "AGREE",
         "AGREE",
         "IDLE",
-        "AGREE",
-        "DISAGREE"
+        "IDLE",
+        "AGREE"
       ]
     },
     "A:ada:evidence:0": {
@@ -2092,10 +2968,10 @@
       "method": "submit_evidence",
       "status": "FINALIZED",
       "step": "A:ada:evidence:0",
-      "tx": "0xe4033c1db4b721d583453faaaff6eb2958e1567707e1d18708e2f7289e030a18",
+      "tx": "0x83409b3fa6a12842d66c4f45d7d3b8557e1d756c9de9e0fa7ff7f668c7a5e2af",
       "votes": [
-        "AGREE",
         "IDLE",
+        "AGREE",
         "AGREE",
         "IDLE",
         "AGREE"
@@ -2107,7 +2983,7 @@
       "method": "submit_evidence",
       "status": "FINALIZED",
       "step": "A:ada:evidence:1",
-      "tx": "0x18b7a13ac515ceac0eb3c4a40065e2bf85a7becd82542dec933301287091a6d4",
+      "tx": "0x2e7a6ced070e4e00f3471572691ba0a7239bd6be84ecd24cc08781d8e2f19031",
       "votes": [
         "AGREE",
         "AGREE",
@@ -2122,12 +2998,12 @@
       "method": "submit_evidence",
       "status": "FINALIZED",
       "step": "A:ada:evidence:2",
-      "tx": "0x663acd7a815422efb269353dcc2cf104659d0024cb596c6885c760253d70c40d",
+      "tx": "0xfea35d71b409e4c56ebcdf7de5b676459ae1c22f2b3687b5ee5a84c450912273",
       "votes": [
         "AGREE",
         "AGREE",
         "IDLE",
-        "AGREE",
+        "IDLE",
         "AGREE"
       ]
     },
@@ -2137,13 +3013,13 @@
       "method": "submit_evidence",
       "status": "FINALIZED",
       "step": "A:ada:evidence:3",
-      "tx": "0x20c1fb60acae065f1c3e68e8dcf3b790611e5be25b598a9159056f9b6563a454",
+      "tx": "0x5a948079ab5085702d01332d356f994c6d871644fb44ad9da33805ec1e04b7c8",
       "votes": [
-        "IDLE",
-        "IDLE",
         "AGREE",
         "AGREE",
-        "AGREE"
+        "IDLE",
+        "AGREE",
+        "IDLE"
       ]
     },
     "A:ada:evidence:4": {
@@ -2152,11 +3028,11 @@
       "method": "submit_evidence",
       "status": "FINALIZED",
       "step": "A:ada:evidence:4",
-      "tx": "0x4aa5cb65b6b4a6bcbe89c3c54f134ff476b0bbb59a08c27415613e054d081841",
+      "tx": "0x038f345d6a3d213cc1c30ebb58fd3b515cdf7947b9cc94fc7c497ec8c9184ede",
       "votes": [
         "AGREE",
-        "IDLE",
         "AGREE",
+        "IDLE",
         "AGREE",
         "IDLE"
       ]
@@ -2167,11 +3043,11 @@
       "method": "register_borrower",
       "status": "FINALIZED",
       "step": "A:ada:register",
-      "tx": "0x6b8c6a31053c59cbd75405139b5e7ca553417b4db30ec3ddf97dfba1988269fe",
+      "tx": "0x3a65a5fad96eb91b06beb7fb53a634f3bb3c161b51a108efbe38d21999d47b4c",
       "votes": [
-        "AGREE",
         "IDLE",
         "AGREE",
+        "IDLE",
         "AGREE",
         "AGREE"
       ]
@@ -2182,13 +3058,13 @@
       "method": "submit_appeal",
       "status": "FINALIZED",
       "step": "A:bola:appeal",
-      "tx": "0xd654acfad4f4fb84ef8c3da58797e1fc8d45faa15d055f2352a8cf278e5632b6",
+      "tx": "0x511804a6a62691304aceb24465a831ac9041a571fcfeaf86d051e94e0b66c848",
       "votes": [
-        "IDLE",
         "AGREE",
         "AGREE",
         "AGREE",
-        "IDLE"
+        "AGREE",
+        "AGREE"
       ]
     },
     "A:bola:assess": {
@@ -2197,13 +3073,13 @@
       "method": "request_credit_assessment",
       "status": "FINALIZED",
       "step": "A:bola:assess",
-      "tx": "0xbc2760f3a4454078aa4309ce391fc4ddd4c1a94f7dbdfa07c57ca3e63791d4db",
+      "tx": "0xd1bfc4298ffee036499f46f9118ec8e4b27959b4f2b8a4086605435efb29b0e1",
       "votes": [
-        "IDLE",
+        "AGREE",
         "IDLE",
         "AGREE",
         "AGREE",
-        "AGREE"
+        "IDLE"
       ]
     },
     "A:bola:evidence:0": {
@@ -2212,13 +3088,13 @@
       "method": "submit_evidence",
       "status": "FINALIZED",
       "step": "A:bola:evidence:0",
-      "tx": "0x83a22137847533414bd9a89f2cff366420400e1e398720f9f74a3fdec1a35dd7",
+      "tx": "0x0621adeb4215161d8cded5dcc4c7d627d0aa4ef68530f84cf078b48be948099c",
       "votes": [
-        "IDLE",
         "AGREE",
         "AGREE",
         "AGREE",
-        "IDLE"
+        "AGREE",
+        "AGREE"
       ]
     },
     "A:bola:evidence:1": {
@@ -2227,12 +3103,12 @@
       "method": "submit_evidence",
       "status": "FINALIZED",
       "step": "A:bola:evidence:1",
-      "tx": "0xb9857b33a06eaad06a2d97512bdd49ae263729ebb62d27a30aac4c1061922530",
+      "tx": "0xac8caf486595cce85ef54f826e824a7c9b8a3f7eb5b0f3cf22e2e5277ad09a0c",
       "votes": [
-        "IDLE",
         "AGREE",
         "AGREE",
-        "IDLE",
+        "AGREE",
+        "AGREE",
         "AGREE"
       ]
     },
@@ -2242,13 +3118,13 @@
       "method": "submit_evidence",
       "status": "FINALIZED",
       "step": "A:bola:evidence:2",
-      "tx": "0xc5317675866344c63a3bfef60c3a9a0ea74ed9bd5e93fb98962d848a89842bab",
+      "tx": "0x323b60675ff72d98aeafe22dc89061531e6931c7ba2859480ddc72c98fb97b27",
       "votes": [
+        "AGREE",
+        "IDLE",
         "IDLE",
         "AGREE",
-        "AGREE",
-        "AGREE",
-        "IDLE"
+        "AGREE"
       ]
     },
     "A:bola:evidence:3": {
@@ -2257,12 +3133,12 @@
       "method": "submit_evidence",
       "status": "FINALIZED",
       "step": "A:bola:evidence:3",
-      "tx": "0xbd14eb97c860df9783b0297b5dabe5fae730454b3fda2f828b314ec99ee2a45f",
+      "tx": "0xde21a9b1ef958b6b0d3b3b01fe4ba88c4c06868a94fe9ea4a565a2c98445a5d2",
       "votes": [
         "AGREE",
         "AGREE",
-        "AGREE",
-        "AGREE",
+        "IDLE",
+        "IDLE",
         "AGREE"
       ]
     },
@@ -2272,12 +3148,12 @@
       "method": "submit_evidence",
       "status": "FINALIZED",
       "step": "A:bola:evidence:4",
-      "tx": "0x8fbd0d93ff1d286e84f1605904a71d1dcf4f01b42967d312a6d6d8400e0b8387",
+      "tx": "0x2954d32cec5442432bcc0b3094e03b3cd78fc521b211ccaa72ee8317b6ad4a70",
       "votes": [
-        "IDLE",
+        "AGREE",
         "AGREE",
         "IDLE",
-        "AGREE",
+        "IDLE",
         "AGREE"
       ]
     },
@@ -2287,11 +3163,11 @@
       "method": "request_reassessment",
       "status": "FINALIZED",
       "step": "A:bola:reassess",
-      "tx": "0x4f65613269c4853a6cb86b69c4a5675cd009515e3e7565ac63121f25d9f3db19",
+      "tx": "0xcf9a7467ce818da8bcfdba3d6f351b41bbaed02d8d08a830af3a98eb19a86f60",
       "votes": [
         "IDLE",
-        "IDLE",
         "AGREE",
+        "DISAGREE",
         "AGREE",
         "AGREE"
       ]
@@ -2302,13 +3178,13 @@
       "method": "register_borrower",
       "status": "FINALIZED",
       "step": "A:bola:register",
-      "tx": "0x2e00d26ccf2901c74b0dd7ac1b0da467efc16c312eead8716e7b3e619762b3e8",
+      "tx": "0x4eea69215b5892ab34cfeee735c6e2702f08709d7ba88163046b5d47c3bf789c",
       "votes": [
         "AGREE",
         "AGREE",
-        "AGREE",
         "IDLE",
-        "IDLE"
+        "IDLE",
+        "AGREE"
       ]
     },
     "A:chidi:appeal": {
@@ -2317,12 +3193,12 @@
       "method": "submit_appeal",
       "status": "FINALIZED",
       "step": "A:chidi:appeal",
-      "tx": "0x5180c63950f3d03529944462b6a3eda46af0d869b17a5ce52ff6fc968195a2f6",
+      "tx": "0x6541f71700c7b814504a8883512405e5105800867e3771040d645bcb7f5dd5d4",
       "votes": [
-        "AGREE",
+        "IDLE",
         "IDLE",
         "AGREE",
-        "IDLE",
+        "AGREE",
         "AGREE"
       ]
     },
@@ -2332,13 +3208,13 @@
       "method": "request_credit_assessment",
       "status": "FINALIZED",
       "step": "A:chidi:assess",
-      "tx": "0xf06450ab1bbadab21d88448167fea616a38f6a094892ae0f9729da82dca76968",
+      "tx": "0xa898f64e119e06b7642d492e3057a3daee20957e5178c5c8b1aed6195d192968",
       "votes": [
-        "IDLE",
-        "IDLE",
         "AGREE",
         "AGREE",
-        "AGREE"
+        "IDLE",
+        "AGREE",
+        "IDLE"
       ]
     },
     "A:chidi:evidence:0": {
@@ -2347,12 +3223,12 @@
       "method": "submit_evidence",
       "status": "FINALIZED",
       "step": "A:chidi:evidence:0",
-      "tx": "0x4c007ace0b92accbe08202702f159aea022ef3d50a94292bf33726de68cfd4f1",
+      "tx": "0x8f54ece59af09f26aee85b5e8789ef5b2442c373046aaa782f214a46596902c2",
       "votes": [
         "AGREE",
         "AGREE",
         "IDLE",
-        "AGREE",
+        "IDLE",
         "AGREE"
       ]
     },
@@ -2362,13 +3238,13 @@
       "method": "submit_evidence",
       "status": "FINALIZED",
       "step": "A:chidi:evidence:1",
-      "tx": "0xc789d679260dfd1240a3aa22ae6b0b151c42d26ca15ce6a4e88a6c76c3471ca1",
+      "tx": "0xf9d65237ac882148fdfc79798ac49049f6d5fee2ce12c504cca60b8fcf116dca",
       "votes": [
         "IDLE",
         "AGREE",
         "AGREE",
-        "IDLE",
-        "AGREE"
+        "AGREE",
+        "IDLE"
       ]
     },
     "A:chidi:evidence:2": {
@@ -2377,11 +3253,11 @@
       "method": "submit_evidence",
       "status": "FINALIZED",
       "step": "A:chidi:evidence:2",
-      "tx": "0xd8f39e10f32e5940f874c53e15b12fc609ad1c3ccb18082cddb2529393de0e79",
+      "tx": "0x9e2ed40b61bd0c60ed4d9db58579563265cb8504509f41d36820c89fa4def382",
       "votes": [
         "IDLE",
-        "AGREE",
         "IDLE",
+        "AGREE",
         "AGREE",
         "AGREE"
       ]
@@ -2392,13 +3268,13 @@
       "method": "submit_evidence",
       "status": "FINALIZED",
       "step": "A:chidi:evidence:3",
-      "tx": "0xd801515502d3ed8fdf8132eaf202f425072fe6229c74b914bb6213ac70fbd52f",
+      "tx": "0x49083b77b918490c9c6c0db4eab4cc8f2d4d307e0d87098f5057493f91e4abf0",
       "votes": [
         "AGREE",
+        "IDLE",
         "AGREE",
         "AGREE",
-        "AGREE",
-        "AGREE"
+        "IDLE"
       ]
     },
     "A:chidi:register": {
@@ -2407,7 +3283,7 @@
       "method": "register_borrower",
       "status": "FINALIZED",
       "step": "A:chidi:register",
-      "tx": "0x429c29cbd9f80bc80bbd5cb532cf648a93a7345a53d63cabd7eb9449b041d41c",
+      "tx": "0xbe81640818612d14a1e6a65c6caef20ceb3f9b4199eb9c77b7e1890894bc1e4d",
       "votes": [
         "AGREE",
         "AGREE",
@@ -2422,13 +3298,13 @@
       "method": "request_credit_assessment",
       "status": "FINALIZED",
       "step": "A:mallory:assess",
-      "tx": "0x18c1f73af1a54a85c1c7875977f659bbae77c0ed813ed922edc96fc237aa9870",
+      "tx": "0x6ccc0923d0ff391ca87abc8ece5954a2596bb0871f2a89229bbd832a934cedea",
       "votes": [
-        "IDLE",
         "AGREE",
         "IDLE",
         "AGREE",
-        "AGREE"
+        "AGREE",
+        "IDLE"
       ]
     },
     "A:mallory:evidence:0": {
@@ -2437,12 +3313,12 @@
       "method": "submit_evidence",
       "status": "FINALIZED",
       "step": "A:mallory:evidence:0",
-      "tx": "0x120a6c13679b21ae72d0e21f98f5c61cdbc21b050080f02001008a7b293860d8",
+      "tx": "0x685e348c45062b2573da9f7595d75f8291648207d05ae25a0b62636e9b994a6a",
       "votes": [
         "IDLE",
         "AGREE",
-        "AGREE",
         "IDLE",
+        "AGREE",
         "AGREE"
       ]
     },
@@ -2452,12 +3328,12 @@
       "method": "submit_evidence",
       "status": "FINALIZED",
       "step": "A:mallory:evidence:1",
-      "tx": "0x8515b936c4df20cbf23761720effb397c5391bff7c49e9ae0a42f71ba27d2a8c",
+      "tx": "0x05acb9902ce1a9409238b05b5d2413e73740a331c7c01bf8071d206e2b208d84",
       "votes": [
         "AGREE",
+        "IDLE",
         "AGREE",
-        "AGREE",
-        "AGREE",
+        "IDLE",
         "AGREE"
       ]
     },
@@ -2467,12 +3343,12 @@
       "method": "submit_evidence",
       "status": "FINALIZED",
       "step": "A:mallory:evidence:2",
-      "tx": "0x5ae6bf198c7b1e8621cd0919552ff578210b69940ade8a3cbb3a08a4421549aa",
+      "tx": "0x38d7f41a5f86764b8da7db77810dccd06411e58a81f6fc5abd9e1c8591d76721",
       "votes": [
         "AGREE",
         "AGREE",
-        "AGREE",
-        "AGREE",
+        "IDLE",
+        "IDLE",
         "AGREE"
       ]
     },
@@ -2482,11 +3358,11 @@
       "method": "register_borrower",
       "status": "FINALIZED",
       "step": "A:mallory:register",
-      "tx": "0xe771e0f54ae7e79d0363108f8d742bdd20ba90800e83d786ba5bc68c0d84b5c2",
+      "tx": "0xe44afc21e71078564fa1036abf99d434dc185f14249221669848e65bbd4e24e6",
       "votes": [
         "AGREE",
-        "AGREE",
-        "AGREE",
+        "IDLE",
+        "IDLE",
         "AGREE",
         "AGREE"
       ]
@@ -2497,13 +3373,13 @@
       "method": "register_policy",
       "status": "FINALIZED",
       "step": "A:policy",
-      "tx": "0xbe4f18c38a0cbe81f0b8b1eb60b8d8c3e07644c07d29f1c0045a9331e17b379d",
+      "tx": "0xa7c66553a1076c8c5c42a346f08eaed4462b77ff7d9930916176e29de73f2e55",
       "votes": [
-        "IDLE",
+        "AGREE",
         "AGREE",
         "IDLE",
         "AGREE",
-        "AGREE"
+        "IDLE"
       ]
     },
     "B:A01:register": {
@@ -2512,10 +3388,10 @@
       "method": "register_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A01:register",
-      "tx": "0xa5df380011966222abac35c2488a0215a4ddc43a3796f64ab0ce511a7bc4ba25",
+      "tx": "0x1ca4278a8f7d5fac6f83a2bdfdd02a63130de7fcdb653627b29fde5955121338",
       "votes": [
-        "IDLE",
-        "IDLE",
+        "AGREE",
+        "AGREE",
         "AGREE",
         "AGREE",
         "AGREE"
@@ -2527,10 +3403,10 @@
       "method": "run_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A01:run",
-      "tx": "0xd031c84eff8a713fbd1b6a064cd38eb48fcbc2ad8b9ea23fab69d7edd89dfc63",
+      "tx": "0xc0e3a15ed003330ca0003de2597d2a86ca68c8451b3e268ddca6e3f668f43976",
       "votes": [
-        "AGREE",
         "IDLE",
+        "AGREE",
         "IDLE",
         "AGREE",
         "AGREE"
@@ -2542,10 +3418,10 @@
       "method": "register_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A02:register",
-      "tx": "0xad7620eca01d6c700f89093c88b6c920922aaeb781c59bc8c6b6591914c6319d",
+      "tx": "0xa2a076f4b9791617d2c4dc725123168e7dddd6a2470a22963d9feb0cdfa40441",
       "votes": [
-        "AGREE",
-        "AGREE",
+        "IDLE",
+        "IDLE",
         "AGREE",
         "AGREE",
         "AGREE"
@@ -2557,11 +3433,11 @@
       "method": "run_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A02:run",
-      "tx": "0xac2669c491c03e0fb547bcbf4ffc77a7ae44fef20d29672825c46dd9e332d784",
+      "tx": "0x8a27dd7b4f462baffc757f0179604f981c3f9ceb57efe66cfa79add87615f13f",
       "votes": [
         "IDLE",
-        "AGREE",
         "IDLE",
+        "AGREE",
         "AGREE",
         "AGREE"
       ]
@@ -2572,10 +3448,10 @@
       "method": "register_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A03:register",
-      "tx": "0x0f8c81b7f87382b1102e5e98e1a2c60a6464c0b98462ccaf9c80579ed42cec9a",
+      "tx": "0x4b5a510b631ecae35efc9b6631ef1a7a6b913b6f2264746eebd6fbc4ed58f0cb",
       "votes": [
-        "AGREE",
-        "AGREE",
+        "IDLE",
+        "IDLE",
         "AGREE",
         "AGREE",
         "AGREE"
@@ -2587,13 +3463,13 @@
       "method": "run_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A03:run",
-      "tx": "0x9909d4c3bb5e31d2b697583988d41b03ee96fe6d73a76d44549a829c75a1b21a",
+      "tx": "0xc3067a14a670332bf39aa5e850c22988ec8ea6a53735dd91bdf61e39696231e9",
       "votes": [
         "AGREE",
-        "AGREE",
-        "AGREE",
         "IDLE",
-        "IDLE"
+        "IDLE",
+        "AGREE",
+        "AGREE"
       ]
     },
     "B:A04:register": {
@@ -2602,7 +3478,7 @@
       "method": "register_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A04:register",
-      "tx": "0xeaa4afcbda18fc48fb1642d2f7a90208b11087230e2b62e4fb01afefc81fedf2",
+      "tx": "0x422ddc50dcd5defdf92f2b78aa3157502daa3653860132fa8084fd10e983e8b9",
       "votes": [
         "AGREE",
         "AGREE",
@@ -2617,13 +3493,13 @@
       "method": "run_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A04:run",
-      "tx": "0x260b32cf67d111fd392d0f68d0da9a03019a9252fb761c6bc27f96f2508221d3",
+      "tx": "0xa5dd2fe05d4355bb98486776acf99d66c7ccfa13d720feda20ac8746cffe1a56",
       "votes": [
-        "IDLE",
+        "AGREE",
+        "AGREE",
         "AGREE",
         "IDLE",
-        "AGREE",
-        "AGREE"
+        "IDLE"
       ]
     },
     "B:A05:register": {
@@ -2632,13 +3508,13 @@
       "method": "register_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A05:register",
-      "tx": "0x365bf72033186ca933fa6e181cefe968d02fe6c869d932e0fa8cb6fc27ca136b",
+      "tx": "0x735e7a7d0560a4376d680bedfe7742d11b30505140ffcf24b72fa4da3ab6b671",
       "votes": [
+        "IDLE",
         "AGREE",
         "AGREE",
         "AGREE",
-        "AGREE",
-        "AGREE"
+        "IDLE"
       ]
     },
     "B:A05:run": {
@@ -2647,12 +3523,12 @@
       "method": "run_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A05:run",
-      "tx": "0xd5cc811ad31defbeb36aed5208ab9fc5f0e393c3e4dfb732fd9571ee162bc357",
+      "tx": "0x0ae80ac749aad721b1c818d6924997de1257d463f39fa06365dea6c906e514a9",
       "votes": [
-        "AGREE",
         "IDLE",
         "AGREE",
         "IDLE",
+        "AGREE",
         "AGREE"
       ]
     },
@@ -2662,7 +3538,7 @@
       "method": "register_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A06:register",
-      "tx": "0x542b412953103944e8e2f4b9fe49726530eb40615064df405341d61681b62433",
+      "tx": "0xac68505cc13de056f73eb9c40d1bb541afb6dafd25e1b1aaefa7afba3fa795c4",
       "votes": [
         "AGREE",
         "AGREE",
@@ -2677,13 +3553,13 @@
       "method": "run_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A06:run",
-      "tx": "0x2599f1d7b5b9679ff98c5350eb694d4ef55fd238c75496546b7bdc0518b0c068",
+      "tx": "0xe2d3b75b9906c97383f5ad66d290e36ace61069a10baba2f0385f66ad3d24dd7",
       "votes": [
-        "AGREE",
-        "IDLE",
         "IDLE",
         "AGREE",
-        "AGREE"
+        "AGREE",
+        "AGREE",
+        "IDLE"
       ]
     },
     "B:A07:register": {
@@ -2692,13 +3568,13 @@
       "method": "register_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A07:register",
-      "tx": "0xc179e8406e8f1d1dbb1c2f2ded3cffb2d18afdff84729792fe2827b3b65aae52",
+      "tx": "0xde539fd5ab88451a54053e51b80ccd61f0b4e94e8042fe8b347a25349276c97b",
       "votes": [
         "AGREE",
+        "IDLE",
         "AGREE",
-        "IDLE",
-        "IDLE",
-        "AGREE"
+        "AGREE",
+        "IDLE"
       ]
     },
     "B:A07:run": {
@@ -2707,10 +3583,10 @@
       "method": "run_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A07:run",
-      "tx": "0xc006c015384f93f807501384938f7160125cbb5006a8bd38620a2e442a80a1c0",
+      "tx": "0xd4fb5504297655cee9991f09e699c31a2f1f8f0ae2908d2b9b509642365f74d9",
       "votes": [
-        "AGREE",
         "IDLE",
+        "AGREE",
         "AGREE",
         "IDLE",
         "AGREE"
@@ -2722,13 +3598,13 @@
       "method": "register_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A08:register",
-      "tx": "0xffe5fec79041b7ae1125ab8a7cc60fc2c4c72623193c172fa69de33d16fb0762",
+      "tx": "0x26dc2fbb49b72912e0c634183bd7459a61438c2e265f2a50a860e28edee377e7",
       "votes": [
         "AGREE",
-        "AGREE",
-        "AGREE",
         "IDLE",
-        "IDLE"
+        "IDLE",
+        "AGREE",
+        "AGREE"
       ]
     },
     "B:A08:run": {
@@ -2737,22 +3613,7 @@
       "method": "run_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A08:run",
-      "tx": "0x4130ee88e2a237f2060930d73e6de10b1d40f372073037c29651d23d58825dd8",
-      "votes": [
-        "IDLE",
-        "AGREE",
-        "AGREE",
-        "AGREE",
-        "IDLE"
-      ]
-    },
-    "B:A09:register": {
-      "actor": "lender",
-      "leader_execution": "SUCCESS",
-      "method": "register_adversarial_case",
-      "status": "FINALIZED",
-      "step": "B:A09:register",
-      "tx": "0xeea359fbeee8eaa5df670d857094474fbab7226e499de5da9f046084c62006ea",
+      "tx": "0xea6a8e76f3843d95f9725113ce8fb8fcf39d281416889a9fb7c3999d518d5c3c",
       "votes": [
         "IDLE",
         "AGREE",
@@ -2761,17 +3622,32 @@
         "AGREE"
       ]
     },
+    "B:A09:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A09:register",
+      "tx": "0x56ea3a3d9676efd1b821ab0a9b72767ac561192bd564c50041eceb5f8cd4b7e7",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
     "B:A09:run": {
       "actor": "stranger",
       "leader_execution": "SUCCESS",
       "method": "run_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A09:run",
-      "tx": "0xedbc8be20ca28c15bcf603ec5a669e96c250610b8ac9efc9530978b7322aefea",
+      "tx": "0xa7ad0afad31684a9e1b48c75dfc0254598984a71f7048eb9235bfee46c8c313d",
       "votes": [
         "IDLE",
-        "IDLE",
         "AGREE",
+        "IDLE",
         "AGREE",
         "AGREE"
       ]
@@ -2782,13 +3658,13 @@
       "method": "register_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A10:register",
-      "tx": "0x9c80579d831f9fc88416ad10dc51fd63d027c862f5d80261ba5ee84628194cdf",
+      "tx": "0xb8a8a844657fa85c854f56513b308722801d05cbe7261d079885621d8c8ce477",
       "votes": [
-        "IDLE",
+        "AGREE",
         "AGREE",
         "IDLE",
         "AGREE",
-        "AGREE"
+        "IDLE"
       ]
     },
     "B:A10:run": {
@@ -2797,13 +3673,13 @@
       "method": "run_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A10:run",
-      "tx": "0x9604b17289352465ac292456936d55ae817c500057e9837f58be693bceb28640",
+      "tx": "0x4942ff4a78c1b5cc6b47c81c7d6cc023a32b84e83d4c9d16b08fb52d7cad132c",
       "votes": [
-        "AGREE",
-        "AGREE",
-        "AGREE",
         "IDLE",
-        "IDLE"
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
       ]
     },
     "B:A11:register": {
@@ -2812,11 +3688,11 @@
       "method": "register_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A11:register",
-      "tx": "0x5199d60338dd99ecb20fab24eeb32e90d01c6b0d7b3211eaf4b138a7cdc9e4ca",
+      "tx": "0x35d60a5c38f0e40f3b9e011fc696f8645dfcd65a8d918034efc30b1cda025b47",
       "votes": [
+        "AGREE",
+        "AGREE",
         "IDLE",
-        "AGREE",
-        "AGREE",
         "AGREE",
         "IDLE"
       ]
@@ -2827,10 +3703,10 @@
       "method": "run_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A11:run",
-      "tx": "0x9c05d9f3d871e3e97ad5b36244a1704d66a90bdc8a6317213affc3ef8d2f564f",
+      "tx": "0xa157e6004b774fa380bddb8e798d3883b9c978fa6bc87d05322c492cc053880b",
       "votes": [
-        "AGREE",
         "IDLE",
+        "AGREE",
         "IDLE",
         "AGREE",
         "AGREE"
@@ -2842,11 +3718,11 @@
       "method": "register_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A12:register",
-      "tx": "0x44e2ef30ae403d12abe00e2c1c210718ec65bdd60ca5fe5dc60b0fb792f6fdd1",
+      "tx": "0x4ea0167563841bc2f1dc19e3e728ec4a9a66b7d7240aba3dcb70193468e1af1a",
       "votes": [
+        "IDLE",
         "AGREE",
-        "AGREE",
-        "AGREE",
+        "IDLE",
         "AGREE",
         "AGREE"
       ]
@@ -2857,12 +3733,12 @@
       "method": "run_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A12:run",
-      "tx": "0x875cf337d033994cab6437bfca50157fd0ae28ce30a24309ed1b87d901f00c88",
+      "tx": "0xbb52061fcdb4bc34b6d868129dc0c52cb4ad53168421dd307ec7d6bae6c9bfe2",
       "votes": [
+        "DISAGREE",
         "AGREE",
         "AGREE",
-        "IDLE",
-        "IDLE",
+        "DISAGREE",
         "AGREE"
       ]
     },
@@ -2872,7 +3748,7 @@
       "method": "register_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A13:register",
-      "tx": "0x05857b134c0982dd0e466a0803dfb2a484e28c7371081db5b893657f85fa23f6",
+      "tx": "0xf9c2c316ef17c5d1e87d14737adad2fe39e3d62870ccd0073fb2a940bdcf54b6",
       "votes": [
         "AGREE",
         "AGREE",
@@ -2887,13 +3763,13 @@
       "method": "run_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A13:run",
-      "tx": "0xeb98fe8482cb27b96f487e0b72a624fa9745571c1373fef6975c3e6c7254671a",
+      "tx": "0xd6344b89b299afab1806c2e8a12f7ba0edfb811db460602171d051a2395bf5be",
       "votes": [
         "IDLE",
         "AGREE",
-        "IDLE",
         "AGREE",
-        "AGREE"
+        "AGREE",
+        "IDLE"
       ]
     },
     "B:A14:register": {
@@ -2902,9 +3778,9 @@
       "method": "register_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A14:register",
-      "tx": "0xe0c0ae519f12a8fbbbade8d80013256b916aee606fbfb422a8168189439e010d",
+      "tx": "0xf57bc2a08ef5a7328755bdb7a15c161a1a5a4fd296a625947b1067551bcab92e",
       "votes": [
-        "AGREE",
+        "IDLE",
         "AGREE",
         "AGREE",
         "AGREE",
@@ -2917,13 +3793,13 @@
       "method": "run_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A14:run",
-      "tx": "0xa22bfbac095509429b44af242996d228bad65fbbe64b54f0c451669544b2feb9",
+      "tx": "0xb19f556237c6b505951662da7f56b5150d79faff63a4ff1525f4ab0e7d8b8364",
       "votes": [
-        "IDLE",
-        "IDLE",
         "AGREE",
         "AGREE",
-        "AGREE"
+        "IDLE",
+        "AGREE",
+        "IDLE"
       ]
     },
     "B:A15:register": {
@@ -2932,13 +3808,13 @@
       "method": "register_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A15:register",
-      "tx": "0x181d4dbbdbe694effba9fcfefbe2c754fb5cc616cf062b6074adb8d109d45731",
+      "tx": "0xb0d12525568e7748c778a898609477d8c239b262670e1efd95551db33c4eca4b",
       "votes": [
         "AGREE",
         "AGREE",
         "AGREE",
-        "AGREE",
-        "AGREE"
+        "IDLE",
+        "IDLE"
       ]
     },
     "B:A15:run": {
@@ -2947,10 +3823,10 @@
       "method": "run_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A15:run",
-      "tx": "0xac8a75ac9c45a48b1ca82ab44cbf26ccf6e88890c01ccc8f561fb90bb8a80c31",
+      "tx": "0x02ce0cdbb70089e20e4f164221fd7908b47f43a5868c4500e64f2c6bf4b9a1d2",
       "votes": [
-        "IDLE",
         "AGREE",
+        "IDLE",
         "AGREE",
         "AGREE",
         "IDLE"
@@ -2962,13 +3838,13 @@
       "method": "register_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A16:register",
-      "tx": "0x380cbe5c1e2e665e9040f9e170c7458ab41b166831aea19f196d8a40aa64eabc",
+      "tx": "0x6720086fb543816f1279d06522db7080a1d74942f7c21c4d1537efb8d05e1a68",
       "votes": [
+        "IDLE",
         "AGREE",
         "AGREE",
         "AGREE",
-        "AGREE",
-        "AGREE"
+        "IDLE"
       ]
     },
     "B:A16:run": {
@@ -2977,12 +3853,12 @@
       "method": "run_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A16:run",
-      "tx": "0xea7df3a54f87bd28fd8d274b94d7763516b7f53e821d712797731e2536412f4f",
+      "tx": "0xf253ce72c490ffae6c5dfbd073598741946716678c4c145c20b2a57401f118f2",
       "votes": [
         "IDLE",
         "AGREE",
-        "AGREE",
         "IDLE",
+        "AGREE",
         "AGREE"
       ]
     },
@@ -2992,10 +3868,10 @@
       "method": "register_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A17:register",
-      "tx": "0x5c024789a845d650aa0951a5876fcd8d479ca79b3c9f0b193e5f7c9d6b36ca9b",
+      "tx": "0x6b4a186cbb51f771808883758a4ae575e1d08b80ae713fc5a16acc887d82a3de",
       "votes": [
         "AGREE",
-        "IDLE",
+        "AGREE",
         "IDLE",
         "AGREE",
         "AGREE"
@@ -3007,12 +3883,12 @@
       "method": "run_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A17:run",
-      "tx": "0x9af75984fb21ccded788ed59a0bbf9074fa8b3ae864571c17ae1a9ac1deec9f8",
+      "tx": "0x38db9eaed6d79dd170b85a4364c967df1a557670637dd974056bb2a96eca38be",
       "votes": [
         "AGREE",
+        "IDLE",
+        "IDLE",
         "AGREE",
-        "IDLE",
-        "IDLE",
         "AGREE"
       ]
     },
@@ -3022,7 +3898,7 @@
       "method": "register_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A18:register",
-      "tx": "0xee1b3a5b03556d1d8a2f9bfe49907a363e61af199c4a5d6a877cfd36936bc066",
+      "tx": "0x1dbb7ba9d4597a89326eeb9be8235fb62ca377daf2b4711efecb395b7d37517b",
       "votes": [
         "AGREE",
         "AGREE",
@@ -3037,12 +3913,252 @@
       "method": "run_adversarial_case",
       "status": "FINALIZED",
       "step": "B:A18:run",
-      "tx": "0x75e7f072dc0f3c71ec24711b7890bba12610eb35472719b5b7fa96360532281d",
+      "tx": "0x1393a172cd6cdb5fd36a6e64376860b235b2a6d6372dec518122af925e8f1f78",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "B:A19:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A19:register",
+      "tx": "0xf027d6251f69ffdc1802387fb09cda4bcf7ede9b52e84b747458294578489fd9",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "B:A19:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A19:run",
+      "tx": "0x987c2503e1648bf1faa9daa53e30a076f5fe8cfb881b33f05b66c0c9229e30ca",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "B:A20:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A20:register",
+      "tx": "0xf29e918fc62b1ba574975aa36e4238135f9b273ac6799792c31bb037868d382d",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "B:A20:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A20:run",
+      "tx": "0xa17ad39325d72f7dbbb7e40c1dee94e8cddb4c8e2125cc6c82ef148c8c0e6914",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "B:A21:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A21:register",
+      "tx": "0xd9c397507feff0ce4309608bb8157b8b4a760d4f5666e1a4d82b698f17aafdbd",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "B:A21:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A21:run",
+      "tx": "0xe7a87de428f7e342e65a3cc83c2f2ca48b8b270e9455f509e643010912bd66f9",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "B:A24:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A24:register",
+      "tx": "0x8d285daa29f5eceabc2b9cbe0d6842375db0f4deee5a90fce50eb12048329e0c",
       "votes": [
         "AGREE",
         "AGREE",
         "AGREE",
         "IDLE",
+        "IDLE"
+      ]
+    },
+    "B:A24:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A24:run",
+      "tx": "0xccd4524ea605e1f4024d14ca9b4355c459dde0ff22704f537e078161712bb5ab",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "B:A25:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A25:register",
+      "tx": "0x03251370721ad986612b6c6da0b4242647d2e4f5ee546ce346a1aae6e739476b",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "B:A25:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A25:run",
+      "tx": "0xecbfad011a0ed02083a5dec7955cd7f1082a19d5183dcbe429b10202dd007ec4",
+      "votes": [
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "B:A28:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A28:register",
+      "tx": "0x4f0ea7d457f81fe78563f2caf1001ce1bc7f55cfa97f1b24fa9721ae998a5d96",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "B:A28:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A28:run",
+      "tx": "0xdeb5d991c2c958958621ad9be188e74871e6fbea7b441e5145f1eea6ca18c441",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "IDLE"
+      ]
+    },
+    "B:A29:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A29:register",
+      "tx": "0x0a487ee9df09e650d7c7bd661e1a0c6810c8642e14279fe148d18f05d8d0a335",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "B:A29:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A29:run",
+      "tx": "0x173e950c421b91a246312be1279d5a8821ee3686c6bdf72d9bfd53a807caa5a8",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "B:A30:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A30:register",
+      "tx": "0x66294356778596a2ac43b1a1ff6623503317b25ea2effb79a9d1cce74c21acbb",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "B:A30:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A30:run",
+      "tx": "0x48afdc7e1d9446658ca56cb683368605fe0d816b4764ba768723b49a49be4f22",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
         "IDLE"
       ]
     },
@@ -3052,13 +4168,13 @@
       "method": "register_adversarial_case",
       "status": "FINALIZED",
       "step": "B:BASE-ADA:register",
-      "tx": "0xa09a3946ebcc620980af634971a27a3579d54b5dc6ebd9be23bd85bbe8bcca74",
+      "tx": "0xa1bf6b3c1e730c7fc1e9526a6c67e7ae73d4476fa0a39fdf05573e378c382cdf",
       "votes": [
         "AGREE",
         "AGREE",
+        "AGREE",
         "IDLE",
-        "IDLE",
-        "AGREE"
+        "IDLE"
       ]
     },
     "B:BASE-ADA:run": {
@@ -3067,12 +4183,12 @@
       "method": "run_adversarial_case",
       "status": "FINALIZED",
       "step": "B:BASE-ADA:run",
-      "tx": "0xd15392fb544b3ab66ec27dd0352b1172bb8add6ddcc800b555e3dd1d046c373c",
+      "tx": "0x043071b1385fee99f78e001a8413e3c980c1c28dbcdd2783adbcfb41dfae3e41",
       "votes": [
         "AGREE",
+        "AGREE",
+        "AGREE",
         "IDLE",
-        "AGREE",
-        "AGREE",
         "IDLE"
       ]
     },
@@ -3082,13 +4198,13 @@
       "method": "register_adversarial_case",
       "status": "FINALIZED",
       "step": "B:BASE-MALLORY:register",
-      "tx": "0xbacb724320740580e47dd0798be5d7bdf7ffa582d2e84f282db3d7884b9fd951",
+      "tx": "0x4ad2fb48b1174f5c7674ad705a94f91526da9078467f8923d9e4c7ec465d2a09",
       "votes": [
         "AGREE",
         "AGREE",
-        "IDLE",
         "AGREE",
-        "IDLE"
+        "AGREE",
+        "AGREE"
       ]
     },
     "B:BASE-MALLORY:run": {
@@ -3097,7 +4213,52 @@
       "method": "run_adversarial_case",
       "status": "FINALIZED",
       "step": "B:BASE-MALLORY:run",
-      "tx": "0xab285c9268ff00e2fb195f4782c4cf7d828827628b304a9001434fb7cb873d5e",
+      "tx": "0xaa9cff41b9480cea8c1510349aa50c6f5bc174f150d052f3a330d452d943a85f",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "C:baseline_v2:replay": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "replay_adversarial_case",
+      "status": "FINALIZED",
+      "step": "C:baseline_v2:replay",
+      "tx": "0x34955d4841ba964505d9ae1bddd96d6011ad1eac96c81c6a7634965619fadcf2",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "C:baseline_v2:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "C:baseline_v2:run",
+      "tx": "0x593308b4cad601dc9bd6a83d58ec9a89b747fabef7e91fe837a9b505f7fc1df6",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "C:copied_v2:replay": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "replay_adversarial_case",
+      "status": "FINALIZED",
+      "step": "C:copied_v2:replay",
+      "tx": "0xba821a3706e4db2197e53f5c78f7a043010578b9c216d3d974e117c07ead2d84",
       "votes": [
         "AGREE",
         "IDLE",
@@ -3105,6 +4266,266 @@
         "AGREE",
         "AGREE"
       ]
+    },
+    "C:copied_v2:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "C:copied_v2:run",
+      "tx": "0x1cd30bd52306d07b919f84d67a0d1d0dda29d463282c91e75c29003f2383190a",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "C:dayo:assess": {
+      "actor": "dayo",
+      "leader_execution": "SUCCESS",
+      "method": "request_credit_assessment",
+      "status": "FINALIZED",
+      "step": "C:dayo:assess",
+      "tx": "0xf948182e9affc69f2ce7a8bb7af58b7ac728cae94d6f503e3b96c61a34df9dca",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "C:dayo:evidence:0": {
+      "actor": "dayo",
+      "leader_execution": "SUCCESS",
+      "method": "submit_evidence",
+      "status": "FINALIZED",
+      "step": "C:dayo:evidence:0",
+      "tx": "0x21830c2cc1fa36a141a9589628a3886da295d530c2b64f97755f558855f184d7",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "C:dayo:evidence:1": {
+      "actor": "dayo",
+      "leader_execution": "SUCCESS",
+      "method": "submit_evidence",
+      "status": "FINALIZED",
+      "step": "C:dayo:evidence:1",
+      "tx": "0x4a55a71044218698291fb5cbfda5cea05711b17da7011920588bae556c3e072c",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "C:dayo:evidence:2": {
+      "actor": "dayo",
+      "leader_execution": "SUCCESS",
+      "method": "submit_evidence",
+      "status": "FINALIZED",
+      "step": "C:dayo:evidence:2",
+      "tx": "0x8e72e67c142abf04f84ea50f1cf3144c1e7ba27c94fe1bb5a3b75375d551cf20",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "IDLE"
+      ]
+    },
+    "C:dayo:register": {
+      "actor": "dayo",
+      "leader_execution": "SUCCESS",
+      "method": "register_borrower",
+      "status": "FINALIZED",
+      "step": "C:dayo:register",
+      "tx": "0x3da78fec7ce40afc9e500a7735be25acf2aa968003c65cacdbd300d7f0e96498",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "C:publish_v2": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "publish_policy_version",
+      "status": "FINALIZED",
+      "step": "C:publish_v2",
+      "tx": "0x64372bc0a9dffbb5cd1e8d13c8664dab8106e3e5897632071b9d2072cfbc88ca",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "C:refuse:assess_someone_else": {
+      "actor": "mallory",
+      "leader_execution": "ERROR",
+      "method": "request_credit_assessment",
+      "status": "FINALIZED",
+      "step": "C:refuse:assess_someone_else",
+      "tx": "0x414583c76b78d788231537698833a69c4595303ab07407fe97fc6e5f7f1470e1",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "IDLE"
+      ]
+    },
+    "C:refuse:instruction_in_purpose": {
+      "actor": "stranger",
+      "leader_execution": "ERROR",
+      "method": "register_borrower",
+      "status": "FINALIZED",
+      "step": "C:refuse:instruction_in_purpose",
+      "tx": "0xf274fb976d6dc3cc92c3cdccdc6c71a2a3f944f95a06ac05eae74f8fc513e0f2",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "IDLE"
+      ]
+    },
+    "C:refuse:late_appeal": {
+      "actor": "dayo",
+      "leader_execution": "ERROR",
+      "method": "submit_appeal",
+      "status": "FINALIZED",
+      "step": "C:refuse:late_appeal",
+      "tx": "0x544f717ba7a81c4dd22ed22de2fdb3c6fea67ce85b3c904a5d473532b499df52",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "C:refuse:reassess_replaced_version": {
+      "actor": "chidi",
+      "leader_execution": "ERROR",
+      "method": "request_reassessment",
+      "status": "FINALIZED",
+      "step": "C:refuse:reassess_replaced_version",
+      "tx": "0xf5b2d5f4b52f1d881ad3b9d59de011de45c59c626da1c89e39798edbc4dd3813",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "C:refuse:register_twice": {
+      "actor": "ada",
+      "leader_execution": "ERROR",
+      "method": "register_borrower",
+      "status": "FINALIZED",
+      "step": "C:refuse:register_twice",
+      "tx": "0x755b6c4ea2f5e3fe04762a5a7390b2c7ca67245335f6c3107f83a4908cdbdaf1",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "C:refuse:same_document_twice": {
+      "actor": "ada",
+      "leader_execution": "ERROR",
+      "method": "submit_evidence",
+      "status": "FINALIZED",
+      "step": "C:refuse:same_document_twice",
+      "tx": "0x6f56d1333881b90b1a20962d6f25b2af5cd89177d5280ebb5f8d5b36a59f5321",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "C:refuse:stranger_publishes": {
+      "actor": "stranger",
+      "leader_execution": "ERROR",
+      "method": "publish_policy_version",
+      "status": "FINALIZED",
+      "step": "C:refuse:stranger_publishes",
+      "tx": "0xa89b14a42383bda3df2cba118c93b6e062bbaca2d7bab26343381c57882e451c",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "C:short_window_policy": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_policy",
+      "status": "FINALIZED",
+      "step": "C:short_window_policy",
+      "tx": "0xdeb94dc043b6a90684786e893ba26b6e960b290db5299943b54eaa24faede85a",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
     }
+  },
+  "summary": {
+    "code": [
+      "BASE-MALLORY",
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05",
+      "A06",
+      "A07",
+      "A08",
+      "A09",
+      "A10",
+      "A11",
+      "A13",
+      "A14",
+      "A15",
+      "A16",
+      "A18",
+      "A19",
+      "A21",
+      "A24",
+      "A25",
+      "A28",
+      "A29",
+      "A30"
+    ],
+    "panel_held": [
+      "BASE-ADA",
+      "A12",
+      "A17",
+      "A20"
+    ],
+    "panel_not_held": []
   }
 }

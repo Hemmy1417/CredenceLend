@@ -1,22 +1,23 @@
 {
   "byte_identical": true,
   "chain_id": 61999,
-  "contract_address": "0x25FEDE0811b95697A333633b611B67f8A250eE66",
-  "deploy_tx": "0x8449f48c536aec94cf610b7cdf07b1d177bed7113d7a06094f11f7fc088fa871",
-  "deployed_at": "2026-09-12T07:46:10Z",
+  "contract_address": "0x583ae5d8c2b09A1EE7eafb993dea72546372bc99",
+  "deploy_tx": "0x7f048faa5b43d3b765623ffed1fddf96f585eee28c033a503fb7ccf97670507a",
+  "deployed_at": "2026-09-12T08:49:28Z",
   "deployed_sha256": "f56e600967357e0481a26544533ebd538a78b886cd142a8f3bf8cc7f75640ede",
   "explorer": "https://explorer-studio.genlayer.com",
-  "explorer_contract": "https://explorer-studio.genlayer.com/address/0x25FEDE0811b95697A333633b611B67f8A250eE66",
-  "explorer_tx": "https://explorer-studio.genlayer.com/tx/0x8449f48c536aec94cf610b7cdf07b1d177bed7113d7a06094f11f7fc088fa871",
-  "head_at_deploy": "baea205816ef5340aae909c91b0eb6a391f84878",
+  "explorer_contract": "https://explorer-studio.genlayer.com/address/0x583ae5d8c2b09A1EE7eafb993dea72546372bc99",
+  "explorer_tx": "https://explorer-studio.genlayer.com/tx/0x7f048faa5b43d3b765623ffed1fddf96f585eee28c033a503fb7ccf97670507a",
+  "head_at_deploy": "e5080ebaa464e377a94428d6e6e84719626d3620",
   "leader_execution": "SUCCESS",
   "network": "studionet",
-  "note": "The diagnostic addresses are disposable deployments run before this one (deploy/diagnostics/); they are not deployments of record.",
+  "note": "Same contract bytes throughout. The first deployment (0x25FEDE08...eE66) is superseded: the live run's own setup had one borrower appeal with another borrower's document, which registered those bytes to the wrong wallet and made a later case fail as cross-borrower reuse - correct behaviour, contaminated state. The diagnostic addresses are disposable deployments run before the canonical one (deploy/diagnostics/); none is a deployment of record.",
   "other_addresses": {
     "diagnostic_run_1_c06aac6": "0xFE2F7183E5E069Eb671bC3f3AC99F195EC89994b",
     "diagnostic_run_2_4ec5bea": "0xeBfAbEda2D1aD48D844538f9485E9A3c4132419f",
     "diagnostic_run_3_a261d28": "0xfA6c9c40f54653CF76907f97ff09e0131cE2857E",
-    "signer": "0x00192512c2f4F40c00840e3E313C8f2204DA8ec6"
+    "signer": "0x00192512c2f4F40c00840e3E313C8f2204DA8ec6",
+    "superseded_first_deployment": "0x25FEDE0811b95697A333633b611B67f8A250eE66"
   },
   "rpc": "https://studio.genlayer.com/api",
   "signer": "0x00192512c2f4F40c00840e3E313C8f2204DA8ec6",
@@ -27,8 +28,8 @@
   "votes": [
     "AGREE",
     "AGREE",
-    "IDLE",
     "AGREE",
-    "IDLE"
+    "AGREE",
+    "AGREE"
   ]
 }

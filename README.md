@@ -130,11 +130,24 @@ request_credit_assessment --> consensus round --> CA-000001 (immutable)
 
 | Check | Command | Result |
 |---|---|---|
-| Direct Mode | `python -m pytest tests/direct -q` | 279 passed |
+| Direct Mode | `python -m pytest tests/direct -q` | 280 passed |
 | Preflight | `python scripts/preflight.py` | 36 checks, 0 failed |
 | GenVM validation | `genvm-lint check contracts/credencelend.py --json` | ok, 28 methods, 0 errors (I200 informational) |
 | Lint | `ruff check .` | clean |
+| Mutation sweep (deployed bytes) | `python scripts/mutation_check.py` | 106 mutations, 106 killed |
 | Sample assessment | `python scripts/run_direct_mode.py` | APPROVED, 78/100, LOW band |
+| Integration (the deployment) | `CREDENCELEND_LIVE_WRITES=1 pytest tests/integration -v` | 5 passed |
+| Live run (the deployment) | `python scripts/live_scenarios.py` | 103 transactions: 5/5 real borrowers, 28/28 adversarial cases, the rule change and 7 refusals |
+
+On the deployment, with real models: a strong borrower APPROVED at 93; a
+liquidation REVIEW_REQUIRED at 68 on the records alone and APPROVED at 78
+after an appeal whose statement the panel found explanatory, the original
+record preserved; an impostor's copied history SUSPICIOUS; all 28 threat-model
+cases matching Direct Mode; publishing a stricter policy version making the
+earlier approval `STALE` and not eligible at once. 24 of the 28 cases are
+decided by code or the registry and are asserted by the run; 4 are
+panel-decided and are recorded as observed. `SUBMISSION.md` has the full
+tally, and `deploy/live_scenarios_transcript.json` every transaction.
 
 ## Repository
 

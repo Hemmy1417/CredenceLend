@@ -1,5 +1,29 @@
 # Deployment
 
+## The deployment of record
+
+| Item | Value |
+|---|---|
+| Contract | `0x583ae5d8c2b09A1EE7eafb993dea72546372bc99` |
+| Explorer | https://explorer-studio.genlayer.com/address/0x583ae5d8c2b09A1EE7eafb993dea72546372bc99 (the Code tab shows the deployed source) |
+| Deploy transaction | `0x7f048faa5b43d3b765623ffed1fddf96f585eee28c033a503fb7ccf97670507a` |
+| Status | `FINALIZED`, leader execution `SUCCESS`, validator votes `AGREE` x5 |
+| Source | `contracts/credencelend.py` at commit `a261d28`, blob `7b811e2`, sha256 `f56e6009...0ede` |
+| Source parity | the source read back with `gen_getContractCode` has the same sha256 (`python scripts/deploy_studionet.py --verify`) |
+| Signer | `0x00192512c2f4F40c00840e3E313C8f2204DA8ec6` |
+
+`deploy/deployment.json` is the machine-readable record and also lists the
+addresses that are NOT deployments of record: three disposable diagnostic
+deployments (`deploy/diagnostics/`), and a first canonical deployment,
+`0x25FEDE0811b95697A333633b611B67f8A250eE66`, superseded before its live run
+finished. The contract bytes are identical in both; what differed was the
+live run's own setup, which had one borrower appeal with another borrower's
+document. That registered those bytes to the wrong wallet, so a later case
+was flagged as cross-borrower reuse - the contract behaving exactly as
+designed, on state the run itself had spoiled. The script now has each
+borrower appeal with their own document, and the run was repeated from a
+clean deployment.
+
 ## Network and assumptions
 
 | Item | Value |
