@@ -1,0 +1,2296 @@
+{
+  "A": {
+    "ada": {
+      "decided_by": "PANEL",
+      "expected_score": [
+        93,
+        93
+      ],
+      "expected_verdict": "APPROVED",
+      "held": true,
+      "observed": {
+        "assessment_id": "CA-000001",
+        "confidence": "HIGH",
+        "documents": [
+          [
+            "E1",
+            "CONSISTENT",
+            "CODE"
+          ],
+          [
+            "E2",
+            "CONSISTENT",
+            "CODE"
+          ],
+          [
+            "E3",
+            "CONSISTENT",
+            "CODE"
+          ],
+          [
+            "E4",
+            "CONSISTENT",
+            "CODE"
+          ],
+          [
+            "E5",
+            "CONSISTENT",
+            "PANEL"
+          ]
+        ],
+        "eligible": true,
+        "kind": "ASSESSMENT",
+        "panel_reason": "",
+        "panel_state": "ASSESSED",
+        "present": [],
+        "reason_codes": [
+          "SCORE:BASE:+30",
+          "SCORE:REPAID_LOANS:+20",
+          "SCORE:INCOME:+18",
+          "SCORE:HISTORY:+15",
+          "SCORE:COVERAGE:+10",
+          "VERDICT:APPROVED"
+        ],
+        "recommended_exposure": 2700000,
+        "recommended_ltv_bps": 7500,
+        "risk_band": "VERY_LOW",
+        "rows": [
+          [
+            "E1",
+            "EXAMINED"
+          ],
+          [
+            "E2",
+            "EXAMINED"
+          ],
+          [
+            "E3",
+            "EXAMINED"
+          ],
+          [
+            "E4",
+            "EXAMINED"
+          ],
+          [
+            "E5",
+            "EXAMINED"
+          ]
+        ],
+        "score": 93,
+        "verdict": "APPROVED"
+      }
+    },
+    "ada_eligible_now": true,
+    "bola_changes": {
+      "added_evidence": [
+        "EV-000014"
+      ],
+      "eligible": [
+        false,
+        true
+      ],
+      "reason_codes_added": [
+        "LIQUIDATION:EXPLAINED",
+        "SCORE:EXPLAINED_LIQUIDATIONS:-5",
+        "VERDICT:APPROVED"
+      ],
+      "reason_codes_removed": [
+        "LIQUIDATION:NOT_EXPLAINED",
+        "PANEL:SKIPPED:NOTHING_TO_ASSESS",
+        "SCORE:UNEXPLAINED_LIQUIDATIONS:-15",
+        "VERDICT:REVIEW_REQUIRED"
+      ],
+      "risk_band": [
+        "MODERATE",
+        "LOW"
+      ],
+      "score": [
+        68,
+        78
+      ],
+      "verdict": [
+        "REVIEW_REQUIRED",
+        "APPROVED"
+      ]
+    },
+    "bola_original_preserved": true,
+    "bola_reassessed": {
+      "decided_by": "PANEL",
+      "expected_score": [
+        78,
+        78
+      ],
+      "expected_verdict": "APPROVED",
+      "held": true,
+      "observed": {
+        "assessment_id": "CA-000004",
+        "confidence": "HIGH",
+        "documents": [
+          [
+            "E1",
+            "CONSISTENT",
+            "CODE"
+          ],
+          [
+            "E2",
+            "CONSISTENT",
+            "CODE"
+          ],
+          [
+            "E3",
+            "CONSISTENT",
+            "CODE"
+          ],
+          [
+            "E4",
+            "CONSISTENT",
+            "CODE"
+          ],
+          [
+            "E5",
+            "CONSISTENT",
+            "PANEL"
+          ]
+        ],
+        "eligible": true,
+        "kind": "REASSESSMENT",
+        "panel_reason": "",
+        "panel_state": "ASSESSED",
+        "present": [],
+        "reason_codes": [
+          "LIQUIDATION:EXPLAINED",
+          "SCORE:BASE:+30",
+          "SCORE:REPAID_LOANS:+15",
+          "SCORE:EXPLAINED_LIQUIDATIONS:-5",
+          "SCORE:INCOME:+16",
+          "SCORE:HISTORY:+12",
+          "SCORE:COVERAGE:+10",
+          "VERDICT:APPROVED"
+        ],
+        "recommended_exposure": 2400000,
+        "recommended_ltv_bps": 6000,
+        "risk_band": "LOW",
+        "rows": [
+          [
+            "E1",
+            "EXAMINED"
+          ],
+          [
+            "E2",
+            "EXAMINED"
+          ],
+          [
+            "E3",
+            "EXAMINED"
+          ],
+          [
+            "E4",
+            "EXAMINED"
+          ],
+          [
+            "E5",
+            "EXAMINED"
+          ]
+        ],
+        "score": 78,
+        "verdict": "APPROVED"
+      }
+    },
+    "bola_records_only": {
+      "decided_by": "CODE",
+      "expected_score": [
+        68,
+        68
+      ],
+      "expected_verdict": "REVIEW_REQUIRED",
+      "held": true,
+      "observed": {
+        "assessment_id": "CA-000003",
+        "confidence": "HIGH",
+        "documents": [
+          [
+            "E1",
+            "CONSISTENT",
+            "CODE"
+          ],
+          [
+            "E2",
+            "CONSISTENT",
+            "CODE"
+          ],
+          [
+            "E3",
+            "CONSISTENT",
+            "CODE"
+          ],
+          [
+            "E4",
+            "CONSISTENT",
+            "CODE"
+          ]
+        ],
+        "eligible": false,
+        "kind": "ASSESSMENT",
+        "panel_reason": "NOTHING_TO_ASSESS",
+        "panel_state": "SKIPPED",
+        "present": [],
+        "reason_codes": [
+          "LIQUIDATION:NOT_EXPLAINED",
+          "PANEL:SKIPPED:NOTHING_TO_ASSESS",
+          "SCORE:BASE:+30",
+          "SCORE:REPAID_LOANS:+15",
+          "SCORE:UNEXPLAINED_LIQUIDATIONS:-15",
+          "SCORE:INCOME:+16",
+          "SCORE:HISTORY:+12",
+          "SCORE:COVERAGE:+10",
+          "VERDICT:REVIEW_REQUIRED"
+        ],
+        "recommended_exposure": 1500000,
+        "recommended_ltv_bps": 4000,
+        "risk_band": "MODERATE",
+        "rows": [
+          [
+            "E1",
+            "EXAMINED"
+          ],
+          [
+            "E2",
+            "EXAMINED"
+          ],
+          [
+            "E3",
+            "EXAMINED"
+          ],
+          [
+            "E4",
+            "EXAMINED"
+          ]
+        ],
+        "score": 68,
+        "verdict": "REVIEW_REQUIRED"
+      }
+    },
+    "chidi": {
+      "decided_by": "PANEL",
+      "expected_score": [
+        62,
+        62
+      ],
+      "expected_verdict": "REVIEW_REQUIRED",
+      "held": true,
+      "observed": {
+        "assessment_id": "CA-000002",
+        "confidence": "HIGH",
+        "documents": [
+          [
+            "E1",
+            "CONSISTENT",
+            "CODE"
+          ],
+          [
+            "E2",
+            "CONSISTENT",
+            "CODE"
+          ],
+          [
+            "E3",
+            "CONSISTENT",
+            "PANEL"
+          ]
+        ],
+        "eligible": false,
+        "kind": "ASSESSMENT",
+        "panel_reason": "",
+        "panel_state": "ASSESSED",
+        "present": [],
+        "reason_codes": [
+          "SCORE:BASE:+30",
+          "SCORE:INCOME:+20",
+          "SCORE:HISTORY:+2",
+          "SCORE:COVERAGE:+10",
+          "VERDICT:REVIEW_REQUIRED"
+        ],
+        "recommended_exposure": 1500000,
+        "recommended_ltv_bps": 4000,
+        "risk_band": "MODERATE",
+        "rows": [
+          [
+            "E1",
+            "EXAMINED"
+          ],
+          [
+            "E2",
+            "EXAMINED"
+          ],
+          [
+            "E3",
+            "EXAMINED"
+          ]
+        ],
+        "score": 62,
+        "verdict": "REVIEW_REQUIRED"
+      }
+    },
+    "chidi_assessment": "CA-000002",
+    "mallory_copied_history": {
+      "decided_by": "CODE",
+      "expected_score": [
+        null,
+        null
+      ],
+      "expected_verdict": "SUSPICIOUS",
+      "held": true,
+      "observed": {
+        "assessment_id": "CA-000005",
+        "confidence": "HIGH",
+        "documents": [
+          [
+            "E1",
+            "CONSISTENT",
+            "CODE"
+          ],
+          [
+            "E2",
+            "CONSISTENT",
+            "CODE"
+          ],
+          [
+            "E3",
+            "CONSISTENT",
+            "CODE"
+          ]
+        ],
+        "eligible": false,
+        "kind": "ASSESSMENT",
+        "panel_reason": "HARD_FACT_PRESENT",
+        "panel_state": "SKIPPED",
+        "present": [
+          "WALLET_MISMATCH",
+          "CROSS_BORROWER_REUSE"
+        ],
+        "reason_codes": [
+          "INDICATOR:WALLET_MISMATCH",
+          "INDICATOR:CROSS_BORROWER_REUSE",
+          "PANEL:SKIPPED:HARD_FACT_PRESENT",
+          "SCORE:BASE:+30",
+          "SCORE:INCOME:+12",
+          "SCORE:HISTORY:+8",
+          "SCORE:COVERAGE:+10",
+          "VERDICT:SUSPICIOUS"
+        ],
+        "recommended_exposure": 0,
+        "recommended_ltv_bps": 0,
+        "risk_band": "VERY_HIGH",
+        "rows": [
+          [
+            "E1",
+            "EXAMINED"
+          ],
+          [
+            "E2",
+            "EXAMINED"
+          ],
+          [
+            "E3",
+            "EXAMINED"
+          ]
+        ],
+        "score": 20,
+        "verdict": "SUSPICIOUS"
+      }
+    },
+    "policy_id": "LP-000001"
+  },
+  "B": {
+    "cases": {
+      "A01": {
+        "case_id": "A01",
+        "decided_by": "CODE",
+        "observed": {
+          "assessment_id": "AC-000003-R1",
+          "confidence": "HIGH",
+          "documents": [
+            [
+              "E1",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E2",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E3",
+              "NOT_ASSESSED",
+              "CODE"
+            ]
+          ],
+          "eligible": false,
+          "kind": "TEST",
+          "panel_reason": "NOTHING_TO_ASSESS",
+          "panel_state": "SKIPPED",
+          "present": [],
+          "reason_codes": [
+            "ROW:E3:NOT_ALLOWED",
+            "PANEL:SKIPPED:NOTHING_TO_ASSESS",
+            "BELOW_MINIMUM_EVIDENCE",
+            "SCORE:BASE:+30",
+            "SCORE:INCOME:+12",
+            "SCORE:HISTORY:+8",
+            "SCORE:COVERAGE:+10",
+            "VERDICT:INSUFFICIENT_EVIDENCE"
+          ],
+          "recommended_exposure": 0,
+          "recommended_ltv_bps": 0,
+          "risk_band": "MODERATE",
+          "rows": [
+            [
+              "E1",
+              "EXAMINED"
+            ],
+            [
+              "E2",
+              "EXAMINED"
+            ],
+            [
+              "E3",
+              "NOT_ALLOWED"
+            ]
+          ],
+          "score": 60,
+          "verdict": "INSUFFICIENT_EVIDENCE"
+        },
+        "onchain_id": "AC-000003",
+        "passed": true,
+        "run": {
+          "actor": "stranger",
+          "leader_execution": "SUCCESS",
+          "method": "run_adversarial_case",
+          "status": "FINALIZED",
+          "step": "B:A01:run",
+          "tx": "0xd031c84eff8a713fbd1b6a064cd38eb48fcbc2ad8b9ea23fab69d7edd89dfc63",
+          "votes": [
+            "AGREE",
+            "IDLE",
+            "IDLE",
+            "AGREE",
+            "AGREE"
+          ]
+        }
+      },
+      "A02": {
+        "case_id": "A02",
+        "decided_by": "CODE",
+        "observed": {
+          "assessment_id": "AC-000004-R1",
+          "confidence": "HIGH",
+          "documents": [
+            [
+              "E1",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E2",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E3",
+              "ALTERED",
+              "CODE"
+            ]
+          ],
+          "eligible": false,
+          "kind": "TEST",
+          "panel_reason": "HARD_FACT_PRESENT",
+          "panel_state": "SKIPPED",
+          "present": [
+            "DOCUMENT_ALTERED"
+          ],
+          "reason_codes": [
+            "INDICATOR:DOCUMENT_ALTERED",
+            "MISSING:INCOME_STATEMENT",
+            "PANEL:SKIPPED:HARD_FACT_PRESENT",
+            "SCORE:BASE:+30",
+            "SCORE:REPAID_LOANS:+10",
+            "SCORE:HISTORY:+8",
+            "SCORE:COVERAGE:+5",
+            "VERDICT:SUSPICIOUS"
+          ],
+          "recommended_exposure": 0,
+          "recommended_ltv_bps": 0,
+          "risk_band": "VERY_HIGH",
+          "rows": [
+            [
+              "E1",
+              "EXAMINED"
+            ],
+            [
+              "E2",
+              "EXAMINED"
+            ],
+            [
+              "E3",
+              "EXAMINED"
+            ]
+          ],
+          "score": 20,
+          "verdict": "SUSPICIOUS"
+        },
+        "onchain_id": "AC-000004",
+        "passed": true,
+        "run": {
+          "actor": "stranger",
+          "leader_execution": "SUCCESS",
+          "method": "run_adversarial_case",
+          "status": "FINALIZED",
+          "step": "B:A02:run",
+          "tx": "0xac2669c491c03e0fb547bcbf4ffc77a7ae44fef20d29672825c46dd9e332d784",
+          "votes": [
+            "IDLE",
+            "AGREE",
+            "IDLE",
+            "AGREE",
+            "AGREE"
+          ]
+        }
+      },
+      "A03": {
+        "case_id": "A03",
+        "decided_by": "CODE",
+        "observed": {
+          "assessment_id": "AC-000005-R1",
+          "confidence": "HIGH",
+          "documents": [
+            [
+              "E1",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E2",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E3",
+              "NOT_ASSESSED",
+              "CODE"
+            ]
+          ],
+          "eligible": false,
+          "kind": "TEST",
+          "panel_reason": "NOTHING_TO_ASSESS",
+          "panel_state": "SKIPPED",
+          "present": [],
+          "reason_codes": [
+            "ROW:E3:NOT_ALLOWED",
+            "MISSING:INCOME_STATEMENT",
+            "PANEL:SKIPPED:NOTHING_TO_ASSESS",
+            "SCORE:BASE:+30",
+            "SCORE:REPAID_LOANS:+10",
+            "SCORE:HISTORY:+8",
+            "SCORE:COVERAGE:+5",
+            "VERDICT:INSUFFICIENT_EVIDENCE"
+          ],
+          "recommended_exposure": 0,
+          "recommended_ltv_bps": 0,
+          "risk_band": "MODERATE",
+          "rows": [
+            [
+              "E1",
+              "EXAMINED"
+            ],
+            [
+              "E2",
+              "EXAMINED"
+            ],
+            [
+              "E3",
+              "NOT_ALLOWED"
+            ]
+          ],
+          "score": 53,
+          "verdict": "INSUFFICIENT_EVIDENCE"
+        },
+        "onchain_id": "AC-000005",
+        "passed": true,
+        "run": {
+          "actor": "stranger",
+          "leader_execution": "SUCCESS",
+          "method": "run_adversarial_case",
+          "status": "FINALIZED",
+          "step": "B:A03:run",
+          "tx": "0x9909d4c3bb5e31d2b697583988d41b03ee96fe6d73a76d44549a829c75a1b21a",
+          "votes": [
+            "AGREE",
+            "AGREE",
+            "AGREE",
+            "IDLE",
+            "IDLE"
+          ]
+        }
+      },
+      "A04": {
+        "case_id": "A04",
+        "decided_by": "CODE",
+        "observed": {
+          "assessment_id": "AC-000006-R1",
+          "confidence": "HIGH",
+          "documents": [
+            [
+              "E1",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E2",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E3",
+              "NOT_ASSESSED",
+              "CODE"
+            ]
+          ],
+          "eligible": false,
+          "kind": "TEST",
+          "panel_reason": "NOTHING_TO_ASSESS",
+          "panel_state": "SKIPPED",
+          "present": [],
+          "reason_codes": [
+            "ROW:E3:NOT_ALLOWED",
+            "PANEL:SKIPPED:NOTHING_TO_ASSESS",
+            "BELOW_MINIMUM_EVIDENCE",
+            "SCORE:BASE:+30",
+            "SCORE:INCOME:+12",
+            "SCORE:HISTORY:+8",
+            "SCORE:COVERAGE:+10",
+            "VERDICT:INSUFFICIENT_EVIDENCE"
+          ],
+          "recommended_exposure": 0,
+          "recommended_ltv_bps": 0,
+          "risk_band": "MODERATE",
+          "rows": [
+            [
+              "E1",
+              "EXAMINED"
+            ],
+            [
+              "E2",
+              "EXAMINED"
+            ],
+            [
+              "E3",
+              "NOT_ALLOWED"
+            ]
+          ],
+          "score": 60,
+          "verdict": "INSUFFICIENT_EVIDENCE"
+        },
+        "onchain_id": "AC-000006",
+        "passed": true,
+        "run": {
+          "actor": "stranger",
+          "leader_execution": "SUCCESS",
+          "method": "run_adversarial_case",
+          "status": "FINALIZED",
+          "step": "B:A04:run",
+          "tx": "0x260b32cf67d111fd392d0f68d0da9a03019a9252fb761c6bc27f96f2508221d3",
+          "votes": [
+            "IDLE",
+            "AGREE",
+            "IDLE",
+            "AGREE",
+            "AGREE"
+          ]
+        }
+      },
+      "A05": {
+        "case_id": "A05",
+        "decided_by": "CODE",
+        "observed": {
+          "assessment_id": "AC-000007-R1",
+          "confidence": "HIGH",
+          "documents": [
+            [
+              "E1",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E2",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E3",
+              "CONSISTENT",
+              "CODE"
+            ]
+          ],
+          "eligible": false,
+          "kind": "TEST",
+          "panel_reason": "HARD_FACT_PRESENT",
+          "panel_state": "SKIPPED",
+          "present": [
+            "WALLET_MISMATCH",
+            "CROSS_BORROWER_REUSE"
+          ],
+          "reason_codes": [
+            "INDICATOR:WALLET_MISMATCH",
+            "INDICATOR:CROSS_BORROWER_REUSE",
+            "PANEL:SKIPPED:HARD_FACT_PRESENT",
+            "SCORE:BASE:+30",
+            "SCORE:INCOME:+12",
+            "SCORE:HISTORY:+8",
+            "SCORE:COVERAGE:+10",
+            "VERDICT:SUSPICIOUS"
+          ],
+          "recommended_exposure": 0,
+          "recommended_ltv_bps": 0,
+          "risk_band": "VERY_HIGH",
+          "rows": [
+            [
+              "E1",
+              "EXAMINED"
+            ],
+            [
+              "E2",
+              "EXAMINED"
+            ],
+            [
+              "E3",
+              "EXAMINED"
+            ]
+          ],
+          "score": 20,
+          "verdict": "SUSPICIOUS"
+        },
+        "onchain_id": "AC-000007",
+        "passed": true,
+        "run": {
+          "actor": "stranger",
+          "leader_execution": "SUCCESS",
+          "method": "run_adversarial_case",
+          "status": "FINALIZED",
+          "step": "B:A05:run",
+          "tx": "0xd5cc811ad31defbeb36aed5208ab9fc5f0e393c3e4dfb732fd9571ee162bc357",
+          "votes": [
+            "AGREE",
+            "IDLE",
+            "AGREE",
+            "IDLE",
+            "AGREE"
+          ]
+        }
+      },
+      "A06": {
+        "case_id": "A06",
+        "decided_by": "CODE",
+        "observed": {
+          "assessment_id": "AC-000008-R1",
+          "confidence": "HIGH",
+          "documents": [
+            [
+              "E1",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E2",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E3",
+              "CONSISTENT",
+              "CODE"
+            ]
+          ],
+          "eligible": false,
+          "kind": "TEST",
+          "panel_reason": "HARD_FACT_PRESENT",
+          "panel_state": "SKIPPED",
+          "present": [
+            "WALLET_MISMATCH"
+          ],
+          "reason_codes": [
+            "INDICATOR:WALLET_MISMATCH",
+            "MISSING:INCOME_STATEMENT",
+            "PANEL:SKIPPED:HARD_FACT_PRESENT",
+            "SCORE:BASE:+30",
+            "SCORE:REPAID_LOANS:+10",
+            "SCORE:HISTORY:+8",
+            "SCORE:COVERAGE:+5",
+            "VERDICT:SUSPICIOUS"
+          ],
+          "recommended_exposure": 0,
+          "recommended_ltv_bps": 0,
+          "risk_band": "VERY_HIGH",
+          "rows": [
+            [
+              "E1",
+              "EXAMINED"
+            ],
+            [
+              "E2",
+              "EXAMINED"
+            ],
+            [
+              "E3",
+              "EXAMINED"
+            ]
+          ],
+          "score": 20,
+          "verdict": "SUSPICIOUS"
+        },
+        "onchain_id": "AC-000008",
+        "passed": true,
+        "run": {
+          "actor": "stranger",
+          "leader_execution": "SUCCESS",
+          "method": "run_adversarial_case",
+          "status": "FINALIZED",
+          "step": "B:A06:run",
+          "tx": "0x2599f1d7b5b9679ff98c5350eb694d4ef55fd238c75496546b7bdc0518b0c068",
+          "votes": [
+            "AGREE",
+            "IDLE",
+            "IDLE",
+            "AGREE",
+            "AGREE"
+          ]
+        }
+      },
+      "A07": {
+        "case_id": "A07",
+        "decided_by": "CODE",
+        "observed": {
+          "assessment_id": "AC-000009-R1",
+          "confidence": "HIGH",
+          "documents": [
+            [
+              "E1",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E2",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E3",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E4",
+              "CONSISTENT",
+              "CODE"
+            ]
+          ],
+          "eligible": true,
+          "kind": "TEST",
+          "panel_reason": "NOTHING_TO_ASSESS",
+          "panel_state": "SKIPPED",
+          "present": [],
+          "reason_codes": [
+            "PANEL:SKIPPED:NOTHING_TO_ASSESS",
+            "SCORE:BASE:+30",
+            "SCORE:REPAID_LOANS:+10",
+            "SCORE:INCOME:+12",
+            "SCORE:HISTORY:+8",
+            "SCORE:COVERAGE:+10",
+            "VERDICT:APPROVED"
+          ],
+          "recommended_exposure": 1800000,
+          "recommended_ltv_bps": 6000,
+          "risk_band": "LOW",
+          "rows": [
+            [
+              "E1",
+              "EXAMINED"
+            ],
+            [
+              "E2",
+              "EXAMINED"
+            ],
+            [
+              "E3",
+              "EXAMINED"
+            ],
+            [
+              "E4",
+              "EXAMINED"
+            ]
+          ],
+          "score": 70,
+          "verdict": "APPROVED"
+        },
+        "onchain_id": "AC-000009",
+        "passed": true,
+        "run": {
+          "actor": "stranger",
+          "leader_execution": "SUCCESS",
+          "method": "run_adversarial_case",
+          "status": "FINALIZED",
+          "step": "B:A07:run",
+          "tx": "0xc006c015384f93f807501384938f7160125cbb5006a8bd38620a2e442a80a1c0",
+          "votes": [
+            "AGREE",
+            "IDLE",
+            "AGREE",
+            "IDLE",
+            "AGREE"
+          ]
+        }
+      },
+      "A08": {
+        "case_id": "A08",
+        "decided_by": "CODE",
+        "observed": {
+          "assessment_id": "AC-000010-R1",
+          "confidence": "HIGH",
+          "documents": [
+            [
+              "E1",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E2",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E3",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E4",
+              "CONSISTENT",
+              "CODE"
+            ]
+          ],
+          "eligible": true,
+          "kind": "TEST",
+          "panel_reason": "NOTHING_TO_ASSESS",
+          "panel_state": "SKIPPED",
+          "present": [],
+          "reason_codes": [
+            "PANEL:SKIPPED:NOTHING_TO_ASSESS",
+            "SCORE:BASE:+30",
+            "SCORE:REPAID_LOANS:+10",
+            "SCORE:INCOME:+12",
+            "SCORE:HISTORY:+8",
+            "SCORE:COVERAGE:+10",
+            "VERDICT:APPROVED"
+          ],
+          "recommended_exposure": 1800000,
+          "recommended_ltv_bps": 6000,
+          "risk_band": "LOW",
+          "rows": [
+            [
+              "E1",
+              "EXAMINED"
+            ],
+            [
+              "E2",
+              "EXAMINED"
+            ],
+            [
+              "E3",
+              "EXAMINED"
+            ],
+            [
+              "E4",
+              "EXAMINED"
+            ]
+          ],
+          "score": 70,
+          "verdict": "APPROVED"
+        },
+        "onchain_id": "AC-000010",
+        "passed": true,
+        "run": {
+          "actor": "stranger",
+          "leader_execution": "SUCCESS",
+          "method": "run_adversarial_case",
+          "status": "FINALIZED",
+          "step": "B:A08:run",
+          "tx": "0x4130ee88e2a237f2060930d73e6de10b1d40f372073037c29651d23d58825dd8",
+          "votes": [
+            "IDLE",
+            "AGREE",
+            "AGREE",
+            "AGREE",
+            "IDLE"
+          ]
+        }
+      },
+      "A09": {
+        "case_id": "A09",
+        "decided_by": "CODE",
+        "observed": {
+          "assessment_id": "AC-000011-R1",
+          "confidence": "HIGH",
+          "documents": [
+            [
+              "E1",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E2",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E3",
+              "CONSISTENT",
+              "CODE"
+            ]
+          ],
+          "eligible": false,
+          "kind": "TEST",
+          "panel_reason": "NOTHING_TO_ASSESS",
+          "panel_state": "SKIPPED",
+          "present": [],
+          "reason_codes": [
+            "ROW:E3:STALE",
+            "STALE_ONLY:INCOME_STATEMENT",
+            "PANEL:SKIPPED:NOTHING_TO_ASSESS",
+            "SCORE:BASE:+30",
+            "SCORE:REPAID_LOANS:+10",
+            "SCORE:HISTORY:+8",
+            "SCORE:COVERAGE:+5",
+            "VERDICT:STALE_EVIDENCE"
+          ],
+          "recommended_exposure": 0,
+          "recommended_ltv_bps": 0,
+          "risk_band": "MODERATE",
+          "rows": [
+            [
+              "E1",
+              "EXAMINED"
+            ],
+            [
+              "E2",
+              "EXAMINED"
+            ],
+            [
+              "E3",
+              "EXAMINED"
+            ]
+          ],
+          "score": 53,
+          "verdict": "STALE_EVIDENCE"
+        },
+        "onchain_id": "AC-000011",
+        "passed": true,
+        "run": {
+          "actor": "stranger",
+          "leader_execution": "SUCCESS",
+          "method": "run_adversarial_case",
+          "status": "FINALIZED",
+          "step": "B:A09:run",
+          "tx": "0xedbc8be20ca28c15bcf603ec5a669e96c250610b8ac9efc9530978b7322aefea",
+          "votes": [
+            "IDLE",
+            "IDLE",
+            "AGREE",
+            "AGREE",
+            "AGREE"
+          ]
+        }
+      },
+      "A10": {
+        "case_id": "A10",
+        "decided_by": "CODE",
+        "observed": {
+          "assessment_id": "AC-000012-R1",
+          "confidence": "HIGH",
+          "documents": [
+            [
+              "E1",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E2",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E3",
+              "ALTERED",
+              "CODE"
+            ]
+          ],
+          "eligible": false,
+          "kind": "TEST",
+          "panel_reason": "HARD_FACT_PRESENT",
+          "panel_state": "SKIPPED",
+          "present": [
+            "DOCUMENT_ALTERED"
+          ],
+          "reason_codes": [
+            "INDICATOR:DOCUMENT_ALTERED",
+            "PANEL:SKIPPED:HARD_FACT_PRESENT",
+            "SCORE:BASE:+30",
+            "SCORE:INCOME:+12",
+            "SCORE:HISTORY:+8",
+            "SCORE:COVERAGE:+10",
+            "VERDICT:SUSPICIOUS"
+          ],
+          "recommended_exposure": 0,
+          "recommended_ltv_bps": 0,
+          "risk_band": "VERY_HIGH",
+          "rows": [
+            [
+              "E1",
+              "EXAMINED"
+            ],
+            [
+              "E2",
+              "EXAMINED"
+            ],
+            [
+              "E3",
+              "EXAMINED"
+            ]
+          ],
+          "score": 20,
+          "verdict": "SUSPICIOUS"
+        },
+        "onchain_id": "AC-000012",
+        "passed": true,
+        "run": {
+          "actor": "stranger",
+          "leader_execution": "SUCCESS",
+          "method": "run_adversarial_case",
+          "status": "FINALIZED",
+          "step": "B:A10:run",
+          "tx": "0x9604b17289352465ac292456936d55ae817c500057e9837f58be693bceb28640",
+          "votes": [
+            "AGREE",
+            "AGREE",
+            "AGREE",
+            "IDLE",
+            "IDLE"
+          ]
+        }
+      },
+      "A11": {
+        "case_id": "A11",
+        "decided_by": "CODE",
+        "observed": {
+          "assessment_id": "AC-000013-R1",
+          "confidence": "MEDIUM",
+          "documents": [
+            [
+              "E1",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E2",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E3",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E4",
+              "NOT_ASSESSED",
+              "CODE"
+            ]
+          ],
+          "eligible": false,
+          "kind": "TEST",
+          "panel_reason": "HARD_FACT_PRESENT",
+          "panel_state": "SKIPPED",
+          "present": [
+            "INJECTION_MARKER"
+          ],
+          "reason_codes": [
+            "INDICATOR:INJECTION_MARKER",
+            "UNDETERMINED:INSTRUCTION_INJECTION",
+            "UNDETERMINED:DOCUMENT_CONFLICT",
+            "PANEL:SKIPPED:HARD_FACT_PRESENT",
+            "SCORE:BASE:+30",
+            "SCORE:REPAID_LOANS:+10",
+            "SCORE:INCOME:+12",
+            "SCORE:HISTORY:+8",
+            "SCORE:COVERAGE:+10",
+            "VERDICT:SUSPICIOUS"
+          ],
+          "recommended_exposure": 0,
+          "recommended_ltv_bps": 0,
+          "risk_band": "VERY_HIGH",
+          "rows": [
+            [
+              "E1",
+              "EXAMINED"
+            ],
+            [
+              "E2",
+              "EXAMINED"
+            ],
+            [
+              "E3",
+              "EXAMINED"
+            ],
+            [
+              "E4",
+              "EXAMINED"
+            ]
+          ],
+          "score": 20,
+          "verdict": "SUSPICIOUS"
+        },
+        "onchain_id": "AC-000013",
+        "passed": true,
+        "run": {
+          "actor": "stranger",
+          "leader_execution": "SUCCESS",
+          "method": "run_adversarial_case",
+          "status": "FINALIZED",
+          "step": "B:A11:run",
+          "tx": "0x9c05d9f3d871e3e97ad5b36244a1704d66a90bdc8a6317213affc3ef8d2f564f",
+          "votes": [
+            "AGREE",
+            "IDLE",
+            "IDLE",
+            "AGREE",
+            "AGREE"
+          ]
+        }
+      },
+      "BASE-ADA": {
+        "case_id": "BASE-ADA",
+        "decided_by": "PANEL",
+        "observed": {
+          "assessment_id": "AC-000001-R1",
+          "confidence": "HIGH",
+          "documents": [
+            [
+              "E1",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E2",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E3",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E4",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E5",
+              "CONSISTENT",
+              "PANEL"
+            ]
+          ],
+          "eligible": true,
+          "kind": "TEST",
+          "panel_reason": "",
+          "panel_state": "ASSESSED",
+          "present": [],
+          "reason_codes": [
+            "SCORE:BASE:+30",
+            "SCORE:REPAID_LOANS:+20",
+            "SCORE:INCOME:+18",
+            "SCORE:HISTORY:+15",
+            "SCORE:COVERAGE:+10",
+            "VERDICT:APPROVED"
+          ],
+          "recommended_exposure": 2700000,
+          "recommended_ltv_bps": 7500,
+          "risk_band": "VERY_LOW",
+          "rows": [
+            [
+              "E1",
+              "EXAMINED"
+            ],
+            [
+              "E2",
+              "EXAMINED"
+            ],
+            [
+              "E3",
+              "EXAMINED"
+            ],
+            [
+              "E4",
+              "EXAMINED"
+            ],
+            [
+              "E5",
+              "EXAMINED"
+            ]
+          ],
+          "score": 93,
+          "verdict": "APPROVED"
+        },
+        "onchain_id": "AC-000001",
+        "passed": true,
+        "run": {
+          "actor": "stranger",
+          "leader_execution": "SUCCESS",
+          "method": "run_adversarial_case",
+          "status": "FINALIZED",
+          "step": "B:BASE-ADA:run",
+          "tx": "0xd15392fb544b3ab66ec27dd0352b1172bb8add6ddcc800b555e3dd1d046c373c",
+          "votes": [
+            "AGREE",
+            "IDLE",
+            "AGREE",
+            "AGREE",
+            "IDLE"
+          ]
+        }
+      },
+      "BASE-MALLORY": {
+        "case_id": "BASE-MALLORY",
+        "decided_by": "CODE",
+        "observed": {
+          "assessment_id": "AC-000002-R1",
+          "confidence": "HIGH",
+          "documents": [
+            [
+              "E1",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E2",
+              "CONSISTENT",
+              "CODE"
+            ],
+            [
+              "E3",
+              "CONSISTENT",
+              "CODE"
+            ]
+          ],
+          "eligible": true,
+          "kind": "TEST",
+          "panel_reason": "NOTHING_TO_ASSESS",
+          "panel_state": "SKIPPED",
+          "present": [],
+          "reason_codes": [
+            "PANEL:SKIPPED:NOTHING_TO_ASSESS",
+            "SCORE:BASE:+30",
+            "SCORE:REPAID_LOANS:+10",
+            "SCORE:INCOME:+12",
+            "SCORE:HISTORY:+8",
+            "SCORE:COVERAGE:+10",
+            "VERDICT:APPROVED"
+          ],
+          "recommended_exposure": 1800000,
+          "recommended_ltv_bps": 6000,
+          "risk_band": "LOW",
+          "rows": [
+            [
+              "E1",
+              "EXAMINED"
+            ],
+            [
+              "E2",
+              "EXAMINED"
+            ],
+            [
+              "E3",
+              "EXAMINED"
+            ]
+          ],
+          "score": 70,
+          "verdict": "APPROVED"
+        },
+        "onchain_id": "AC-000002",
+        "passed": true,
+        "run": {
+          "actor": "stranger",
+          "leader_execution": "SUCCESS",
+          "method": "run_adversarial_case",
+          "status": "FINALIZED",
+          "step": "B:BASE-MALLORY:run",
+          "tx": "0xab285c9268ff00e2fb195f4782c4cf7d828827628b304a9001434fb7cb873d5e",
+          "votes": [
+            "AGREE",
+            "IDLE",
+            "IDLE",
+            "AGREE",
+            "AGREE"
+          ]
+        }
+      }
+    }
+  },
+  "address": "0x25FEDE0811b95697A333633b611B67f8A250eE66",
+  "case_ids": {
+    "B:A01": "AC-000003",
+    "B:A02": "AC-000004",
+    "B:A03": "AC-000005",
+    "B:A04": "AC-000006",
+    "B:A05": "AC-000007",
+    "B:A06": "AC-000008",
+    "B:A07": "AC-000009",
+    "B:A08": "AC-000010",
+    "B:A09": "AC-000011",
+    "B:A10": "AC-000012",
+    "B:A11": "AC-000013",
+    "B:BASE-ADA": "AC-000001",
+    "B:BASE-MALLORY": "AC-000002"
+  },
+  "network": "studionet",
+  "pending": {
+    "B:A12:register": "0x44e2ef30ae403d12abe00e2c1c210718ec65bdd60ca5fe5dc60b0fb792f6fdd1"
+  },
+  "raw_base": "https://raw.githubusercontent.com/Hemmy1417/CredenceLend/baea205816ef5340aae909c91b0eb6a391f84878/fixtures/",
+  "steps": {
+    "A:ada:assess": {
+      "actor": "ada",
+      "leader_execution": "SUCCESS",
+      "method": "request_credit_assessment",
+      "status": "FINALIZED",
+      "step": "A:ada:assess",
+      "tx": "0x59e8f52becc38a8991dc9df22019ede855a166324ba831e647f0e0713c7f9422",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "DISAGREE"
+      ]
+    },
+    "A:ada:evidence:0": {
+      "actor": "ada",
+      "leader_execution": "SUCCESS",
+      "method": "submit_evidence",
+      "status": "FINALIZED",
+      "step": "A:ada:evidence:0",
+      "tx": "0xe4033c1db4b721d583453faaaff6eb2958e1567707e1d18708e2f7289e030a18",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "A:ada:evidence:1": {
+      "actor": "ada",
+      "leader_execution": "SUCCESS",
+      "method": "submit_evidence",
+      "status": "FINALIZED",
+      "step": "A:ada:evidence:1",
+      "tx": "0x18b7a13ac515ceac0eb3c4a40065e2bf85a7becd82542dec933301287091a6d4",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "A:ada:evidence:2": {
+      "actor": "ada",
+      "leader_execution": "SUCCESS",
+      "method": "submit_evidence",
+      "status": "FINALIZED",
+      "step": "A:ada:evidence:2",
+      "tx": "0x663acd7a815422efb269353dcc2cf104659d0024cb596c6885c760253d70c40d",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "A:ada:evidence:3": {
+      "actor": "ada",
+      "leader_execution": "SUCCESS",
+      "method": "submit_evidence",
+      "status": "FINALIZED",
+      "step": "A:ada:evidence:3",
+      "tx": "0x20c1fb60acae065f1c3e68e8dcf3b790611e5be25b598a9159056f9b6563a454",
+      "votes": [
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "A:ada:evidence:4": {
+      "actor": "ada",
+      "leader_execution": "SUCCESS",
+      "method": "submit_evidence",
+      "status": "FINALIZED",
+      "step": "A:ada:evidence:4",
+      "tx": "0x4aa5cb65b6b4a6bcbe89c3c54f134ff476b0bbb59a08c27415613e054d081841",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "A:ada:register": {
+      "actor": "ada",
+      "leader_execution": "SUCCESS",
+      "method": "register_borrower",
+      "status": "FINALIZED",
+      "step": "A:ada:register",
+      "tx": "0x6b8c6a31053c59cbd75405139b5e7ca553417b4db30ec3ddf97dfba1988269fe",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "A:bola:appeal": {
+      "actor": "bola",
+      "leader_execution": "SUCCESS",
+      "method": "submit_appeal",
+      "status": "FINALIZED",
+      "step": "A:bola:appeal",
+      "tx": "0xd654acfad4f4fb84ef8c3da58797e1fc8d45faa15d055f2352a8cf278e5632b6",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "A:bola:assess": {
+      "actor": "bola",
+      "leader_execution": "SUCCESS",
+      "method": "request_credit_assessment",
+      "status": "FINALIZED",
+      "step": "A:bola:assess",
+      "tx": "0xbc2760f3a4454078aa4309ce391fc4ddd4c1a94f7dbdfa07c57ca3e63791d4db",
+      "votes": [
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "A:bola:evidence:0": {
+      "actor": "bola",
+      "leader_execution": "SUCCESS",
+      "method": "submit_evidence",
+      "status": "FINALIZED",
+      "step": "A:bola:evidence:0",
+      "tx": "0x83a22137847533414bd9a89f2cff366420400e1e398720f9f74a3fdec1a35dd7",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "A:bola:evidence:1": {
+      "actor": "bola",
+      "leader_execution": "SUCCESS",
+      "method": "submit_evidence",
+      "status": "FINALIZED",
+      "step": "A:bola:evidence:1",
+      "tx": "0xb9857b33a06eaad06a2d97512bdd49ae263729ebb62d27a30aac4c1061922530",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "A:bola:evidence:2": {
+      "actor": "bola",
+      "leader_execution": "SUCCESS",
+      "method": "submit_evidence",
+      "status": "FINALIZED",
+      "step": "A:bola:evidence:2",
+      "tx": "0xc5317675866344c63a3bfef60c3a9a0ea74ed9bd5e93fb98962d848a89842bab",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "A:bola:evidence:3": {
+      "actor": "bola",
+      "leader_execution": "SUCCESS",
+      "method": "submit_evidence",
+      "status": "FINALIZED",
+      "step": "A:bola:evidence:3",
+      "tx": "0xbd14eb97c860df9783b0297b5dabe5fae730454b3fda2f828b314ec99ee2a45f",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "A:bola:evidence:4": {
+      "actor": "bola",
+      "leader_execution": "SUCCESS",
+      "method": "submit_evidence",
+      "status": "FINALIZED",
+      "step": "A:bola:evidence:4",
+      "tx": "0x8fbd0d93ff1d286e84f1605904a71d1dcf4f01b42967d312a6d6d8400e0b8387",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "A:bola:reassess": {
+      "actor": "bola",
+      "leader_execution": "SUCCESS",
+      "method": "request_reassessment",
+      "status": "FINALIZED",
+      "step": "A:bola:reassess",
+      "tx": "0x4f65613269c4853a6cb86b69c4a5675cd009515e3e7565ac63121f25d9f3db19",
+      "votes": [
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "A:bola:register": {
+      "actor": "bola",
+      "leader_execution": "SUCCESS",
+      "method": "register_borrower",
+      "status": "FINALIZED",
+      "step": "A:bola:register",
+      "tx": "0x2e00d26ccf2901c74b0dd7ac1b0da467efc16c312eead8716e7b3e619762b3e8",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "IDLE"
+      ]
+    },
+    "A:chidi:appeal": {
+      "actor": "chidi",
+      "leader_execution": "SUCCESS",
+      "method": "submit_appeal",
+      "status": "FINALIZED",
+      "step": "A:chidi:appeal",
+      "tx": "0x5180c63950f3d03529944462b6a3eda46af0d869b17a5ce52ff6fc968195a2f6",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "A:chidi:assess": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "request_credit_assessment",
+      "status": "FINALIZED",
+      "step": "A:chidi:assess",
+      "tx": "0xf06450ab1bbadab21d88448167fea616a38f6a094892ae0f9729da82dca76968",
+      "votes": [
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "A:chidi:evidence:0": {
+      "actor": "chidi",
+      "leader_execution": "SUCCESS",
+      "method": "submit_evidence",
+      "status": "FINALIZED",
+      "step": "A:chidi:evidence:0",
+      "tx": "0x4c007ace0b92accbe08202702f159aea022ef3d50a94292bf33726de68cfd4f1",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "A:chidi:evidence:1": {
+      "actor": "chidi",
+      "leader_execution": "SUCCESS",
+      "method": "submit_evidence",
+      "status": "FINALIZED",
+      "step": "A:chidi:evidence:1",
+      "tx": "0xc789d679260dfd1240a3aa22ae6b0b151c42d26ca15ce6a4e88a6c76c3471ca1",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "A:chidi:evidence:2": {
+      "actor": "chidi",
+      "leader_execution": "SUCCESS",
+      "method": "submit_evidence",
+      "status": "FINALIZED",
+      "step": "A:chidi:evidence:2",
+      "tx": "0xd8f39e10f32e5940f874c53e15b12fc609ad1c3ccb18082cddb2529393de0e79",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "A:chidi:evidence:3": {
+      "actor": "chidi",
+      "leader_execution": "SUCCESS",
+      "method": "submit_evidence",
+      "status": "FINALIZED",
+      "step": "A:chidi:evidence:3",
+      "tx": "0xd801515502d3ed8fdf8132eaf202f425072fe6229c74b914bb6213ac70fbd52f",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "A:chidi:register": {
+      "actor": "chidi",
+      "leader_execution": "SUCCESS",
+      "method": "register_borrower",
+      "status": "FINALIZED",
+      "step": "A:chidi:register",
+      "tx": "0x429c29cbd9f80bc80bbd5cb532cf648a93a7345a53d63cabd7eb9449b041d41c",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "A:mallory:assess": {
+      "actor": "mallory",
+      "leader_execution": "SUCCESS",
+      "method": "request_credit_assessment",
+      "status": "FINALIZED",
+      "step": "A:mallory:assess",
+      "tx": "0x18c1f73af1a54a85c1c7875977f659bbae77c0ed813ed922edc96fc237aa9870",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "A:mallory:evidence:0": {
+      "actor": "mallory",
+      "leader_execution": "SUCCESS",
+      "method": "submit_evidence",
+      "status": "FINALIZED",
+      "step": "A:mallory:evidence:0",
+      "tx": "0x120a6c13679b21ae72d0e21f98f5c61cdbc21b050080f02001008a7b293860d8",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "A:mallory:evidence:1": {
+      "actor": "mallory",
+      "leader_execution": "SUCCESS",
+      "method": "submit_evidence",
+      "status": "FINALIZED",
+      "step": "A:mallory:evidence:1",
+      "tx": "0x8515b936c4df20cbf23761720effb397c5391bff7c49e9ae0a42f71ba27d2a8c",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "A:mallory:evidence:2": {
+      "actor": "mallory",
+      "leader_execution": "SUCCESS",
+      "method": "submit_evidence",
+      "status": "FINALIZED",
+      "step": "A:mallory:evidence:2",
+      "tx": "0x5ae6bf198c7b1e8621cd0919552ff578210b69940ade8a3cbb3a08a4421549aa",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "A:mallory:register": {
+      "actor": "mallory",
+      "leader_execution": "SUCCESS",
+      "method": "register_borrower",
+      "status": "FINALIZED",
+      "step": "A:mallory:register",
+      "tx": "0xe771e0f54ae7e79d0363108f8d742bdd20ba90800e83d786ba5bc68c0d84b5c2",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "A:policy": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_policy",
+      "status": "FINALIZED",
+      "step": "A:policy",
+      "tx": "0xbe4f18c38a0cbe81f0b8b1eb60b8d8c3e07644c07d29f1c0045a9331e17b379d",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "B:A01:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A01:register",
+      "tx": "0xa5df380011966222abac35c2488a0215a4ddc43a3796f64ab0ce511a7bc4ba25",
+      "votes": [
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "B:A01:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A01:run",
+      "tx": "0xd031c84eff8a713fbd1b6a064cd38eb48fcbc2ad8b9ea23fab69d7edd89dfc63",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "B:A02:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A02:register",
+      "tx": "0xad7620eca01d6c700f89093c88b6c920922aaeb781c59bc8c6b6591914c6319d",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "B:A02:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A02:run",
+      "tx": "0xac2669c491c03e0fb547bcbf4ffc77a7ae44fef20d29672825c46dd9e332d784",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "B:A03:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A03:register",
+      "tx": "0x0f8c81b7f87382b1102e5e98e1a2c60a6464c0b98462ccaf9c80579ed42cec9a",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "B:A03:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A03:run",
+      "tx": "0x9909d4c3bb5e31d2b697583988d41b03ee96fe6d73a76d44549a829c75a1b21a",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "IDLE"
+      ]
+    },
+    "B:A04:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A04:register",
+      "tx": "0xeaa4afcbda18fc48fb1642d2f7a90208b11087230e2b62e4fb01afefc81fedf2",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "B:A04:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A04:run",
+      "tx": "0x260b32cf67d111fd392d0f68d0da9a03019a9252fb761c6bc27f96f2508221d3",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "B:A05:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A05:register",
+      "tx": "0x365bf72033186ca933fa6e181cefe968d02fe6c869d932e0fa8cb6fc27ca136b",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "B:A05:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A05:run",
+      "tx": "0xd5cc811ad31defbeb36aed5208ab9fc5f0e393c3e4dfb732fd9571ee162bc357",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "B:A06:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A06:register",
+      "tx": "0x542b412953103944e8e2f4b9fe49726530eb40615064df405341d61681b62433",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "B:A06:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A06:run",
+      "tx": "0x2599f1d7b5b9679ff98c5350eb694d4ef55fd238c75496546b7bdc0518b0c068",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "B:A07:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A07:register",
+      "tx": "0xc179e8406e8f1d1dbb1c2f2ded3cffb2d18afdff84729792fe2827b3b65aae52",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "B:A07:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A07:run",
+      "tx": "0xc006c015384f93f807501384938f7160125cbb5006a8bd38620a2e442a80a1c0",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "B:A08:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A08:register",
+      "tx": "0xffe5fec79041b7ae1125ab8a7cc60fc2c4c72623193c172fa69de33d16fb0762",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "IDLE"
+      ]
+    },
+    "B:A08:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A08:run",
+      "tx": "0x4130ee88e2a237f2060930d73e6de10b1d40f372073037c29651d23d58825dd8",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "B:A09:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A09:register",
+      "tx": "0xeea359fbeee8eaa5df670d857094474fbab7226e499de5da9f046084c62006ea",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "B:A09:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A09:run",
+      "tx": "0xedbc8be20ca28c15bcf603ec5a669e96c250610b8ac9efc9530978b7322aefea",
+      "votes": [
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "B:A10:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A10:register",
+      "tx": "0x9c80579d831f9fc88416ad10dc51fd63d027c862f5d80261ba5ee84628194cdf",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "B:A10:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A10:run",
+      "tx": "0x9604b17289352465ac292456936d55ae817c500057e9837f58be693bceb28640",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "IDLE"
+      ]
+    },
+    "B:A11:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A11:register",
+      "tx": "0x5199d60338dd99ecb20fab24eeb32e90d01c6b0d7b3211eaf4b138a7cdc9e4ca",
+      "votes": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "B:A11:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:A11:run",
+      "tx": "0x9c05d9f3d871e3e97ad5b36244a1704d66a90bdc8a6317213affc3ef8d2f564f",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "B:BASE-ADA:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:BASE-ADA:register",
+      "tx": "0xa09a3946ebcc620980af634971a27a3579d54b5dc6ebd9be23bd85bbe8bcca74",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "B:BASE-ADA:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:BASE-ADA:run",
+      "tx": "0xd15392fb544b3ab66ec27dd0352b1172bb8add6ddcc800b555e3dd1d046c373c",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "B:BASE-MALLORY:register": {
+      "actor": "lender",
+      "leader_execution": "SUCCESS",
+      "method": "register_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:BASE-MALLORY:register",
+      "tx": "0xbacb724320740580e47dd0798be5d7bdf7ffa582d2e84f282db3d7884b9fd951",
+      "votes": [
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "B:BASE-MALLORY:run": {
+      "actor": "stranger",
+      "leader_execution": "SUCCESS",
+      "method": "run_adversarial_case",
+      "status": "FINALIZED",
+      "step": "B:BASE-MALLORY:run",
+      "tx": "0xab285c9268ff00e2fb195f4782c4cf7d828827628b304a9001434fb7cb873d5e",
+      "votes": [
+        "AGREE",
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    }
+  }
+}

@@ -6,7 +6,7 @@
 
 A lender publishes a versioned policy that names which issuers it trusts for each kind of evidence. A borrower - the signing wallet, never a declared identity - commits documents, each bound to the sha256 of its exact bytes. One consensus round has every validator fetch and hash-verify the documents; code reads every number from structured issuer documents and decides every hard fact; a model panel is asked only what needs reading, and every finding it makes must carry quotes each validator re-checks against its own bytes. Code then computes a bounded score, a risk band, a maximum exposure and LTV, a verdict and reason codes, and stores an immutable assessment any lender or contract can read in one view.
 
-Canonical deployment: not yet deployed. `docs/deployment.md` describes the workflow.
+Canonical deployment: [`0x25FEDE0811b95697A333633b611B67f8A250eE66`](https://explorer-studio.genlayer.com/address/0x25FEDE0811b95697A333633b611B67f8A250eE66) on GenLayer StudioNet, byte-identical to `contracts/credencelend.py` at commit `a261d28` (see `docs/deployment.md`).
 
 ## At a glance
 
@@ -18,7 +18,7 @@ Canonical deployment: not yet deployed. `docs/deployment.md` describes the workf
 | What evidence it uses | Only documents the borrower committed, from the prefixes the lender pinned per category. Every node verifies the hash before reading a byte. The borrower's own statement can explain; it never supplies a fact. |
 | How consensus works | `gl.vm.run_nondet_unsafe` once per round. Each validator reproduces the round from its own fetch and model call, gates the leader's payload against its own bytes, and agrees only if every row, fact, scan, panel state and finding state matches. The payload carries no score: validators agree on the score by construction. |
 | How a lender consumes it | `is_eligible(wallet, policy_id, as_of)` is the fail-closed shortcut; `assessment_status(assessment_id, as_of)` returns verdict, score, band, exposure, LTV, freshness and consumability; `get_assessment` is the full record with receipts and reason codes. |
-| What tests prove it works | 273 Direct Mode tests on the official `genlayer-test` runner, including all 30 brief attacks, forged leaders through the captured validator closure, hostile model output, scoring boundaries and the appeal lifecycle; a mutation sweep; `genvm-lint check`; preflight; a readable sample assessment. See "Verified". |
+| What tests prove it works | 279 Direct Mode tests on the official `genlayer-test` runner, including all 30 brief attacks, forged leaders through the captured validator closure, hostile model output, scoring boundaries and the appeal lifecycle; a mutation sweep; `genvm-lint check`; preflight; a readable sample assessment. See "Verified". |
 
 ## What it is
 
@@ -130,8 +130,8 @@ request_credit_assessment --> consensus round --> CA-000001 (immutable)
 
 | Check | Command | Result |
 |---|---|---|
-| Direct Mode | `python -m pytest tests/direct -q` | 273 passed |
-| Preflight | `python scripts/preflight.py` | 34 checks, 0 failed |
+| Direct Mode | `python -m pytest tests/direct -q` | 279 passed |
+| Preflight | `python scripts/preflight.py` | 36 checks, 0 failed |
 | GenVM validation | `genvm-lint check contracts/credencelend.py --json` | ok, 28 methods, 0 errors (I200 informational) |
 | Lint | `ruff check .` | clean |
 | Sample assessment | `python scripts/run_direct_mode.py` | APPROVED, 78/100, LOW band |

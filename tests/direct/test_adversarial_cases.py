@@ -281,3 +281,18 @@ def test_a_borrowers_own_later_export_is_not_reuse(lend, direct_vm, policy_id):
     record = assess(lend, direct_vm, "ada", policy_id, CASES["BASE-ADA"]["panel_answer"])
     assert "CROSS_BORROWER_REUSE" not in present(record)
     assert record["verdict"] == "APPROVED" and record["score_inputs"]["repaid_loans"] == 4
+
+def test_a_case_fails_on_the_score_even_when_the_verdict_matches(lend, direct_vm, policy_id):
+    """A case states a verdict AND score bounds; both have to hold, or the
+    engine would report a rule change as harmless whenever it moved only
+    the score."""
+    entry = CASES["BASE-MALLORY"]
+    as_sender(direct_vm, "lender")
+    case_id = lend.register_adversarial_case(
+        policy_id, 1, entry["attack_category"], entry["notes"], bundle_json(entry),
+        "APPROVED", 0, 10)
+    stage(direct_vm)
+    assert lend.run_adversarial_case(case_id) == "APPROVED"
+    view = lend.get_adversarial_case(case_id)
+    assert view["observed_score"] == 70 and view["expected_score_bounds"] == [0, 10]
+    assert view["passed"] is False

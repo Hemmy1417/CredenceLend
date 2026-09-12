@@ -1,0 +1,130 @@
+Mutation sweep - contract bytes of the canonical deployment
+
+Contract   contracts/credencelend.py, sha256 f56e600967357e0481a26544533ebd538a78b886cd142a8f3bf8cc7f75640ede
+           (commit a261d28, deployed at 0x25FEDE0811b95697A333633b611B67f8A250eE66)
+Suite      tests/direct at baea205, run once per mutant (pytest -x)
+Command    python scripts/mutation_check.py
+
+106 mutations, 0 anchor problems
+accept-control: unmodified copy must pass ...
+control green
+
+killed:   hard facts no longer SUSPICIOUS
+killed:   unreachable or changed source no longer SOURCE_UNAVAILABLE
+killed:   changed bytes no longer SOURCE_UNAVAILABLE
+killed:   malformed document no longer INCONCLUSIVE
+killed:   unusable model output no longer INCONCLUSIVE
+killed:   panel injection or unsupported claim no longer SUSPICIOUS
+killed:   manipulated document no longer SUSPICIOUS
+killed:   conflicts no longer CONFLICTING_EVIDENCE
+killed:   missing required category no longer INSUFFICIENT
+killed:   stale-only required category no longer STALE_EVIDENCE
+killed:   minimum evidence count not enforced
+killed:   minimum evidence count off by one
+killed:   undecided inputs no longer INCONCLUSIVE
+killed:   an unclear linked document is not undecided
+killed:   review score off by one
+killed:   minimum score off by one
+killed:   suspicious score not capped
+killed:   exposure offered whatever the verdict
+killed:   income does not cap exposure
+killed:   policy LTV maximum ignored
+killed:   policy exposure maximum ignored
+killed:   review verdict made eligible
+killed:   borrower statement counted as evidence
+killed:   repaid loans not capped
+killed:   repeated loans counted twice
+killed:   defaults cost nothing
+killed:   every liquidation treated as explained
+killed:   income statements summed
+killed:   income in another currency scored
+killed:   income points not capped
+killed:   full history points for any history
+killed:   full coverage points for partial coverage
+killed:   leverage never penalized
+killed:   leverage penalized at the limit
+killed:   score not clamped to 100
+killed:   score not clamped to 0
+killed:   a liquidation in two records counted twice
+killed:   stale documents counted
+killed:   wallet mismatch not flagged
+killed:   income arithmetic not checked
+killed:   omitted loans not checked
+killed:   future-dated document not flagged
+killed:   hidden text not flagged
+killed:   injection markers not flagged
+killed:   overstated claim not flagged
+killed:   conflicting loan records not flagged
+killed:   absence declared without examining every document
+killed:   hidden characters not scanned
+killed:   text documents linked without naming the wallet
+killed:   unlisted category allowed
+killed:   any location trusted
+killed:   borrower statements refused
+killed:   not-allowed documents fetched
+killed:   bytes read without the hash check
+killed:   oversized documents read
+killed:   error responses read
+killed:   booleans accepted as integers
+killed:   credentials in URLs accepted
+killed:   other ports accepted
+killed:   dot-segments accepted
+killed:   IP literal hosts accepted
+killed:   later commitment flags the first committer
+killed:   own documents flagged as reuse
+killed:   registry entry overwritten by later committers
+killed:   loans in another wallet's document registered
+killed:   panel convened despite a hard fact
+killed:   panel convened on unexamined evidence
+killed:   manipulation accepted without a quote
+killed:   indicator accepted without meeting its quote rule
+killed:   explanation accepted without both sides quoted
+killed:   one-document contradiction accepted
+killed:   excluded document accepted in a quote
+killed:   required document kind not demanded in a quote
+killed:   quote grounding skipped
+killed:   facts and scans not compared
+killed:   row status and byte count not compared
+killed:   finding states not compared
+killed:   panel state not compared
+killed:   gate does not re-ground quotes
+killed:   gate does not recompute code indicators
+killed:   gate does not recompute the panel decision
+killed:   gate accepts extra or missing payload keys
+killed:   gate accepts a rebound round
+killed:   assessment under a changed policy stays fresh
+killed:   validity period ignored
+killed:   evidence age ignored after assessment
+killed:   source-unavailable assessment not BLOCKED
+killed:   clock before creation not UNKNOWN
+killed:   superseded approval consumable
+killed:   appeal window not enforced
+killed:   appeal window off by one
+killed:   an assessment appealed twice
+killed:   old evidence accepted as new
+killed:   reassessment under a replaced policy
+killed:   cooldown not enforced
+killed:   anyone may request an assessment
+killed:   anyone may publish a policy version
+killed:   instruction in a declared purpose accepted
+killed:   fresh evidence retired
+killed:   stale evidence never marked
+killed:   the same document committed twice
+killed:   active evidence limit off by one
+killed:   a case may run twice
+SURVIVED: case pass ignores the score bounds
+killed:   definition key set not enforced
+killed:   review score above minimum accepted
+
+mutations: 105 killed, 1 survived, 0 anchor missing
+
+The single survivor was an untested guard, not an equivalent mutant: the
+engine recorded a case as passed on the verdict alone. A test now pins the
+score bounds (test_a_case_fails_on_the_score_even_when_the_verdict_matches)
+and the mutant dies:
+
+  $ python scripts/mutation_check.py --only "case pass ignores"
+  killed:   case pass ignores the score bounds
+  mutations: 1 killed, 0 survived, 0 anchor missing
+
+Total: 106 mutations, 106 killed, 0 survived, 0 anchors missing.
