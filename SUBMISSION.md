@@ -39,6 +39,8 @@ asserted, it says so.
 | `python scripts/mutation_check.py` (on the deployed contract bytes) | 106 mutations: 105 killed on the sweep; the one survivor (the case engine recording a pass on the verdict alone) was an untested guard, now pinned by a test and killed on re-run - `deploy/mutation_sweep_a261d28.txt` |
 | `python scripts/run_direct_mode.py` | a readable sample assessment: APPROVED, 78/100, LOW band, exposure $24,000.00, with receipts, the liquidation explanation's quotes and every reason code |
 | `CREDENCELEND_LIVE_WRITES=1 python -m pytest tests/integration -v` (against the deployment) | 5 passed in 53 s (without the variable, as in CI: the 4 read-only checks) |
+| clean clone of `6e857e7` from GitHub, fresh virtualenv from `requirements-test.txt` | ruff clean, preflight 36/0, 280 direct passed, `genvm-lint check` ok, fixtures regenerate byte-exact (49 files), the sample assessment prints, integration 4 passed 1 skipped (the write is opt-in), and `git status --porcelain` empty afterwards - `deploy/clean_clone_record.txt` |
+| CI (GitHub Actions, ubuntu) | both jobs green: the required gate (ruff, preflight, runner bundle, Direct Mode, the sample assessment, `genvm-lint check`) and the non-blocking StudioNet integration job |
 | `python scripts/live_scenarios.py` (on the deployment) | 103 transactions; Phase A 5/5, Phase B 28/28 cases, Phase C rule change and 7 refusals - all as expected; `deploy/live_scenarios_transcript.json` |
 
 ## What the live run shows

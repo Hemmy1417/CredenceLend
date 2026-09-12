@@ -1,0 +1,28 @@
+HEAD: 6e857e73bf0643a0196f51c2831f9ba887a7f40c
+=== 1. lint
+All checks passed!
+=== 2. preflight
+36 checks, 0 failed
+=== 3. runner bundle
+genvm bundle v0.3.0-rc7 already cached and complete
+=== 4. direct tests
+................................................................         [100%]
+280 passed in 37.98s
+=== 5. contract validation
+{"ok":true,"lint":{"ok":true,"passed":3},"validate":{"ok":true,"contract":"CredenceLend","methods":28,"view_methods":15,"write_methods":13,"ctor_params":0,"warnings":[{"code":"I200","msg":"py-genlayer: a newer runner is available (1zr6nqk597d97kg0dyxg0shhrykx5v02zjgnyrajapy4wlqvfvwh). See https://github.com/genlayerlabs/genvm/releases for changes."}]}}
+=== 6. regenerate fixtures
+fixtures match (49 files)
+=== 7. sample assessment
+CredenceLend sample assessment (Direct Mode)
+============================================================
+assessment      CA-000001  (ASSESSMENT)
+borrower        0x04ccde179d9b2a799bc1850a20745f33049ebbaa
+policy          LP-000001 v1  hash 2093a1b4ab39bf77...
+verdict         APPROVED   eligible: True
+score           78/100   band: LOW   confidence: HIGH
+exposure        up to $24,000.00   LTV up to 60.00%
+=== 8. integration (read-only)
+....s                                                                    [100%]
+4 passed, 1 skipped in 25.21s
+=== 9. working tree after all of it
+=== CLEAN CLONE DONE
