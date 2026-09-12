@@ -275,8 +275,11 @@ def phase_a(ac: dict, raw: str) -> str:
     rec = assess(ac["chidi"], ac["lender"], "chidi", policy_id, "A:chidi:assess")
     expect(phase, "chidi", rec, CASES["A20"], decided_by="PANEL")
     phase["chidi_assessment"] = rec["assessment_id"]
+    # Chidi's OWN second export. Anyone else's document would be registered
+    # to Chidi first and would then be cross-borrower reuse for its owner.
     extra = borrower(ac["chidi"], "chidi", BUNDLES["chidi"] + [
-        dict(BUNDLES["dayo"][0], description="a second activity report")], raw, "A:chidi")[-1:]
+        dict(BUNDLES["chidi"][0], path="sources/chainscope/chidi-activity-reexport.json",
+             description="a second activity report")], raw, "A:chidi")[-1:]
     ac["chidi"].write("A:chidi:appeal", "submit_appeal",
                       [rec["assessment_id"], extra, "A second activity report."])
 

@@ -187,6 +187,8 @@ is about $4,000 a month, paid through Ledgerline.
 """)
     # Chidi: little history, verifiable current income.
     docs["sources/chainscope/chidi-activity.json"] = activity(chidi, 4, "2026-05-04", 37, 350000)
+    docs["sources/chainscope/chidi-activity-reexport.json"] = activity(
+        chidi, 4, "2026-05-04", 41, 362000, as_of="2026-09-02")
     docs["sources/ledgerline/chidi-income.json"] = income(
         chidi, 3, 1500000, [(m + " 2026 salary - Northwind Logistics Ltd", 500000)
                             for m in ("June", "July", "August")])

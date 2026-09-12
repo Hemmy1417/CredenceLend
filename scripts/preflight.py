@@ -171,8 +171,11 @@ def fixture_checks():
     check("every panel-decided case carries its recorded panel answer",
           not panel_needed, ", ".join(panel_needed))
 
+    # a document may be used by a case, a bundle, a Direct Mode test, or by
+    # the live run's own setup
     tests = "\n".join(p.read_text(encoding="utf-8")
-                      for p in (ROOT / "tests" / "direct").glob("*.py"))
+                      for p in list((ROOT / "tests" / "direct").glob("*.py"))
+                      + [ROOT / "scripts" / "live_scenarios.py"])
     referenced = set()
     for c in cases:
         for e in c["evidence"]:
